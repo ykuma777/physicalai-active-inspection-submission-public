@@ -1,0 +1,15 @@
+{
+  "result": "PASS",
+  "run_id": "ire3_v3_eval_right_fixed",
+  "phase": "evaluation",
+  "mode": "fixed",
+  "private_safety_config": "/home/ubuntu/active_inspection/range_extension/results/campaign_v3_20261030/runs/ire3_v3_eval_right_fixed/private_setup/safety_motion.yaml",
+  "private_safety_sha256": "89292a1ae4237aec599963be918ecd9c7dc4166a32da659bfa85437acd7441e8",
+  "truth_or_position_included": false,
+  "expected_initial_positions_rad": [
+    -2.0989084648833307e-05,
+    3.424029879728779e-05,
+    -3.387989913551362e-05,
+    5.765482743745392e-05
+  ]
+}

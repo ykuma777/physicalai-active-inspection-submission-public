@@ -1,0 +1,15 @@
+{
+  "result": "PASS",
+  "run_id": "ire3_v3_eval_left_clone",
+  "phase": "evaluation",
+  "mode": "clone",
+  "private_safety_config": "/home/ubuntu/active_inspection/range_extension/results/campaign_v3_20261030/runs/ire3_v3_eval_left_clone/private_setup/safety_motion.yaml",
+  "private_safety_sha256": "dd856ee1e774089bbcd99258caff6928e3820584a408c8adc74c6af9f45dbeb1",
+  "truth_or_position_included": false,
+  "expected_initial_positions_rad": [
+    0.00011783683765260212,
+    0.0002295377802711574,
+    -9.483398869982977e-06,
+    2.6344093546908674e-05
+  ]
+}

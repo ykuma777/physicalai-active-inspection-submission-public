@@ -1,0 +1,18 @@
+joint_names:
+  - crane_plus_joint1
+  - crane_plus_joint2
+  - crane_plus_joint3
+  - crane_plus_joint4
+poses:
+  home:
+    status: verified_in_previous_world
+    positions: [0.0, 0.0, 0.0, 0.0]
+  observe:
+    status: candidate_camera_world
+    positions: [0.0, 0.4452598083, -0.2765561289, 0.1015189153]
+  normal_response:
+    status: candidate_camera_world
+    positions: [-0.5, 0.3, -0.2, 0.1]
+  abnormal_response:
+    status: candidate_camera_world
+    positions: [0.5, 0.3, -0.2, 0.1]

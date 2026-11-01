@@ -1,0 +1,15 @@
+{
+  "result": "PASS",
+  "run_id": "ire4_repro_layout_20261031_01",
+  "phase": "reproduction_recording_confirmation",
+  "mode": "clone",
+  "private_safety_config": "/home/ubuntu/active_inspection/range_extension/results/campaign_v3_20261030/runs/ire4_repro_layout_20261031_01/private_setup/safety_motion.yaml",
+  "private_safety_sha256": "dd856ee1e774089bbcd99258caff6928e3820584a408c8adc74c6af9f45dbeb1",
+  "truth_or_position_included": false,
+  "expected_initial_positions_rad": [
+    4.4109621937237e-05,
+    0.00023152301794320882,
+    -1.791055331790716e-05,
+    -0.00011532992335171228
+  ]
+}

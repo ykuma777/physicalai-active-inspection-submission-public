@@ -1,0 +1,15 @@
+{
+  "at_utc": "2026-10-30T20:35:38.593Z",
+  "base_consumed": 26,
+  "base_ledger": "/home/ubuntu/active_inspection/range_extension/results/GLOBAL_TRIAL_ACCOUNTING_20261030_SYNC.json",
+  "new_confirmation_ledger": "/home/ubuntu/active_inspection/range_extension/results/sync_confirmation_layout_20261031_01/progress_ledger.json",
+  "new_confirmation_ledger_sha256": "016d237f6783e7e5b214e72b0cbb8f24cc5966bd15ef8465ce5a3368c70111fc",
+  "additional": 1,
+  "total_consumed": 27,
+  "remaining": 1,
+  "original_evaluation_changed": false,
+  "new_training": 0,
+  "automatic_retries": 0,
+  "final_run": "ire4_repro_layout_20261031_01",
+  "final_result": "PASS"
+}

@@ -1,0 +1,1105 @@
+{
+  "schema_version": 1,
+  "record_type": "alignment_plan_evidence",
+  "evidence_origin": "LIVE_WHEN_AUTHORIZED",
+  "created_at_utc": "2026-10-30T04:07:44.442Z",
+  "source": "align_01",
+  "target": "align_02",
+  "stage": "GUARD_PASS_BEFORE_SEND",
+  "execution_authorized_by_this_record": false,
+  "configured_joint_names": [
+    "crane_plus_joint1",
+    "crane_plus_joint2",
+    "crane_plus_joint3",
+    "crane_plus_joint4"
+  ],
+  "units": "radian",
+  "operation_joint_state_rad": [
+    -0.04536231802615153,
+    0.42946038736867936,
+    -0.11876430450264432,
+    -0.072123440961364
+  ],
+  "operation_joint_sample": {
+    "observed_at_utc": "2026-10-30T04:07:44.328Z",
+    "positions_rad": [
+      -0.04536231802615153,
+      0.42946038736867936,
+      -0.11876430450264432,
+      -0.072123440961364
+    ],
+    "joint_names": [
+      "crane_plus_joint1",
+      "crane_plus_joint2",
+      "crane_plus_joint3",
+      "crane_plus_joint4"
+    ],
+    "joint_state": {
+      "header": {
+        "stamp": {
+          "sec": 74213,
+          "nanosec": 802000000
+        },
+        "frame_id": ""
+      },
+      "name": [
+        "crane_plus_joint1",
+        "crane_plus_joint2",
+        "crane_plus_joint4",
+        "crane_plus_joint3",
+        "crane_plus_joint_hand"
+      ],
+      "position": [
+        -0.04536231802615153,
+        0.42946038736867936,
+        -0.072123440961364,
+        -0.11876430450264432,
+        -7.880352619424805e-12
+      ],
+      "velocity": [
+        -3.331319595178961e-15,
+        2.657249420501273e-14,
+        -6.2901073238919025e-15,
+        5.853390688814741e-15,
+        0.0
+      ],
+      "effort": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "received_monotonic": 1114105.325066012,
+    "sample_sequence": 1388,
+    "timestamp_semantics": "observed_at_utc is local read time; sensor time is joint_state.header.stamp"
+  },
+  "cached_joint_state_at_move_entry": {
+    "observed_at_utc": "2026-10-30T04:07:44.442Z",
+    "positions_rad": [
+      -0.04536231802615153,
+      0.42946038736867936,
+      -0.11876430450264432,
+      -0.072123440961364
+    ],
+    "joint_names": [
+      "crane_plus_joint1",
+      "crane_plus_joint2",
+      "crane_plus_joint3",
+      "crane_plus_joint4"
+    ],
+    "joint_state": {
+      "header": {
+        "stamp": {
+          "sec": 74213,
+          "nanosec": 802000000
+        },
+        "frame_id": ""
+      },
+      "name": [
+        "crane_plus_joint1",
+        "crane_plus_joint2",
+        "crane_plus_joint4",
+        "crane_plus_joint3",
+        "crane_plus_joint_hand"
+      ],
+      "position": [
+        -0.04536231802615153,
+        0.42946038736867936,
+        -0.072123440961364,
+        -0.11876430450264432,
+        -7.880352619424805e-12
+      ],
+      "velocity": [
+        -3.331319595178961e-15,
+        2.657249420501273e-14,
+        -6.2901073238919025e-15,
+        5.853390688814741e-15,
+        0.0
+      ],
+      "effort": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "received_monotonic": 1114105.325066012,
+    "sample_sequence": 1388,
+    "timestamp_semantics": "observed_at_utc is local read time; sensor time is joint_state.header.stamp"
+  },
+  "raw_actor_output_rad": [
+    -0.030631803843547457,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "raw_teacher_output_rad": null,
+  "raw_model_output_rad": [
+    -0.030631803843547457,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "safety_limited_delta_rad": [
+    -0.030631803843547457,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "requested_delta_rad": [
+    -0.030631803843547457,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "requested_absolute_goal_rad": [
+    -0.07599412186969899,
+    0.42946038736867936,
+    -0.11876430450264432,
+    -0.072123440961364
+  ],
+  "joint_samples": [
+    {
+      "observed_at_utc": "2026-10-30T04:07:46.942Z",
+      "positions_rad": [
+        -0.04536231802615153,
+        0.42946038736867936,
+        -0.11876430450264432,
+        -0.072123440961364
+      ],
+      "joint_names": [
+        "crane_plus_joint1",
+        "crane_plus_joint2",
+        "crane_plus_joint3",
+        "crane_plus_joint4"
+      ],
+      "joint_state": {
+        "header": {
+          "stamp": {
+            "sec": 74215,
+            "nanosec": 752000000
+          },
+          "frame_id": ""
+        },
+        "name": [
+          "crane_plus_joint1",
+          "crane_plus_joint2",
+          "crane_plus_joint4",
+          "crane_plus_joint3",
+          "crane_plus_joint_hand"
+        ],
+        "position": [
+          -0.04536231802615153,
+          0.42946038736867936,
+          -0.072123440961364,
+          -0.11876430450264432,
+          -7.880352661058275e-12
+        ],
+        "velocity": [
+          -3.333487999523932e-15,
+          2.6631474803195943e-14,
+          -6.38378239159465e-15,
+          5.95595621433187e-15,
+          2.7755575615628914e-17
+        ],
+        "effort": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "received_monotonic": 1114107.938638762,
+      "sample_sequence": 1390,
+      "timestamp_semantics": "observed_at_utc is local read time; sensor time is joint_state.header.stamp",
+      "phase": "inside_Motion_plan"
+    },
+    {
+      "observed_at_utc": "2026-10-30T04:07:47.108Z",
+      "positions_rad": [
+        -0.04536231802615153,
+        0.42946038736867936,
+        -0.11876430450264432,
+        -0.072123440961364
+      ],
+      "joint_names": [
+        "crane_plus_joint1",
+        "crane_plus_joint2",
+        "crane_plus_joint3",
+        "crane_plus_joint4"
+      ],
+      "joint_state": {
+        "header": {
+          "stamp": {
+            "sec": 74215,
+            "nanosec": 872000000
+          },
+          "frame_id": ""
+        },
+        "name": [
+          "crane_plus_joint1",
+          "crane_plus_joint2",
+          "crane_plus_joint4",
+          "crane_plus_joint3",
+          "crane_plus_joint_hand"
+        ],
+        "position": [
+          -0.04536231802615153,
+          0.42946038736867936,
+          -0.072123440961364,
+          -0.11876430450264432,
+          -7.880352647180493e-12
+        ],
+        "velocity": [
+          -3.3324037973514464e-15,
+          2.663841369709985e-14,
+          -6.50868248186498e-15,
+          6.106226635438361e-15,
+          -1.3877787807814457e-17
+        ],
+        "effort": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "received_monotonic": 1114108.104657859,
+      "sample_sequence": 1402,
+      "timestamp_semantics": "observed_at_utc is local read time; sensor time is joint_state.header.stamp",
+      "phase": "after_plan_before_publish"
+    }
+  ],
+  "measured_plan_start_rad": [
+    -0.04536231802615153,
+    0.42946038736867936,
+    -0.11876430450264432,
+    -0.072123440961364
+  ],
+  "raw_moveit_trajectory": {
+    "header": {
+      "stamp": {
+        "sec": 0,
+        "nanosec": 0
+      },
+      "frame_id": "world"
+    },
+    "joint_names": [
+      "crane_plus_joint1",
+      "crane_plus_joint2",
+      "crane_plus_joint3",
+      "crane_plus_joint4"
+    ],
+    "points": [
+      {
+        "positions": [
+          -0.04536231802615153,
+          0.42946038736867936,
+          -0.11876430450264432,
+          -0.072123440961364
+        ],
+        "velocities": [
+          -0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "accelerations": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "effort": [],
+        "time_from_start": {
+          "sec": 0,
+          "nanosec": 0
+        }
+      },
+      {
+        "positions": [
+          -0.05036231802615154,
+          0.42947125796015795,
+          -0.11874802568317663,
+          -0.07210720085404151
+        ],
+        "velocities": [
+          -0.10000000000000014,
+          0.00021741182957225706,
+          0.00032557638935368775,
+          0.00032480214644971624
+        ],
+        "accelerations": [
+          -1.0000000000000555,
+          0.002174118295722674,
+          0.003255763893537104,
+          0.0032480214644973605
+        ],
+        "effort": [],
+        "time_from_start": {
+          "sec": 0,
+          "nanosec": 100000000
+        }
+      },
+      {
+        "positions": [
+          -0.06473370409097812,
+          0.42950250305353643,
+          -0.11870123584332669,
+          -0.07206052228362839
+        ],
+        "velocities": [
+          -0.1498556580788167,
+          0.00032580392794670076,
+          0.00048789464081521854,
+          0.00048673439401634354
+        ],
+        "accelerations": [
+          0.9999999999976925,
+          -0.0021741182957177264,
+          -0.0032557638935294445,
+          -0.0032480214644895313
+        ],
+        "effort": [],
+        "time_from_start": {
+          "sec": 0,
+          "nanosec": 200000000
+        }
+      },
+      {
+        "positions": [
+          -0.07471926989885978,
+          0.4295242128548525,
+          -0.11866872519871285,
+          -0.07202808895154923
+        ],
+        "velocities": [
+          -0.049855658078816784,
+          0.00010839209837444421,
+          0.00016231825146153158,
+          0.00016193224756662805
+        ],
+        "accelerations": [
+          0.9999999999981732,
+          -0.0021741182957185625,
+          -0.0032557638935308843,
+          -0.003248021464491156
+        ],
+        "effort": [],
+        "time_from_start": {
+          "sec": 0,
+          "nanosec": 300000000
+        }
+      },
+      {
+        "positions": [
+          -0.07596206322009572,
+          0.42952691483454997,
+          -0.11866467895709044,
+          -0.07202405233216592
+        ],
+        "velocities": [
+          1.192606959627231e-17,
+          -2.592868610531628e-20,
+          -3.882846678335125e-20,
+          -3.8736130035779414e-20
+        ],
+        "accelerations": [
+          1.000000000001732,
+          -0.0021741182957263332,
+          -0.0032557638935425117,
+          -0.003248021464502783
+        ],
+        "effort": [],
+        "time_from_start": {
+          "sec": 0,
+          "nanosec": 349855658
+        }
+      }
+    ]
+  },
+  "all_collision_sampled_execution_points_rad": [
+    [
+      -0.04536231802615153,
+      0.42946038736867936,
+      -0.11876430450264432,
+      -0.072123440961364
+    ],
+    [
+      -0.04536231802615153,
+      0.42946038736867936,
+      -0.11876430450264432,
+      -0.072123440961364
+    ],
+    [
+      -0.05036231802615154,
+      0.42947125796015795,
+      -0.11874802568317663,
+      -0.07210720085404151
+    ],
+    [
+      -0.06473370409097812,
+      0.42950250305353643,
+      -0.11870123584332669,
+      -0.07206052228362839
+    ],
+    [
+      -0.07471926989885978,
+      0.4295242128548525,
+      -0.11866872519871285,
+      -0.07202808895154923
+    ],
+    [
+      -0.07596206322009572,
+      0.42952691483454997,
+      -0.11866467895709044,
+      -0.07202405233216592
+    ]
+  ],
+  "actual_trajectory_publish_count": 1,
+  "actual_trajectory_publish_count_exact": true,
+  "unconfirmed_send_intents": [],
+  "trajectory_publish_count_semantics": "Confirmed publications only. exact=False with unconfirmed_send_intents means possibly sent, not proven zero. Never resend.",
+  "unchanged_tolerances": {
+    "joint1_cap_rad": 0.055,
+    "joint1_numeric_epsilon_rad": 1e-09,
+    "other_joint_excursion_rad": 0.002,
+    "moveit_goal_constraint_tolerance_above_and_below_rad": 0.0001,
+    "legacy_planner_goal_mismatch_rad": 0.002,
+    "legacy_pre_publish_start_drift_rad": 0.01,
+    "collision_sample_step_rad": 0.015,
+    "arrival_tolerance_rad": 0.02
+  },
+  "measured_plan_start_sample": {
+    "observed_at_utc": "2026-10-30T04:07:46.942Z",
+    "positions_rad": [
+      -0.04536231802615153,
+      0.42946038736867936,
+      -0.11876430450264432,
+      -0.072123440961364
+    ],
+    "joint_names": [
+      "crane_plus_joint1",
+      "crane_plus_joint2",
+      "crane_plus_joint3",
+      "crane_plus_joint4"
+    ],
+    "joint_state": {
+      "header": {
+        "stamp": {
+          "sec": 74215,
+          "nanosec": 752000000
+        },
+        "frame_id": ""
+      },
+      "name": [
+        "crane_plus_joint1",
+        "crane_plus_joint2",
+        "crane_plus_joint4",
+        "crane_plus_joint3",
+        "crane_plus_joint_hand"
+      ],
+      "position": [
+        -0.04536231802615153,
+        0.42946038736867936,
+        -0.072123440961364,
+        -0.11876430450264432,
+        -7.880352661058275e-12
+      ],
+      "velocity": [
+        -3.333487999523932e-15,
+        2.6631474803195943e-14,
+        -6.38378239159465e-15,
+        5.95595621433187e-15,
+        2.7755575615628914e-17
+      ],
+      "effort": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "received_monotonic": 1114107.938638762,
+    "sample_sequence": 1390,
+    "timestamp_semantics": "observed_at_utc is local read time; sensor time is joint_state.header.stamp",
+    "phase": "inside_Motion_plan"
+  },
+  "planning_request_at_utc": "2026-10-30T04:07:46.964Z",
+  "planning_request": {
+    "motion_plan_request": {
+      "workspace_parameters": {
+        "header": {
+          "stamp": {
+            "sec": 0,
+            "nanosec": 0
+          },
+          "frame_id": ""
+        },
+        "min_corner": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "max_corner": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "start_state": {
+        "joint_state": {
+          "header": {
+            "stamp": {
+              "sec": 74215,
+              "nanosec": 782000000
+            },
+            "frame_id": ""
+          },
+          "name": [
+            "crane_plus_joint1",
+            "crane_plus_joint2",
+            "crane_plus_joint4",
+            "crane_plus_joint3",
+            "crane_plus_joint_hand"
+          ],
+          "position": [
+            -0.04536231802615153,
+            0.42946038736867936,
+            -0.072123440961364,
+            -0.11876430450264432,
+            -7.880352647180488e-12
+          ],
+          "velocity": [],
+          "effort": []
+        },
+        "multi_dof_joint_state": {
+          "header": {
+            "stamp": {
+              "sec": 0,
+              "nanosec": 0
+            },
+            "frame_id": ""
+          },
+          "joint_names": [],
+          "transforms": [],
+          "twist": [],
+          "wrench": []
+        },
+        "attached_collision_objects": [],
+        "is_diff": false
+      },
+      "goal_constraints": [
+        {
+          "name": "",
+          "joint_constraints": [
+            {
+              "joint_name": "crane_plus_joint1",
+              "position": -0.07599412186969899,
+              "tolerance_above": 0.0001,
+              "tolerance_below": 0.0001,
+              "weight": 1.0
+            },
+            {
+              "joint_name": "crane_plus_joint2",
+              "position": 0.42946038736867936,
+              "tolerance_above": 0.0001,
+              "tolerance_below": 0.0001,
+              "weight": 1.0
+            },
+            {
+              "joint_name": "crane_plus_joint3",
+              "position": -0.11876430450264432,
+              "tolerance_above": 0.0001,
+              "tolerance_below": 0.0001,
+              "weight": 1.0
+            },
+            {
+              "joint_name": "crane_plus_joint4",
+              "position": -0.072123440961364,
+              "tolerance_above": 0.0001,
+              "tolerance_below": 0.0001,
+              "weight": 1.0
+            }
+          ],
+          "position_constraints": [],
+          "orientation_constraints": [],
+          "visibility_constraints": []
+        }
+      ],
+      "path_constraints": {
+        "name": "",
+        "joint_constraints": [],
+        "position_constraints": [],
+        "orientation_constraints": [],
+        "visibility_constraints": []
+      },
+      "trajectory_constraints": {
+        "constraints": []
+      },
+      "reference_trajectories": [],
+      "pipeline_id": "",
+      "planner_id": "",
+      "group_name": "arm",
+      "num_planning_attempts": 1,
+      "allowed_planning_time": 3.0,
+      "max_velocity_scaling_factor": 0.15,
+      "max_acceleration_scaling_factor": 0.15,
+      "cartesian_speed_end_effector_link": "",
+      "max_cartesian_speed": 0.0
+    }
+  },
+  "requested_start_state": {
+    "joint_state": {
+      "header": {
+        "stamp": {
+          "sec": 74215,
+          "nanosec": 782000000
+        },
+        "frame_id": ""
+      },
+      "name": [
+        "crane_plus_joint1",
+        "crane_plus_joint2",
+        "crane_plus_joint4",
+        "crane_plus_joint3",
+        "crane_plus_joint_hand"
+      ],
+      "position": [
+        -0.04536231802615153,
+        0.42946038736867936,
+        -0.072123440961364,
+        -0.11876430450264432,
+        -7.880352647180488e-12
+      ],
+      "velocity": [],
+      "effort": []
+    },
+    "multi_dof_joint_state": {
+      "header": {
+        "stamp": {
+          "sec": 0,
+          "nanosec": 0
+        },
+        "frame_id": ""
+      },
+      "joint_names": [],
+      "transforms": [],
+      "twist": [],
+      "wrench": []
+    },
+    "attached_collision_objects": [],
+    "is_diff": false
+  },
+  "planning_response_at_utc": "2026-10-30T04:07:47.021Z",
+  "planning_response": {
+    "motion_plan_response": {
+      "trajectory_start": {
+        "joint_state": {
+          "header": {
+            "stamp": {
+              "sec": 0,
+              "nanosec": 0
+            },
+            "frame_id": "world"
+          },
+          "name": [
+            "crane_plus_joint1",
+            "crane_plus_joint2",
+            "crane_plus_joint3",
+            "crane_plus_joint4",
+            "crane_plus_joint_hand"
+          ],
+          "position": [
+            -0.04536231802615153,
+            0.42946038736867936,
+            -0.11876430450264432,
+            -0.072123440961364,
+            -7.880352647180488e-12
+          ],
+          "velocity": [
+            -0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "effort": []
+        },
+        "multi_dof_joint_state": {
+          "header": {
+            "stamp": {
+              "sec": 0,
+              "nanosec": 0
+            },
+            "frame_id": "world"
+          },
+          "joint_names": [],
+          "transforms": [],
+          "twist": [],
+          "wrench": []
+        },
+        "attached_collision_objects": [],
+        "is_diff": false
+      },
+      "group_name": "arm",
+      "trajectory": {
+        "joint_trajectory": {
+          "header": {
+            "stamp": {
+              "sec": 0,
+              "nanosec": 0
+            },
+            "frame_id": "world"
+          },
+          "joint_names": [
+            "crane_plus_joint1",
+            "crane_plus_joint2",
+            "crane_plus_joint3",
+            "crane_plus_joint4"
+          ],
+          "points": [
+            {
+              "positions": [
+                -0.04536231802615153,
+                0.42946038736867936,
+                -0.11876430450264432,
+                -0.072123440961364
+              ],
+              "velocities": [
+                -0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "accelerations": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "effort": [],
+              "time_from_start": {
+                "sec": 0,
+                "nanosec": 0
+              }
+            },
+            {
+              "positions": [
+                -0.05036231802615154,
+                0.42947125796015795,
+                -0.11874802568317663,
+                -0.07210720085404151
+              ],
+              "velocities": [
+                -0.10000000000000014,
+                0.00021741182957225706,
+                0.00032557638935368775,
+                0.00032480214644971624
+              ],
+              "accelerations": [
+                -1.0000000000000555,
+                0.002174118295722674,
+                0.003255763893537104,
+                0.0032480214644973605
+              ],
+              "effort": [],
+              "time_from_start": {
+                "sec": 0,
+                "nanosec": 100000000
+              }
+            },
+            {
+              "positions": [
+                -0.06473370409097812,
+                0.42950250305353643,
+                -0.11870123584332669,
+                -0.07206052228362839
+              ],
+              "velocities": [
+                -0.1498556580788167,
+                0.00032580392794670076,
+                0.00048789464081521854,
+                0.00048673439401634354
+              ],
+              "accelerations": [
+                0.9999999999976925,
+                -0.0021741182957177264,
+                -0.0032557638935294445,
+                -0.0032480214644895313
+              ],
+              "effort": [],
+              "time_from_start": {
+                "sec": 0,
+                "nanosec": 200000000
+              }
+            },
+            {
+              "positions": [
+                -0.07471926989885978,
+                0.4295242128548525,
+                -0.11866872519871285,
+                -0.07202808895154923
+              ],
+              "velocities": [
+                -0.049855658078816784,
+                0.00010839209837444421,
+                0.00016231825146153158,
+                0.00016193224756662805
+              ],
+              "accelerations": [
+                0.9999999999981732,
+                -0.0021741182957185625,
+                -0.0032557638935308843,
+                -0.003248021464491156
+              ],
+              "effort": [],
+              "time_from_start": {
+                "sec": 0,
+                "nanosec": 300000000
+              }
+            },
+            {
+              "positions": [
+                -0.07596206322009572,
+                0.42952691483454997,
+                -0.11866467895709044,
+                -0.07202405233216592
+              ],
+              "velocities": [
+                1.192606959627231e-17,
+                -2.592868610531628e-20,
+                -3.882846678335125e-20,
+                -3.8736130035779414e-20
+              ],
+              "accelerations": [
+                1.000000000001732,
+                -0.0021741182957263332,
+                -0.0032557638935425117,
+                -0.003248021464502783
+              ],
+              "effort": [],
+              "time_from_start": {
+                "sec": 0,
+                "nanosec": 349855658
+              }
+            }
+          ]
+        },
+        "multi_dof_joint_trajectory": {
+          "header": {
+            "stamp": {
+              "sec": 0,
+              "nanosec": 0
+            },
+            "frame_id": ""
+          },
+          "joint_names": [],
+          "points": []
+        }
+      },
+      "planning_time": 0.038061228,
+      "error_code": {
+        "val": 1
+      }
+    }
+  },
+  "returned_trajectory_start": {
+    "joint_state": {
+      "header": {
+        "stamp": {
+          "sec": 0,
+          "nanosec": 0
+        },
+        "frame_id": "world"
+      },
+      "name": [
+        "crane_plus_joint1",
+        "crane_plus_joint2",
+        "crane_plus_joint3",
+        "crane_plus_joint4",
+        "crane_plus_joint_hand"
+      ],
+      "position": [
+        -0.04536231802615153,
+        0.42946038736867936,
+        -0.11876430450264432,
+        -0.072123440961364,
+        -7.880352647180488e-12
+      ],
+      "velocity": [
+        -0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "effort": []
+    },
+    "multi_dof_joint_state": {
+      "header": {
+        "stamp": {
+          "sec": 0,
+          "nanosec": 0
+        },
+        "frame_id": "world"
+      },
+      "joint_names": [],
+      "transforms": [],
+      "twist": [],
+      "wrench": []
+    },
+    "attached_collision_objects": [],
+    "is_diff": false
+  },
+  "returned_start_minus_requested_start_rad": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "execution_joint_names": [
+    "crane_plus_joint1",
+    "crane_plus_joint2",
+    "crane_plus_joint3",
+    "crane_plus_joint4"
+  ],
+  "base_plan_report": {
+    "result": "PASS",
+    "planner_error_code": 1,
+    "planning_time_sec": 0.038061228,
+    "collision_checked_states": 6,
+    "max_sample_step_rad": 0.015,
+    "positions": [
+      [
+        -0.04536231802615153,
+        0.42946038736867936,
+        -0.11876430450264432,
+        -0.072123440961364
+      ],
+      [
+        -0.04536231802615153,
+        0.42946038736867936,
+        -0.11876430450264432,
+        -0.072123440961364
+      ],
+      [
+        -0.05036231802615154,
+        0.42947125796015795,
+        -0.11874802568317663,
+        -0.07210720085404151
+      ],
+      [
+        -0.06473370409097812,
+        0.42950250305353643,
+        -0.11870123584332669,
+        -0.07206052228362839
+      ],
+      [
+        -0.07471926989885978,
+        0.4295242128548525,
+        -0.11866872519871285,
+        -0.07202808895154923
+      ],
+      [
+        -0.07596206322009572,
+        0.42952691483454997,
+        -0.11866467895709044,
+        -0.07202405233216592
+      ]
+    ],
+    "scene_verified": true,
+    "horizontal_only_guard": {
+      "result": "PASS",
+      "reference": "fresh measured start returned by Motion.plan",
+      "units": "radian",
+      "joint_names": [
+        "crane_plus_joint1",
+        "crane_plus_joint2",
+        "crane_plus_joint3",
+        "crane_plus_joint4"
+      ],
+      "limits_rad": [
+        0.055,
+        0.002,
+        0.002,
+        0.002
+      ],
+      "numerical_tolerance_rad": [
+        1e-09,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "point_index_base": 0,
+      "point_count": 6,
+      "max_abs_deviation_rad": [
+        0.030599745193944185,
+        6.652746587060276e-05,
+        9.962554555387193e-05,
+        9.938862919807445e-05
+      ],
+      "violations": []
+    }
+  },
+  "plan_start_minus_operation_measurement_rad": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "requested_goal_minus_plan_start_rad": [
+    -0.03063180384354746,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "guard": {
+    "result": "PASS",
+    "reference": "fresh measured start returned by Motion.plan",
+    "units": "radian",
+    "joint_names": [
+      "crane_plus_joint1",
+      "crane_plus_joint2",
+      "crane_plus_joint3",
+      "crane_plus_joint4"
+    ],
+    "limits_rad": [
+      0.055,
+      0.002,
+      0.002,
+      0.002
+    ],
+    "numerical_tolerance_rad": [
+      1e-09,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "point_index_base": 0,
+    "point_count": 6,
+    "max_abs_deviation_rad": [
+      0.030599745193944185,
+      6.652746587060276e-05,
+      9.962554555387193e-05,
+      9.938862919807445e-05
+    ],
+    "violations": []
+  },
+  "pre_publish_measured_minus_plan_start_rad": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "finished_at_utc": "2026-10-30T04:07:55.324Z",
+  "confirmed_all_run_trajectory_publish_count": 3,
+  "move_result": "RETURNED",
+  "move_error": null
+}

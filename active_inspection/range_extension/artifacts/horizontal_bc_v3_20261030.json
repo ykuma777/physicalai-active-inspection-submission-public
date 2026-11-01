@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "scope": "horizontal_image_alignment_joint1_only",
+  "algorithm": "NumPy ridge regression behavior cloning",
+  "trainer_source_sha256": "d5dd679ef3b853221f11a2e2e23ccbee989f2d97132e41fffcc7f814292fb45a",
+  "policy_source_sha256": "610cf22713f0281a9a11ecabeff3bad4a52b3265ec0c9c3423b49dc483f3a55a",
+  "created_at_utc": "2026-10-30T03:59:15.670428+00:00",
+  "feature_order": [
+    "center_error_x_px",
+    "joint1_rad"
+  ],
+  "output_order": [
+    "joint1_delta_rad"
+  ],
+  "normalization": "z=(x-training_mean)/training_std; nearconstant std is1",
+  "intercept": "leading constant1; intercept coefficient not regularized",
+  "ridge_alpha": 0.01,
+  "training_mean": [
+    13.441176470588236,
+    -0.009716851793538954
+  ],
+  "candidate_selection": {
+    "predeclared_ridge_alphas": [
+      0.01,
+      0.1,
+      1.0
+    ],
+    "criterion": "minimum safety-limited tuning teacher-action MAE; exact tie chooses smaller alpha",
+    "candidate_scores": [
+      {
+        "ridge_alpha": 0.01,
+        "tuning_limited_action_mae_rad": 0.002269272410946226
+      },
+      {
+        "ridge_alpha": 0.1,
+        "tuning_limited_action_mae_rad": 0.0024816681252438615
+      },
+      {
+        "ridge_alpha": 1.0,
+        "tuning_limited_action_mae_rad": 0.004483703053237817
+      }
+    ],
+    "fitting_and_normalization": "training only",
+    "evaluation_data_used": false
+  },
+  "training_scale": [
+    69.18025950007899,
+    0.050571588417319936
+  ],
+  "weights_intercept_then_features": [
+    -0.008076960784313724,
+    -0.0407109043728891,
+    0.003981390504724942
+  ],
+  "training_rows": 17,
+  "training_run_ids": [
+    "ire3_training_01",
+    "ire3_training_02",
+    "ire3_training_03",
+    "ire3_training_04",
+    "ire3_training_06",
+    "ire3_training_07",
+    "ire3_training_08",
+    "ire3_training_09",
+    "ire3_training_10",
+    "ire3_training_11",
+    "ire3_training_12"
+  ],
+  "planned_training_run_ids": [
+    "ire3_training_01",
+    "ire3_training_02",
+    "ire3_training_03",
+    "ire3_training_04",
+    "ire3_training_05",
+    "ire3_training_06",
+    "ire3_training_07",
+    "ire3_training_08",
+    "ire3_training_09",
+    "ire3_training_10",
+    "ire3_training_11",
+    "ire3_training_12"
+  ],
+  "training_placements": [
+    "range_train_left_large",
+    "range_train_left_medium",
+    "range_train_left_small",
+    "range_train_right_large",
+    "range_train_right_medium",
+    "range_train_right_small"
+  ],
+  "tuning_rows": 4,
+  "tuning_run_ids": [
+    "ire3_tuning_01",
+    "ire3_tuning_02"
+  ],
+  "training_includes_tuning": false,
+  "final_evaluation_used": false,
+  "safety_max_step_rad": 0.055,
+  "requested_command_cap_rad": 0.0548,
+  "excessive_output_rejection_rad": 0.11,
+  "model_sha256": "f3a5d9f3699e7be137c0433b85e4b519593cd020ec96d218b4a350200f81d40e",
+  "numpy_version": "1.24.4",
+  "teacher_diversity": {
+    "teacher_action_records": 17,
+    "episodes_with_valid_teacher_records": 11,
+    "placements_with_valid_teacher_records": [
+      "range_train_left_large",
+      "range_train_left_medium",
+      "range_train_left_small",
+      "range_train_right_large",
+      "range_train_right_medium",
+      "range_train_right_small"
+    ],
+    "joint1_action_distribution_rad": {
+      "-0.0548": 4,
+      "-0.046302083": 2,
+      "-0.030625": 2,
+      "-0.0284375": 1,
+      "-0.028072917": 1,
+      "0.0284375": 1,
+      "0.030625": 2,
+      "0.046302083": 1,
+      "0.046666667": 1,
+      "0.0548": 2
+    },
+    "magnitude_groups_per_direction_rad": {
+      "positive": [
+        0.0284375,
+        0.046302083333333334,
+        0.0548
+      ],
+      "negative": [
+        0.02807291666666667,
+        0.046302083333333334,
+        0.0548
+      ]
+    },
+    "minimum_magnitude_group_separation_rad": 0.003,
+    "saturated_action_count": 0,
+    "minimum8_is_execution_criterion_not_learning_sufficiency": true,
+    "planned_training_episode_count": 12,
+    "consumed_training_episode_count": 12,
+    "episode_terminal_status_counts": {
+      "PASS": 11,
+      "FAULT_STOP": 1
+    },
+    "dataset_rows_including_unusable": 21
+  },
+  "action_agreement_metrics": {
+    "training": {
+      "records": 17,
+      "episodes": 11,
+      "model_raw_mae_rad": 0.007257581974107736,
+      "model_limited_mae_rad": 0.005071789438214968,
+      "constant_limited_mae_rad": 0.0410347029988466,
+      "model_limited_count": 3,
+      "requested_command_cap_rad": 0.0548,
+      "model_rejected_excessive_output_count": 0,
+      "note": "Offline action agreement only; not a robot success-rate comparison."
+    },
+    "tuning": {
+      "records": 4,
+      "episodes": 2,
+      "model_raw_mae_rad": 0.002269272410946226,
+      "model_limited_mae_rad": 0.002269272410946226,
+      "constant_limited_mae_rad": 0.04672291666666667,
+      "model_limited_count": 0,
+      "requested_command_cap_rad": 0.0548,
+      "model_rejected_excessive_output_count": 0,
+      "note": "Offline action agreement only; not a robot success-rate comparison."
+    }
+  },
+  "constant_action_baseline": {
+    "mean_training_action_rad": -0.008076960784313726,
+    "same_step_limit_rad": 0.055,
+    "same_requested_command_cap_rad": 0.0548,
+    "runtime_fallback": false,
+    "tuning_model_action_mae_better_than_constant": true,
+    "interpretation": "Offline action imitation only; this is not evidence of robot success-rate superiority."
+  },
+  "offline_synthetic": false,
+  "execution_trial_count": null,
+  "inputs": {
+    "dataset": {
+      "path": "/home/ubuntu/active_inspection/range_extension/results/campaign_v3_20261030/exports/collection_v1/teacher_actions.jsonl",
+      "sha256": "6e22a000df6793aaff0e6f21ad4d0d42d80782bc0cda7e3ac0077f9b581ae392"
+    },
+    "plan": {
+      "path": "/home/ubuntu/active_inspection/range_extension/results/campaign_v3_20261030/PLAN.json",
+      "sha256": "11e3f708af795ff6b0ec1320c301da2e1c0f83bf24e4cae9ff32fc16af8245b2"
+    },
+    "episode_summary": {
+      "path": "/home/ubuntu/active_inspection/range_extension/results/campaign_v3_20261030/exports/collection_v1/episode_summary.json",
+      "sha256": "55c8da69cd643704d7d05f911da8dd9a95e96427d3ed4ffd5fb011bd1c78029b"
+    }
+  }
+}

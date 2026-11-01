@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "timestamp_utc": "2026-11-01T09:33:43.816455+00:00",
+  "text_and_pdf_files_scanned": 303,
+  "findings": [],
+  "email_findings": [],
+  "source_changes": [],
+  "allowed_exceptions": [
+    "todo@example.com only in mandatory ROS package.xml maintainer field",
+    "/home/ubuntu fixed historical container runtime paths",
+    "third-party license attribution and requested public account handles"
+  ],
+  "model_hash_preservation": "PASS",
+  "saved_data_verification": "PASS",
+  "new_robot_trials": 0,
+  "training": 0,
+  "live_ROS_reproduction": "NOT_RUN",
+  "numpy_for_saved_reinference": "2.5.2",
+  "phase": "pre-publication verification",
+  "manual_review": "Simulated images/recording and technical PDF; no personal Windows paths or user contact fields found.",
+  "license_review": "Root Apache-2.0, original NOTICE/NOTICE_ORIGIN and CRANE license retained."
+}

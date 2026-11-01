@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "capture_quality": {
+    "dark_threshold": 40,
+    "min_dial_width_px": 70,
+    "max_dial_width_px": 300,
+    "desired_center_xy": [
+      320,
+      304
+    ],
+    "max_center_error_px": 35,
+    "quality_width_px": [
+      145,
+      255
+    ],
+    "stable_frames": 2,
+    "max_center_change_px": 6,
+    "max_width_change_px": 6
+  },
+  "control": {
+    "search_pose_names": [
+      "scan_center"
+    ],
+    "max_search_poses": 1,
+    "max_alignment_moves": 4,
+    "max_total_moves": 8,
+    "max_wall_sec": 300,
+    "result_hold_sec": 3.0,
+    "joint_probe_rad": 0.035,
+    "max_joint_step_rad": 0.055,
+    "min_duration_sec": 6.0,
+    "joint_tolerance_rad": 0.02,
+    "home": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "observe_center": [
+      0.0,
+      0.4294635227214753,
+      -0.11873816214323753,
+      -0.07209533703528621
+    ],
+    "observe_left": [
+      -0.14,
+      0.4294635227214753,
+      -0.11873816214323753,
+      -0.07209533703528621
+    ],
+    "observe_right": [
+      0.14,
+      0.4294635227214753,
+      -0.11873816214323753,
+      -0.07209533703528621
+    ]
+  }
+}

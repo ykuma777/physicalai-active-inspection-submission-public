@@ -1,0 +1,5022 @@
+{
+  "created_at_utc": "2026-10-30T04:09:34.865Z",
+  "scope": "Additional range-extension campaign; original model/teacher8 and old submissions excluded from these rates.",
+  "prior_range_faults": 1,
+  "additional_attempts": 24,
+  "total_consumed": 25,
+  "remaining": 3,
+  "phase_status_counts": {
+    "path_probe": {
+      "PASS": 4
+    },
+    "training": {
+      "PASS": 11,
+      "FAULT_STOP": 1
+    },
+    "tuning": {
+      "PASS": 2
+    },
+    "evaluation": {
+      "QUALITY_FAIL": 2,
+      "PASS": 4
+    }
+  },
+  "runs": [
+    {
+      "run_id": "ire3_home_20261030_01",
+      "kind": "home",
+      "phase": "path_probe",
+      "placement_id": "range_train_left_large",
+      "mode": "fixed",
+      "status": "PASS",
+      "failure_reason": null,
+      "model_calls": 0,
+      "logged_action_records": 0,
+      "valid_teacher_records": 0,
+      "alignment_sends": 0,
+      "all_sends": 1,
+      "capture_success": false,
+      "classification": null,
+      "classification_correct": null,
+      "whole_success": null,
+      "home": "PASS",
+      "elapsed_sec": null,
+      "manifest": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_home_20261030_01\\run_manifest.json",
+      "manifest_sha256": "b19a9459e29d3e0b7dae4a31e4823455adf0cb1ac515e030fc18cbc7e7b36b96",
+      "raw_video": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_home_20261030_01\\trial_screen.mp4",
+      "initial_error_xy_px": null,
+      "observed_errors_xy_px": [],
+      "actions": []
+    },
+    {
+      "run_id": "ire3_left_20261030_01",
+      "kind": "left",
+      "phase": "path_probe",
+      "placement_id": "range_train_left_large",
+      "mode": "rule",
+      "status": "PASS",
+      "failure_reason": null,
+      "model_calls": 0,
+      "logged_action_records": 3,
+      "valid_teacher_records": 0,
+      "alignment_sends": 3,
+      "all_sends": 5,
+      "capture_success": true,
+      "classification": "abnormal",
+      "classification_correct": null,
+      "whole_success": null,
+      "home": "PASS",
+      "elapsed_sec": 106.61531969020143,
+      "manifest": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_left_20261030_01\\run_manifest.json",
+      "manifest_sha256": "8c641111a65d583f21827beb5322ce4feeecece164491096211b8737a3867892",
+      "raw_video": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_left_20261030_01\\trial_screen.mp4",
+      "initial_error_xy_px": [
+        -114.5,
+        0.0
+      ],
+      "observed_errors_xy_px": [
+        [
+          -114.5,
+          0.0
+        ],
+        [
+          -76.0,
+          -4.5
+        ],
+        [
+          -38.5,
+          -7.5
+        ],
+        [
+          -19.5,
+          -8.0
+        ],
+        [
+          -19.5,
+          -8.0
+        ]
+      ],
+      "actions": [
+        {
+          "actor": "rule",
+          "raw_output_rad": [
+            0.08348958333333334,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_model_output_rad": null,
+          "hard_safety_ceiling_output_rad": [
+            0.055,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "safety_limited_output_rad": [
+            0.055,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_command_cap_rad": 0.055,
+          "chosen_delta_rad": [
+            0.055,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_joint_goal_rad": [
+            0.054924967129714786,
+            0.4293962709113077,
+            -0.11874683739907951,
+            -0.07217859322802458
+          ],
+          "sent_trajectory_endpoint_rad": [
+            0.05483503279946744,
+            0.4293426416226716,
+            -0.11874280286894091,
+            -0.0721629042907275
+          ],
+          "after_arrival": {
+            "result": "PASS",
+            "at_utc": "2026-10-30T03:23:00.424Z",
+            "actual_positions": [
+              0.054787793520479064,
+              0.4293426878626574,
+              -0.11874280669266851,
+              -0.07216291807434035
+            ],
+            "errors_rad": [
+              -0.00013717360923572175,
+              -5.35830486503297e-05,
+              4.030706411001228e-06,
+              1.5675153684238663e-05
+            ],
+            "joint_state_header": {
+              "stamp": {
+                "sec": 72086,
+                "nanosec": 502000000
+              },
+              "frame_id": ""
+            },
+            "fresh_samples_after_send": 638,
+            "stable_samples": 26
+          },
+          "actual_publish_count": 1
+        },
+        {
+          "actor": "rule",
+          "raw_output_rad": [
+            0.05541666666666667,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_model_output_rad": null,
+          "hard_safety_ceiling_output_rad": [
+            0.055,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "safety_limited_output_rad": [
+            0.055,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_command_cap_rad": 0.055,
+          "chosen_delta_rad": [
+            0.055,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_joint_goal_rad": [
+            0.10983503279946676,
+            0.4293426416751882,
+            -0.11874280300293166,
+            -0.07216290433505766
+          ],
+          "sent_trajectory_endpoint_rad": [
+            0.10978185510504922,
+            0.42939441925254185,
+            -0.11880937202017804,
+            -0.07206872908609203
+          ],
+          "after_arrival": {
+            "result": "PASS",
+            "at_utc": "2026-10-30T03:23:18.640Z",
+            "actual_positions": [
+              0.10974825509193983,
+              0.42939438759299003,
+              -0.11880933122839143,
+              -0.07206878696067905
+            ],
+            "errors_rad": [
+              -8.677770752692215e-05,
+              5.174591780182647e-05,
+              -6.65282254597721e-05,
+              9.411737437861611e-05
+            ],
+            "joint_state_header": {
+              "stamp": {
+                "sec": 72101,
+                "nanosec": 132000000
+              },
+              "frame_id": ""
+            },
+            "fresh_samples_after_send": 639,
+            "stable_samples": 26
+          },
+          "actual_publish_count": 1
+        },
+        {
+          "actor": "rule",
+          "raw_output_rad": [
+            0.02807291666666667,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_model_output_rad": null,
+          "hard_safety_ceiling_output_rad": [
+            0.02807291666666667,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "safety_limited_output_rad": [
+            0.02807291666666667,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_command_cap_rad": 0.055,
+          "chosen_delta_rad": [
+            0.02807291666666667,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_joint_goal_rad": [
+            0.13785477177171457,
+            0.42939441930505207,
+            -0.11880937215417971,
+            -0.072068729130424
+          ],
+          "sent_trajectory_endpoint_rad": [
+            0.1378049694838603,
+            0.4293755317839584,
+            -0.11888737458691348,
+            -0.07197918285006974
+          ],
+          "after_arrival": {
+            "result": "PASS",
+            "at_utc": "2026-10-30T03:23:37.396Z",
+            "actual_positions": [
+              0.13779815195959882,
+              0.4293755364815184,
+              -0.11888735552554465,
+              -0.07197920492144032
+            ],
+            "errors_rad": [
+              -5.661981211574352e-05,
+              -1.8882823533683535e-05,
+              -7.798337136494249e-05,
+              8.952420898368507e-05
+            ],
+            "joint_state_header": {
+              "stamp": {
+                "sec": 72115,
+                "nanosec": 882000000
+              },
+              "frame_id": ""
+            },
+            "fresh_samples_after_send": 638,
+            "stable_samples": 26
+          },
+          "actual_publish_count": 1
+        }
+      ]
+    },
+    {
+      "run_id": "ire3_left_changed_20261030_01",
+      "kind": "left_changed",
+      "phase": "path_probe",
+      "placement_id": "range_train_left_large",
+      "mode": "rule",
+      "status": "PASS",
+      "failure_reason": null,
+      "model_calls": 0,
+      "logged_action_records": 3,
+      "valid_teacher_records": 0,
+      "alignment_sends": 3,
+      "all_sends": 6,
+      "capture_success": true,
+      "classification": "abnormal",
+      "classification_correct": true,
+      "whole_success": true,
+      "home": "PASS",
+      "elapsed_sec": 122.00923096295446,
+      "manifest": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_left_changed_20261030_01\\run_manifest.json",
+      "manifest_sha256": "0a19f576ee71dc8a9e5a326c13b2ec80662e8f5a6098b1c5c2e8cb42ff4fd905",
+      "raw_video": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_left_changed_20261030_01\\trial_screen.mp4",
+      "initial_error_xy_px": [
+        -114.5,
+        0.0
+      ],
+      "observed_errors_xy_px": [
+        [
+          -114.5,
+          0.0
+        ],
+        [
+          -76.0,
+          -4.5
+        ],
+        [
+          -39.0,
+          -7.5
+        ],
+        [
+          -19.5,
+          -8.0
+        ],
+        [
+          -19.5,
+          -8.0
+        ]
+      ],
+      "actions": [
+        {
+          "actor": "rule",
+          "raw_output_rad": [
+            0.08348958333333334,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_model_output_rad": null,
+          "hard_safety_ceiling_output_rad": [
+            0.055,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "safety_limited_output_rad": [
+            0.0548,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_command_cap_rad": 0.0548,
+          "chosen_delta_rad": [
+            0.0548,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_joint_goal_rad": [
+            0.05485892373882234,
+            0.42940986676668297,
+            -0.11871054710974956,
+            -0.072040568148583
+          ],
+          "sent_trajectory_endpoint_rad": [
+            0.05494634270975367,
+            0.42945893010921327,
+            -0.11871974957549052,
+            -0.07203731089379249
+          ],
+          "after_arrival": {
+            "result": "PASS",
+            "at_utc": "2026-10-30T03:41:48.918Z",
+            "actual_positions": [
+              0.05490059095155623,
+              0.429458889214619,
+              -0.11871974181990061,
+              -0.0720373138952824
+            ],
+            "errors_rad": [
+              4.166721273388824e-05,
+              4.902244793603128e-05,
+              -9.19471015105311e-06,
+              3.2542533006107988e-06
+            ],
+            "joint_state_header": {
+              "stamp": {
+                "sec": 72992,
+                "nanosec": 562000000
+              },
+              "frame_id": ""
+            },
+            "fresh_samples_after_send": 636,
+            "stable_samples": 26
+          },
+          "actual_publish_count": 1
+        },
+        {
+          "actor": "rule",
+          "raw_output_rad": [
+            0.05541666666666667,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_model_output_rad": null,
+          "hard_safety_ceiling_output_rad": [
+            0.055,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "safety_limited_output_rad": [
+            0.0548,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_command_cap_rad": 0.0548,
+          "chosen_delta_rad": [
+            0.0548,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_joint_goal_rad": [
+            0.109746342709753,
+            0.42945893016172854,
+            -0.11871974970949296,
+            -0.0720373109381219
+          ],
+          "sent_trajectory_endpoint_rad": [
+            0.10973131648059868,
+            0.4293971010552654,
+            -0.11881653121527698,
+            -0.07204093872458131
+          ],
+          "after_arrival": {
+            "result": "PASS",
+            "at_utc": "2026-10-30T03:42:07.077Z",
+            "actual_positions": [
+              0.10969838754845981,
+              0.4293971383206912,
+              -0.11881647295921678,
+              -0.07204093634634709
+            ],
+            "errors_rad": [
+              -4.795516129318944e-05,
+              -6.17918410373286e-05,
+              -9.672324972381796e-05,
+              -3.62540822518298e-06
+            ],
+            "joint_state_header": {
+              "stamp": {
+                "sec": 73006,
+                "nanosec": 932000000
+              },
+              "frame_id": ""
+            },
+            "fresh_samples_after_send": 639,
+            "stable_samples": 26
+          },
+          "actual_publish_count": 1
+        },
+        {
+          "actor": "rule",
+          "raw_output_rad": [
+            0.0284375,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_model_output_rad": null,
+          "hard_safety_ceiling_output_rad": [
+            0.0284375,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "safety_limited_output_rad": [
+            0.0284375,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_command_cap_rad": 0.0548,
+          "chosen_delta_rad": [
+            0.0284375,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_joint_goal_rad": [
+            0.13816881648059734,
+            0.4293971011077862,
+            -0.1188165313492786,
+            -0.07204093876891032
+          ],
+          "sent_trajectory_endpoint_rad": [
+            0.1380982666701524,
+            0.4293442183290951,
+            -0.11872312561024687,
+            -0.07208141531660416
+          ],
+          "after_arrival": {
+            "result": "PASS",
+            "at_utc": "2026-10-30T03:42:26.184Z",
+            "actual_positions": [
+              0.13809269465782706,
+              0.4293442288192119,
+              -0.11872314431035408,
+              -0.07208140716823452
+            ],
+            "errors_rad": [
+              -7.61218227702809e-05,
+              -5.28722885743127e-05,
+              9.338703892451672e-05,
+              -4.0468399324200544e-05
+            ],
+            "joint_state_header": {
+              "stamp": {
+                "sec": 73021,
+                "nanosec": 802000000
+              },
+              "frame_id": ""
+            },
+            "fresh_samples_after_send": 640,
+            "stable_samples": 26
+          },
+          "actual_publish_count": 1
+        }
+      ]
+    },
+    {
+      "run_id": "ire3_right_20261030_01",
+      "kind": "right",
+      "phase": "path_probe",
+      "placement_id": "range_train_right_large",
+      "mode": "rule",
+      "status": "PASS",
+      "failure_reason": null,
+      "model_calls": 0,
+      "logged_action_records": 3,
+      "valid_teacher_records": 0,
+      "alignment_sends": 3,
+      "all_sends": 5,
+      "capture_success": true,
+      "classification": "abnormal",
+      "classification_correct": null,
+      "whole_success": null,
+      "home": "PASS",
+      "elapsed_sec": 107.30757806706242,
+      "manifest": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_right_20261030_01\\run_manifest.json",
+      "manifest_sha256": "663e7028c24a03d9ed46b9fe71d76821bde58f1bcccd01422a5ea724d9f940c9",
+      "raw_video": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_right_20261030_01\\trial_screen.mp4",
+      "initial_error_xy_px": [
+        114.5,
+        -0.5
+      ],
+      "observed_errors_xy_px": [
+        [
+          114.5,
+          -0.5
+        ],
+        [
+          76.0,
+          -4.5
+        ],
+        [
+          38.5,
+          -7.5
+        ],
+        [
+          19.5,
+          -8.5
+        ],
+        [
+          19.5,
+          -8.5
+        ]
+      ],
+      "actions": [
+        {
+          "actor": "rule",
+          "raw_output_rad": [
+            -0.08348958333333334,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_model_output_rad": null,
+          "hard_safety_ceiling_output_rad": [
+            -0.055,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "safety_limited_output_rad": [
+            -0.055,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_command_cap_rad": 0.055,
+          "chosen_delta_rad": [
+            -0.055,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_joint_goal_rad": [
+            -0.05509039189224131,
+            0.42953210721408824,
+            -0.11869657001620283,
+            -0.07217562408132223
+          ],
+          "sent_trajectory_endpoint_rad": [
+            -0.055067119914107024,
+            0.4295463584128941,
+            -0.11862220171493602,
+            -0.07213460506439885
+          ],
+          "after_arrival": {
+            "result": "PASS",
+            "at_utc": "2026-10-30T03:25:15.455Z",
+            "actual_positions": [
+              -0.05501948899287732,
+              0.4295463460683578,
+              -0.11862226649922854,
+              -0.07213464088896704
+            ],
+            "errors_rad": [
+              7.090289936399069e-05,
+              1.4238854269543744e-05,
+              7.430351697429449e-05,
+              4.098319235519565e-05
+            ],
+            "joint_state_header": {
+              "stamp": {
+                "sec": 72195,
+                "nanosec": 22000000
+              },
+              "frame_id": ""
+            },
+            "fresh_samples_after_send": 638,
+            "stable_samples": 26
+          },
+          "actual_publish_count": 1
+        },
+        {
+          "actor": "rule",
+          "raw_output_rad": [
+            -0.05541666666666667,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_model_output_rad": null,
+          "hard_safety_ceiling_output_rad": [
+            -0.055,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "safety_limited_output_rad": [
+            -0.055,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_command_cap_rad": 0.055,
+          "chosen_delta_rad": [
+            -0.055,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_joint_goal_rad": [
+            -0.11006711991410639,
+            0.4295463584654176,
+            -0.1186222018489515,
+            -0.07213460510873164
+          ],
+          "sent_trajectory_endpoint_rad": [
+            -0.10999539029714588,
+            0.429521452865857,
+            -0.1185992856517335,
+            -0.07220225202955234
+          ],
+          "after_arrival": {
+            "result": "PASS",
+            "at_utc": "2026-10-30T03:25:33.278Z",
+            "actual_positions": [
+              -0.10995400413028915,
+              0.4295214717337785,
+              -0.11859930327097921,
+              -0.07220220086270669
+            ],
+            "errors_rad": [
+              0.00011311578381724419,
+              -2.4886731639084392e-05,
+              2.2898577972288447e-05,
+              -6.759575397505269e-05
+            ],
+            "joint_state_header": {
+              "stamp": {
+                "sec": 72209,
+                "nanosec": 652000000
+              },
+              "frame_id": ""
+            },
+            "fresh_samples_after_send": 638,
+            "stable_samples": 26
+          },
+          "actual_publish_count": 1
+        },
+        {
+          "actor": "rule",
+          "raw_output_rad": [
+            -0.02807291666666667,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_model_output_rad": null,
+          "hard_safety_ceiling_output_rad": [
+            -0.02807291666666667,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "safety_limited_output_rad": [
+            -0.02807291666666667,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_command_cap_rad": 0.055,
+          "chosen_delta_rad": [
+            -0.02807291666666667,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_joint_goal_rad": [
+            -0.13806830696381123,
+            0.42952145291838956,
+            -0.11859928578574475,
+            -0.07220225207388306
+          ],
+          "sent_trajectory_endpoint_rad": [
+            -0.13808380641421727,
+            0.42946757187850004,
+            -0.1186951419527017,
+            -0.07211989097066128
+          ],
+          "after_arrival": {
+            "result": "PASS",
+            "at_utc": "2026-10-30T03:25:51.556Z",
+            "actual_positions": [
+              -0.1380768352956255,
+              0.4294675853535211,
+              -0.11869511807787067,
+              -0.0721199116977906
+            ],
+            "errors_rad": [
+              -8.528331814278145e-06,
+              -5.386756486847055e-05,
+              -9.58322921259247e-05,
+              8.234037609246292e-05
+            ],
+            "joint_state_header": {
+              "stamp": {
+                "sec": 72224,
+                "nanosec": 412000000
+              },
+              "frame_id": ""
+            },
+            "fresh_samples_after_send": 638,
+            "stable_samples": 26
+          },
+          "actual_publish_count": 1
+        }
+      ]
+    },
+    {
+      "run_id": "ire3_training_01",
+      "phase": "training",
+      "placement_id": "range_train_left_small",
+      "mode": "rule",
+      "repeat": 1,
+      "ordinal": 3,
+      "kind": "task",
+      "status": "PASS",
+      "failure_reason": null,
+      "model_calls": 0,
+      "logged_action_records": 1,
+      "valid_teacher_records": 1,
+      "alignment_sends": 1,
+      "all_sends": 3,
+      "capture_success": true,
+      "classification": "abnormal",
+      "classification_correct": true,
+      "whole_success": true,
+      "home": "PASS",
+      "elapsed_sec": 72.15246530110016,
+      "manifest": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_training_01\\run_manifest.json",
+      "manifest_sha256": "a823651db0b420a310a672791062cf0cb4de348159ad8c5d307603a3cafc53cc",
+      "raw_video": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_training_01\\trial_screen.mp4",
+      "initial_error_xy_px": [
+        -42.0,
+        0.0
+      ],
+      "observed_errors_xy_px": [
+        [
+          -42.0,
+          0.0
+        ],
+        [
+          -21.0,
+          -1.0
+        ],
+        [
+          -21.0,
+          -1.0
+        ]
+      ],
+      "actions": [
+        {
+          "actor": "rule",
+          "raw_output_rad": [
+            0.030625000000000003,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_model_output_rad": null,
+          "hard_safety_ceiling_output_rad": [
+            0.030625000000000003,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "safety_limited_output_rad": [
+            0.030625000000000003,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_command_cap_rad": 0.055,
+          "chosen_delta_rad": [
+            0.030625000000000003,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_joint_goal_rad": [
+            0.030703624007711188,
+            0.4294495944736615,
+            -0.11865026691874109,
+            -0.07213116982072469
+          ],
+          "sent_trajectory_endpoint_rad": [
+            0.030688169535342605,
+            0.42935938952854796,
+            -0.11862690670277543,
+            -0.07205226202677813
+          ],
+          "after_arrival": {
+            "result": "PASS",
+            "at_utc": "2026-10-30T03:30:09.869Z",
+            "actual_positions": [
+              0.030674147503554815,
+              0.42935943095338713,
+              -0.11862691775673856,
+              -0.07205229846026912
+            ],
+            "errors_rad": [
+              -2.94765041563734e-05,
+              -9.016352027435559e-05,
+              2.3349162002528345e-05,
+              7.88713604555763e-05
+            ],
+            "joint_state_header": {
+              "stamp": {
+                "sec": 72439,
+                "nanosec": 252000000
+              },
+              "frame_id": ""
+            },
+            "fresh_samples_after_send": 639,
+            "stable_samples": 26
+          },
+          "actual_publish_count": 1
+        }
+      ]
+    },
+    {
+      "run_id": "ire3_training_02",
+      "phase": "training",
+      "placement_id": "range_train_right_small",
+      "mode": "rule",
+      "repeat": 1,
+      "ordinal": 4,
+      "kind": "task",
+      "status": "PASS",
+      "failure_reason": null,
+      "model_calls": 0,
+      "logged_action_records": 1,
+      "valid_teacher_records": 1,
+      "alignment_sends": 1,
+      "all_sends": 3,
+      "capture_success": true,
+      "classification": "abnormal",
+      "classification_correct": true,
+      "whole_success": true,
+      "home": "PASS",
+      "elapsed_sec": 69.29434862802736,
+      "manifest": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_training_02\\run_manifest.json",
+      "manifest_sha256": "cd177965afdac4e6dd36d7f2522af98c91277b487b6e0a0d2e207eec9708c28d",
+      "raw_video": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_training_02\\trial_screen.mp4",
+      "initial_error_xy_px": [
+        42.0,
+        0.0
+      ],
+      "observed_errors_xy_px": [
+        [
+          42.0,
+          0.0
+        ],
+        [
+          21.0,
+          -1.0
+        ],
+        [
+          21.0,
+          -1.0
+        ]
+      ],
+      "actions": [
+        {
+          "actor": "rule",
+          "raw_output_rad": [
+            -0.030625000000000003,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_model_output_rad": null,
+          "hard_safety_ceiling_output_rad": [
+            -0.030625000000000003,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "safety_limited_output_rad": [
+            -0.030625000000000003,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_command_cap_rad": 0.055,
+          "chosen_delta_rad": [
+            -0.030625000000000003,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_joint_goal_rad": [
+            -0.030686199461156503,
+            0.42944737083656703,
+            -0.11880977016485422,
+            -0.07205771266898475
+          ],
+          "sent_trajectory_endpoint_rad": [
+            -0.03064993207589723,
+            0.42953605327239247,
+            -0.1188993889250619,
+            -0.0720047005353622
+          ],
+          "after_arrival": {
+            "result": "PASS",
+            "at_utc": "2026-10-30T03:31:21.704Z",
+            "actual_positions": [
+              -0.0306359768151019,
+              0.42953601281599296,
+              -0.11889934795425747,
+              -0.07200472500705726
+            ],
+            "errors_rad": [
+              5.022264605460125e-05,
+              8.864197942592966e-05,
+              -8.957778940324457e-05,
+              5.298766192748938e-05
+            ],
+            "joint_state_header": {
+              "stamp": {
+                "sec": 72496,
+                "nanosec": 532000000
+              },
+              "frame_id": ""
+            },
+            "fresh_samples_after_send": 638,
+            "stable_samples": 26
+          },
+          "actual_publish_count": 1
+        }
+      ]
+    },
+    {
+      "run_id": "ire3_training_03",
+      "phase": "training",
+      "placement_id": "range_train_left_medium",
+      "mode": "rule",
+      "repeat": 1,
+      "ordinal": 5,
+      "kind": "task",
+      "status": "PASS",
+      "failure_reason": null,
+      "model_calls": 0,
+      "logged_action_records": 1,
+      "valid_teacher_records": 1,
+      "alignment_sends": 1,
+      "all_sends": 3,
+      "capture_success": true,
+      "classification": "abnormal",
+      "classification_correct": true,
+      "whole_success": true,
+      "home": "PASS",
+      "elapsed_sec": 73.60827241209336,
+      "manifest": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_training_03\\run_manifest.json",
+      "manifest_sha256": "f043e25ce9b61108c7be19aa2a47740ad6970ce31dd7c4082de0bc59cf3f33de",
+      "raw_video": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_training_03\\trial_screen.mp4",
+      "initial_error_xy_px": [
+        -64.0,
+        0.0
+      ],
+      "observed_errors_xy_px": [
+        [
+          -64.0,
+          0.0
+        ],
+        [
+          -32.0,
+          -2.5
+        ],
+        [
+          -32.0,
+          -2.5
+        ]
+      ],
+      "actions": [
+        {
+          "actor": "rule",
+          "raw_output_rad": [
+            0.04666666666666667,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_model_output_rad": null,
+          "hard_safety_ceiling_output_rad": [
+            0.04666666666666667,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "safety_limited_output_rad": [
+            0.04666666666666667,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_command_cap_rad": 0.055,
+          "chosen_delta_rad": [
+            0.04666666666666667,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_joint_goal_rad": [
+            0.04657746471219386,
+            0.42940509281545547,
+            -0.11869460478789569,
+            -0.07217643084135907
+          ],
+          "sent_trajectory_endpoint_rad": [
+            0.046618402939538166,
+            0.4293191656330195,
+            -0.1187626399060844,
+            -0.07212918050034041
+          ],
+          "after_arrival": {
+            "result": "PASS",
+            "at_utc": "2026-10-30T03:32:33.732Z",
+            "actual_positions": [
+              0.04660928677778042,
+              0.429319182506417,
+              -0.11876262654250636,
+              -0.07212919000880036
+            ],
+            "errors_rad": [
+              3.182206558656475e-05,
+              -8.591030903848385e-05,
+              -6.802175461066706e-05,
+              4.724083255870648e-05
+            ],
+            "joint_state_header": {
+              "stamp": {
+                "sec": 72553,
+                "nanosec": 482000000
+              },
+              "frame_id": ""
+            },
+            "fresh_samples_after_send": 638,
+            "stable_samples": 26
+          },
+          "actual_publish_count": 1
+        }
+      ]
+    },
+    {
+      "run_id": "ire3_training_04",
+      "phase": "training",
+      "placement_id": "range_train_right_medium",
+      "mode": "rule",
+      "repeat": 1,
+      "ordinal": 6,
+      "kind": "task",
+      "status": "PASS",
+      "failure_reason": null,
+      "model_calls": 0,
+      "logged_action_records": 1,
+      "valid_teacher_records": 1,
+      "alignment_sends": 1,
+      "all_sends": 3,
+      "capture_success": true,
+      "classification": "abnormal",
+      "classification_correct": true,
+      "whole_success": true,
+      "home": "PASS",
+      "elapsed_sec": 72.11935836379416,
+      "manifest": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_training_04\\run_manifest.json",
+      "manifest_sha256": "cf4bf94472b45204a114794699d1ad6c5095adc27190f69a7359d63adee0d507",
+      "raw_video": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_training_04\\trial_screen.mp4",
+      "initial_error_xy_px": [
+        63.5,
+        0.0
+      ],
+      "observed_errors_xy_px": [
+        [
+          63.5,
+          0.0
+        ],
+        [
+          32.0,
+          -2.5
+        ],
+        [
+          32.0,
+          -2.5
+        ]
+      ],
+      "actions": [
+        {
+          "actor": "rule",
+          "raw_output_rad": [
+            -0.046302083333333334,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_model_output_rad": null,
+          "hard_safety_ceiling_output_rad": [
+            -0.046302083333333334,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "safety_limited_output_rad": [
+            -0.046302083333333334,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_command_cap_rad": 0.055,
+          "chosen_delta_rad": [
+            -0.046302083333333334,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_joint_goal_rad": [
+            -0.046372135798291615,
+            0.429402026677323,
+            -0.11880492664796438,
+            -0.0720630095761841
+          ],
+          "sent_trajectory_endpoint_rad": [
+            -0.046462295023895185,
+            0.42938688134965997,
+            -0.11882545710729574,
+            -0.07209041122147943
+          ],
+          "after_arrival": {
+            "result": "PASS",
+            "at_utc": "2026-10-30T03:33:45.472Z",
+            "actual_positions": [
+              -0.04645481648158772,
+              0.4293868838936931,
+              -0.11882545371293546,
+              -0.07209040660655132
+            ],
+            "errors_rad": [
+              -8.26806832961019e-05,
+              -1.5142783629906731e-05,
+              -2.052706497107648e-05,
+              -2.7397030367221076e-05
+            ],
+            "joint_state_header": {
+              "stamp": {
+                "sec": 72610,
+                "nanosec": 312000000
+              },
+              "frame_id": ""
+            },
+            "fresh_samples_after_send": 638,
+            "stable_samples": 26
+          },
+          "actual_publish_count": 1
+        }
+      ]
+    },
+    {
+      "run_id": "ire3_training_05",
+      "phase": "training",
+      "placement_id": "range_train_left_large",
+      "mode": "rule",
+      "repeat": 1,
+      "ordinal": 7,
+      "kind": "task",
+      "status": "FAULT_STOP",
+      "failure_reason": "RuntimeError: planned joint1 path exceeds per-operation cap; no send/replan",
+      "model_calls": 0,
+      "logged_action_records": 1,
+      "valid_teacher_records": 0,
+      "alignment_sends": 0,
+      "all_sends": 1,
+      "capture_success": false,
+      "classification": null,
+      "classification_correct": null,
+      "whole_success": false,
+      "home": null,
+      "elapsed_sec": 35.25094211800024,
+      "manifest": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_training_05\\run_manifest.json",
+      "manifest_sha256": "c5f1faa0d7473a83f7ddd45ae5fbe9667795955cb19a3c4c54653f3f05b2c2d6",
+      "raw_video": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_training_05\\trial_screen.mp4",
+      "initial_error_xy_px": [
+        -114.5,
+        0.0
+      ],
+      "observed_errors_xy_px": [
+        [
+          -114.5,
+          0.0
+        ]
+      ],
+      "actions": [
+        {
+          "actor": "rule",
+          "raw_output_rad": [
+            0.08348958333333334,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_model_output_rad": null,
+          "hard_safety_ceiling_output_rad": [
+            0.055,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "safety_limited_output_rad": [
+            0.055,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_command_cap_rad": 0.055,
+          "chosen_delta_rad": [
+            0.055,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_joint_goal_rad": [
+            0.05493876047893428,
+            0.4294810936811958,
+            -0.1187142070964209,
+            -0.07201935900231717
+          ],
+          "sent_trajectory_endpoint_rad": null,
+          "after_arrival": null,
+          "actual_publish_count": 0
+        }
+      ]
+    },
+    {
+      "run_id": "ire3_training_06",
+      "phase": "training",
+      "placement_id": "range_train_right_large",
+      "mode": "rule",
+      "repeat": 1,
+      "ordinal": 8,
+      "kind": "task",
+      "status": "PASS",
+      "failure_reason": null,
+      "model_calls": 0,
+      "logged_action_records": 3,
+      "valid_teacher_records": 3,
+      "alignment_sends": 3,
+      "all_sends": 5,
+      "capture_success": true,
+      "classification": "abnormal",
+      "classification_correct": true,
+      "whole_success": true,
+      "home": "PASS",
+      "elapsed_sec": 114.2789215259254,
+      "manifest": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_training_06\\run_manifest.json",
+      "manifest_sha256": "0182d22d38ee9e4dc9e418356da05583c583abe5d28c25be707b59f028afdfb0",
+      "raw_video": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_training_06\\trial_screen.mp4",
+      "initial_error_xy_px": [
+        114.5,
+        0.0
+      ],
+      "observed_errors_xy_px": [
+        [
+          114.5,
+          0.0
+        ],
+        [
+          76.0,
+          -4.5
+        ],
+        [
+          38.5,
+          -7.5
+        ],
+        [
+          19.5,
+          -8.0
+        ],
+        [
+          19.5,
+          -8.0
+        ]
+      ],
+      "actions": [
+        {
+          "actor": "rule",
+          "raw_output_rad": [
+            -0.08348958333333334,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_model_output_rad": null,
+          "hard_safety_ceiling_output_rad": [
+            -0.055,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "safety_limited_output_rad": [
+            -0.0548,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_command_cap_rad": 0.0548,
+          "chosen_delta_rad": [
+            -0.0548,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_joint_goal_rad": [
+            -0.054890089885843915,
+            0.42938317754306093,
+            -0.11866202135789075,
+            -0.07203771602008671
+          ],
+          "sent_trajectory_endpoint_rad": [
+            -0.054973204078804704,
+            0.4292859148615525,
+            -0.11870287852766791,
+            -0.07206225829208449
+          ],
+          "after_arrival": {
+            "result": "PASS",
+            "at_utc": "2026-10-30T03:44:26.026Z",
+            "actual_positions": [
+              -0.0549274768302765,
+              0.4292859960009542,
+              -0.11870284440163896,
+              -0.0720622376463418
+            ],
+            "errors_rad": [
+              -3.7386944432588054e-05,
+              -9.718154210675012e-05,
+              -4.0823043748208776e-05,
+              -2.4521626255089024e-05
+            ],
+            "joint_state_header": {
+              "stamp": {
+                "sec": 73115,
+                "nanosec": 912000000
+              },
+              "frame_id": ""
+            },
+            "fresh_samples_after_send": 637,
+            "stable_samples": 26
+          },
+          "actual_publish_count": 1
+        },
+        {
+          "actor": "rule",
+          "raw_output_rad": [
+            -0.05541666666666667,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_model_output_rad": null,
+          "hard_safety_ceiling_output_rad": [
+            -0.055,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "safety_limited_output_rad": [
+            -0.0548,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_command_cap_rad": 0.0548,
+          "chosen_delta_rad": [
+            -0.0548,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_joint_goal_rad": [
+            -0.10977320407880403,
+            0.4292859149140623,
+            -0.11870287866163574,
+            -0.07206225833640358
+          ],
+          "sent_trajectory_endpoint_rad": [
+            -0.10977646606466666,
+            0.42936011836210647,
+            -0.1187652082957285,
+            -0.07199401459543889
+          ],
+          "after_arrival": {
+            "result": "PASS",
+            "at_utc": "2026-10-30T03:44:46.293Z",
+            "actual_positions": [
+              -0.10974973244074356,
+              0.42936008216732613,
+              -0.11876517780584114,
+              -0.07199404817184303
+            ],
+            "errors_rad": [
+              2.3471638060476585e-05,
+              7.416725326381268e-05,
+              -6.229914420539939e-05,
+              6.821016456054485e-05
+            ],
+            "joint_state_header": {
+              "stamp": {
+                "sec": 73131,
+                "nanosec": 402000000
+              },
+              "frame_id": ""
+            },
+            "fresh_samples_after_send": 640,
+            "stable_samples": 26
+          },
+          "actual_publish_count": 1
+        },
+        {
+          "actor": "rule",
+          "raw_output_rad": [
+            -0.02807291666666667,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_model_output_rad": null,
+          "hard_safety_ceiling_output_rad": [
+            -0.02807291666666667,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "safety_limited_output_rad": [
+            -0.02807291666666667,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_command_cap_rad": 0.0548,
+          "chosen_delta_rad": [
+            -0.02807291666666667,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_joint_goal_rad": [
+            -0.13784938273133207,
+            0.42936011841461236,
+            -0.1187652084297147,
+            -0.07199401463976426
+          ],
+          "sent_trajectory_endpoint_rad": [
+            -0.13782644548296424,
+            0.4292939544129296,
+            -0.11876353224889566,
+            -0.07208595516698732
+          ],
+          "after_arrival": {
+            "result": "PASS",
+            "at_utc": "2026-10-30T03:45:06.332Z",
+            "actual_positions": [
+              -0.1378188004538327,
+              0.4292939725484878,
+              -0.11876353305853414,
+              -0.0720859299108765
+            ],
+            "errors_rad": [
+              3.0582277499358046e-05,
+              -6.61458661245784e-05,
+              1.675371180565044e-06,
+              -9.191527111224174e-05
+            ],
+            "joint_state_header": {
+              "stamp": {
+                "sec": 73146,
+                "nanosec": 572000000
+              },
+              "frame_id": ""
+            },
+            "fresh_samples_after_send": 638,
+            "stable_samples": 26
+          },
+          "actual_publish_count": 1
+        }
+      ]
+    },
+    {
+      "run_id": "ire3_training_07",
+      "phase": "training",
+      "placement_id": "range_train_left_small",
+      "mode": "rule",
+      "repeat": 2,
+      "ordinal": 9,
+      "kind": "task",
+      "status": "PASS",
+      "failure_reason": null,
+      "model_calls": 0,
+      "logged_action_records": 1,
+      "valid_teacher_records": 1,
+      "alignment_sends": 1,
+      "all_sends": 3,
+      "capture_success": true,
+      "classification": "abnormal",
+      "classification_correct": true,
+      "whole_success": true,
+      "home": "PASS",
+      "elapsed_sec": 74.59615094098262,
+      "manifest": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_training_07\\run_manifest.json",
+      "manifest_sha256": "19ac5c405a38246774456531ba77ed03f2ff83ba8b0c00869898185451f5f599",
+      "raw_video": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_training_07\\trial_screen.mp4",
+      "initial_error_xy_px": [
+        -42.0,
+        0.0
+      ],
+      "observed_errors_xy_px": [
+        [
+          -42.0,
+          0.0
+        ],
+        [
+          -21.0,
+          -1.0
+        ],
+        [
+          -21.0,
+          -1.0
+        ]
+      ],
+      "actions": [
+        {
+          "actor": "rule",
+          "raw_output_rad": [
+            0.030625000000000003,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_model_output_rad": null,
+          "hard_safety_ceiling_output_rad": [
+            0.030625000000000003,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "safety_limited_output_rad": [
+            0.030625000000000003,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_command_cap_rad": 0.0548,
+          "chosen_delta_rad": [
+            0.030625000000000003,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_joint_goal_rad": [
+            0.030532199734309692,
+            0.4295287475323455,
+            -0.1186624013471213,
+            -0.07201608993542255
+          ],
+          "sent_trajectory_endpoint_rad": [
+            0.030439362187031662,
+            0.4294797499675454,
+            -0.11859080979849965,
+            -0.07198485644739927
+          ],
+          "after_arrival": {
+            "result": "PASS",
+            "at_utc": "2026-10-30T03:46:23.533Z",
+            "actual_positions": [
+              0.03042932059865014,
+              0.4294797661847097,
+              -0.11859083369673439,
+              -0.07198486700601221
+            ],
+            "errors_rad": [
+              -0.0001028791356595532,
+              -4.898134763581252e-05,
+              7.156765038691948e-05,
+              3.1222929410337774e-05
+            ],
+            "joint_state_header": {
+              "stamp": {
+                "sec": 73206,
+                "nanosec": 322000000
+              },
+              "frame_id": ""
+            },
+            "fresh_samples_after_send": 640,
+            "stable_samples": 26
+          },
+          "actual_publish_count": 1
+        }
+      ]
+    },
+    {
+      "run_id": "ire3_training_08",
+      "phase": "training",
+      "placement_id": "range_train_right_small",
+      "mode": "rule",
+      "repeat": 2,
+      "ordinal": 10,
+      "kind": "task",
+      "status": "PASS",
+      "failure_reason": null,
+      "model_calls": 0,
+      "logged_action_records": 1,
+      "valid_teacher_records": 1,
+      "alignment_sends": 1,
+      "all_sends": 3,
+      "capture_success": true,
+      "classification": "abnormal",
+      "classification_correct": true,
+      "whole_success": true,
+      "home": "PASS",
+      "elapsed_sec": 78.06964053399861,
+      "manifest": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_training_08\\run_manifest.json",
+      "manifest_sha256": "a087d3adf2661533e5b73371207038d0eb1c0e189a07ad052c2daff4555f6dcd",
+      "raw_video": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_training_08\\trial_screen.mp4",
+      "initial_error_xy_px": [
+        42.0,
+        0.0
+      ],
+      "observed_errors_xy_px": [
+        [
+          42.0,
+          0.0
+        ],
+        [
+          21.0,
+          -1.0
+        ],
+        [
+          21.0,
+          -1.0
+        ]
+      ],
+      "actions": [
+        {
+          "actor": "rule",
+          "raw_output_rad": [
+            -0.030625000000000003,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_model_output_rad": null,
+          "hard_safety_ceiling_output_rad": [
+            -0.030625000000000003,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "safety_limited_output_rad": [
+            -0.030625000000000003,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_command_cap_rad": 0.0548,
+          "chosen_delta_rad": [
+            -0.030625000000000003,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_joint_goal_rad": [
+            -0.03053917014752515,
+            0.42938746235221964,
+            -0.11865756439185136,
+            -0.07213392282561956
+          ],
+          "sent_trajectory_endpoint_rad": [
+            -0.030492307192599405,
+            0.429360742113277,
+            -0.11870634936462524,
+            -0.07203889123029633
+          ],
+          "after_arrival": {
+            "result": "PASS",
+            "at_utc": "2026-10-30T03:47:40.067Z",
+            "actual_positions": [
+              -0.030476839059207245,
+              0.4293607557324343,
+              -0.11870632460162986,
+              -0.07203893958894399
+            ],
+            "errors_rad": [
+              6.233108831790388e-05,
+              -2.6706619785321628e-05,
+              -4.8760209778495045e-05,
+              9.498323667557484e-05
+            ],
+            "joint_state_header": {
+              "stamp": {
+                "sec": 73265,
+                "nanosec": 752000000
+              },
+              "frame_id": ""
+            },
+            "fresh_samples_after_send": 636,
+            "stable_samples": 26
+          },
+          "actual_publish_count": 1
+        }
+      ]
+    },
+    {
+      "run_id": "ire3_training_09",
+      "phase": "training",
+      "placement_id": "range_train_left_medium",
+      "mode": "rule",
+      "repeat": 2,
+      "ordinal": 11,
+      "kind": "task",
+      "status": "PASS",
+      "failure_reason": null,
+      "model_calls": 0,
+      "logged_action_records": 1,
+      "valid_teacher_records": 1,
+      "alignment_sends": 1,
+      "all_sends": 3,
+      "capture_success": true,
+      "classification": "abnormal",
+      "classification_correct": true,
+      "whole_success": true,
+      "home": "PASS",
+      "elapsed_sec": 75.4169900349807,
+      "manifest": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_training_09\\run_manifest.json",
+      "manifest_sha256": "b71e5d7725003904f8a3398d7426d741fa061ffec5d281dbf385027702c41f32",
+      "raw_video": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_training_09\\trial_screen.mp4",
+      "initial_error_xy_px": [
+        -63.5,
+        0.0
+      ],
+      "observed_errors_xy_px": [
+        [
+          -63.5,
+          0.0
+        ],
+        [
+          -32.0,
+          -2.5
+        ],
+        [
+          -32.0,
+          -2.5
+        ]
+      ],
+      "actions": [
+        {
+          "actor": "rule",
+          "raw_output_rad": [
+            0.046302083333333334,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_model_output_rad": null,
+          "hard_safety_ceiling_output_rad": [
+            0.046302083333333334,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "safety_limited_output_rad": [
+            0.046302083333333334,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_command_cap_rad": 0.0548,
+          "chosen_delta_rad": [
+            0.046302083333333334,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_joint_goal_rad": [
+            0.04629561669522275,
+            0.42941700853151915,
+            -0.11872829493602574,
+            -0.072121530296384
+          ],
+          "sent_trajectory_endpoint_rad": [
+            0.04637953713138898,
+            0.429334165907192,
+            -0.11878851975013338,
+            -0.07207709012139646
+          ],
+          "after_arrival": {
+            "result": "PASS",
+            "at_utc": "2026-10-30T03:48:58.121Z",
+            "actual_positions": [
+              0.04637409551165919,
+              0.42933417572815025,
+              -0.1187885126002484,
+              -0.07207709562112001
+            ],
+            "errors_rad": [
+              7.847881643643917e-05,
+              -8.283280336890408e-05,
+              -6.021766422266428e-05,
+              4.443467526399347e-05
+            ],
+            "joint_state_header": {
+              "stamp": {
+                "sec": 73326,
+                "nanosec": 182000000
+              },
+              "frame_id": ""
+            },
+            "fresh_samples_after_send": 639,
+            "stable_samples": 26
+          },
+          "actual_publish_count": 1
+        }
+      ]
+    },
+    {
+      "run_id": "ire3_training_10",
+      "phase": "training",
+      "placement_id": "range_train_right_medium",
+      "mode": "rule",
+      "repeat": 2,
+      "ordinal": 12,
+      "kind": "task",
+      "status": "PASS",
+      "failure_reason": null,
+      "model_calls": 0,
+      "logged_action_records": 1,
+      "valid_teacher_records": 1,
+      "alignment_sends": 1,
+      "all_sends": 3,
+      "capture_success": true,
+      "classification": "abnormal",
+      "classification_correct": true,
+      "whole_success": true,
+      "home": "PASS",
+      "elapsed_sec": 73.23356521083042,
+      "manifest": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_training_10\\run_manifest.json",
+      "manifest_sha256": "f29ab620183afb1e89c943b12037be1abf23d7fdd403ad1d220c618aa1217836",
+      "raw_video": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_training_10\\trial_screen.mp4",
+      "initial_error_xy_px": [
+        63.5,
+        0.0
+      ],
+      "observed_errors_xy_px": [
+        [
+          63.5,
+          0.0
+        ],
+        [
+          32.0,
+          -2.0
+        ],
+        [
+          32.0,
+          -2.0
+        ]
+      ],
+      "actions": [
+        {
+          "actor": "rule",
+          "raw_output_rad": [
+            -0.046302083333333334,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_model_output_rad": null,
+          "hard_safety_ceiling_output_rad": [
+            -0.046302083333333334,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "safety_limited_output_rad": [
+            -0.046302083333333334,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_command_cap_rad": 0.0548,
+          "chosen_delta_rad": [
+            -0.046302083333333334,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_joint_goal_rad": [
+            -0.04638844678158251,
+            0.42937563192099504,
+            -0.11878690184686391,
+            -0.072000082652882
+          ],
+          "sent_trajectory_endpoint_rad": [
+            -0.04636040864212749,
+            0.42943415903728627,
+            -0.11869440262663236,
+            -0.071976186728949
+          ],
+          "after_arrival": {
+            "result": "PASS",
+            "at_utc": "2026-10-30T03:50:11.494Z",
+            "actual_positions": [
+              -0.04635212940330047,
+              0.4294341485682256,
+              -0.11869441952916401,
+              -0.07197619129072598
+            ],
+            "errors_rad": [
+              3.6317378282038626e-05,
+              5.8516647230555385e-05,
+              9.248231769989901e-05,
+              2.3891362156025497e-05
+            ],
+            "joint_state_header": {
+              "stamp": {
+                "sec": 73382,
+                "nanosec": 962000000
+              },
+              "frame_id": ""
+            },
+            "fresh_samples_after_send": 637,
+            "stable_samples": 26
+          },
+          "actual_publish_count": 1
+        }
+      ]
+    },
+    {
+      "run_id": "ire3_training_11",
+      "phase": "training",
+      "placement_id": "range_train_left_large",
+      "mode": "rule",
+      "repeat": 2,
+      "ordinal": 13,
+      "kind": "task",
+      "status": "PASS",
+      "failure_reason": null,
+      "model_calls": 0,
+      "logged_action_records": 3,
+      "valid_teacher_records": 3,
+      "alignment_sends": 3,
+      "all_sends": 5,
+      "capture_success": true,
+      "classification": "abnormal",
+      "classification_correct": true,
+      "whole_success": true,
+      "home": "PASS",
+      "elapsed_sec": 106.48119313200004,
+      "manifest": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_training_11\\run_manifest.json",
+      "manifest_sha256": "7ef26b8a39617a19f409b51fc89a7976c4421ff1110242dc91946442ab267526",
+      "raw_video": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_training_11\\trial_screen.mp4",
+      "initial_error_xy_px": [
+        -114.5,
+        0.0
+      ],
+      "observed_errors_xy_px": [
+        [
+          -114.5,
+          0.0
+        ],
+        [
+          -76.0,
+          -4.5
+        ],
+        [
+          -39.0,
+          -7.5
+        ],
+        [
+          -19.5,
+          -8.0
+        ],
+        [
+          -19.5,
+          -8.0
+        ]
+      ],
+      "actions": [
+        {
+          "actor": "rule",
+          "raw_output_rad": [
+            0.08348958333333334,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_model_output_rad": null,
+          "hard_safety_ceiling_output_rad": [
+            0.055,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "safety_limited_output_rad": [
+            0.0548,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_command_cap_rad": 0.0548,
+          "chosen_delta_rad": [
+            0.0548,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_joint_goal_rad": [
+            0.05480897231637501,
+            0.4295593096578215,
+            -0.1186780280480534,
+            -0.0720850903481374
+          ],
+          "sent_trajectory_endpoint_rad": [
+            0.05472870146874339,
+            0.4294623847729248,
+            -0.11876363043360413,
+            -0.0720624412404968
+          ],
+          "after_arrival": {
+            "result": "PASS",
+            "at_utc": "2026-10-30T03:51:22.842Z",
+            "actual_positions": [
+              0.05469241253310074,
+              0.4294624491539676,
+              -0.11876357357917239,
+              -0.07206245654727605
+            ],
+            "errors_rad": [
+              -0.00011655978327426708,
+              -9.686050385393496e-05,
+              -8.554553111898844e-05,
+              2.263380086134359e-05
+            ],
+            "joint_state_header": {
+              "stamp": {
+                "sec": 73439,
+                "nanosec": 572000000
+              },
+              "frame_id": ""
+            },
+            "fresh_samples_after_send": 639,
+            "stable_samples": 26
+          },
+          "actual_publish_count": 1
+        },
+        {
+          "actor": "rule",
+          "raw_output_rad": [
+            0.05541666666666667,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_model_output_rad": null,
+          "hard_safety_ceiling_output_rad": [
+            0.055,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "safety_limited_output_rad": [
+            0.0548,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_command_cap_rad": 0.0548,
+          "chosen_delta_rad": [
+            0.0548,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_joint_goal_rad": [
+            0.10952870146874273,
+            0.4294623848254515,
+            -0.11876363056761349,
+            -0.07206244128482964
+          ],
+          "sent_trajectory_endpoint_rad": [
+            0.10959509592144685,
+            0.4294446512946582,
+            -0.11873894477796877,
+            -0.07201220069431316
+          ],
+          "after_arrival": {
+            "result": "PASS",
+            "at_utc": "2026-10-30T03:51:40.297Z",
+            "actual_positions": [
+              0.10955402702480807,
+              0.42944466467123604,
+              -0.11873896360873036,
+              -0.07201223858705337
+            ],
+            "errors_rad": [
+              2.532555606533926e-05,
+              -1.7720154215472572e-05,
+              2.4666958883132195e-05,
+              5.0202697776266514e-05
+            ],
+            "joint_state_header": {
+              "stamp": {
+                "sec": 73453,
+                "nanosec": 492000000
+              },
+              "frame_id": ""
+            },
+            "fresh_samples_after_send": 637,
+            "stable_samples": 26
+          },
+          "actual_publish_count": 1
+        },
+        {
+          "actor": "rule",
+          "raw_output_rad": [
+            0.0284375,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_model_output_rad": null,
+          "hard_safety_ceiling_output_rad": [
+            0.0284375,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "safety_limited_output_rad": [
+            0.0284375,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_command_cap_rad": 0.0548,
+          "chosen_delta_rad": [
+            0.0284375,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_joint_goal_rad": [
+            0.13803259592144554,
+            0.42944465134718257,
+            -0.11873894491197196,
+            -0.072012200738642
+          ],
+          "sent_trajectory_endpoint_rad": [
+            0.1379542662444505,
+            0.42949033815983484,
+            -0.11864212863172058,
+            -0.07191916731573976
+          ],
+          "after_arrival": {
+            "result": "PASS",
+            "at_utc": "2026-10-30T03:51:58.193Z",
+            "actual_positions": [
+              0.1379487081931192,
+              0.42949032920825053,
+              -0.11864214795932258,
+              -0.07191918583550433
+            ],
+            "errors_rad": [
+              -8.388772832634839e-05,
+              4.56778610679609e-05,
+              9.679695264937227e-05,
+              9.301490313766425e-05
+            ],
+            "joint_state_header": {
+              "stamp": {
+                "sec": 73467,
+                "nanosec": 512000000
+              },
+              "frame_id": ""
+            },
+            "fresh_samples_after_send": 640,
+            "stable_samples": 26
+          },
+          "actual_publish_count": 1
+        }
+      ]
+    },
+    {
+      "run_id": "ire3_training_12",
+      "phase": "training",
+      "placement_id": "range_train_right_large",
+      "mode": "rule",
+      "repeat": 2,
+      "ordinal": 14,
+      "kind": "task",
+      "status": "PASS",
+      "failure_reason": null,
+      "model_calls": 0,
+      "logged_action_records": 3,
+      "valid_teacher_records": 3,
+      "alignment_sends": 3,
+      "all_sends": 5,
+      "capture_success": true,
+      "classification": "abnormal",
+      "classification_correct": true,
+      "whole_success": true,
+      "home": "PASS",
+      "elapsed_sec": 111.80359551496804,
+      "manifest": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_training_12\\run_manifest.json",
+      "manifest_sha256": "ccab376bc243f0f69349577ec9026bb6de550eab09aaaed88848b097bf6a461d",
+      "raw_video": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_training_12\\trial_screen.mp4",
+      "initial_error_xy_px": [
+        114.5,
+        0.0
+      ],
+      "observed_errors_xy_px": [
+        [
+          114.5,
+          0.0
+        ],
+        [
+          76.0,
+          -4.5
+        ],
+        [
+          39.0,
+          -7.5
+        ],
+        [
+          19.5,
+          -8.0
+        ],
+        [
+          19.5,
+          -8.0
+        ]
+      ],
+      "actions": [
+        {
+          "actor": "rule",
+          "raw_output_rad": [
+            -0.08348958333333334,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_model_output_rad": null,
+          "hard_safety_ceiling_output_rad": [
+            -0.055,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "safety_limited_output_rad": [
+            -0.0548,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_command_cap_rad": 0.0548,
+          "chosen_delta_rad": [
+            -0.0548,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_joint_goal_rad": [
+            -0.05489005176923238,
+            0.4295370087262416,
+            -0.11883642282383734,
+            -0.07203364222740613
+          ],
+          "sent_trajectory_endpoint_rad": [
+            -0.0548065701615531,
+            0.42961848239527883,
+            -0.11878429355514454,
+            -0.07195531559332133
+          ],
+          "after_arrival": {
+            "result": "PASS",
+            "at_utc": "2026-10-30T03:53:10.204Z",
+            "actual_positions": [
+              -0.054769221038353764,
+              0.4296184267843963,
+              -0.11878432949106967,
+              -0.07195536934492952
+            ],
+            "errors_rad": [
+              0.0001208307308786169,
+              8.141805815470304e-05,
+              5.209333276767758e-05,
+              7.82728824766099e-05
+            ],
+            "joint_state_header": {
+              "stamp": {
+                "sec": 73524,
+                "nanosec": 172000000
+              },
+              "frame_id": ""
+            },
+            "fresh_samples_after_send": 639,
+            "stable_samples": 26
+          },
+          "actual_publish_count": 1
+        },
+        {
+          "actor": "rule",
+          "raw_output_rad": [
+            -0.05541666666666667,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_model_output_rad": null,
+          "hard_safety_ceiling_output_rad": [
+            -0.055,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "safety_limited_output_rad": [
+            -0.0548,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_command_cap_rad": 0.0548,
+          "chosen_delta_rad": [
+            -0.0548,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_joint_goal_rad": [
+            -0.10960657016155245,
+            0.4296184824478084,
+            -0.11878429368918426,
+            -0.07195531563765838
+          ],
+          "sent_trajectory_endpoint_rad": [
+            -0.10954123786417702,
+            0.42968868347813544,
+            -0.1186880929416757,
+            -0.07187396128189287
+          ],
+          "after_arrival": {
+            "result": "PASS",
+            "at_utc": "2026-10-30T03:53:29.255Z",
+            "actual_positions": [
+              -0.1095109159225658,
+              0.429688644590619,
+              -0.11868814658786296,
+              -0.07187400663700283
+            ],
+            "errors_rad": [
+              9.565423898665049e-05,
+              7.016214281058142e-05,
+              9.614710132130333e-05,
+              8.130900065554669e-05
+            ],
+            "joint_state_header": {
+              "stamp": {
+                "sec": 73538,
+                "nanosec": 692000000
+              },
+              "frame_id": ""
+            },
+            "fresh_samples_after_send": 640,
+            "stable_samples": 26
+          },
+          "actual_publish_count": 1
+        },
+        {
+          "actor": "rule",
+          "raw_output_rad": [
+            -0.0284375,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_model_output_rad": null,
+          "hard_safety_ceiling_output_rad": [
+            -0.0284375,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "safety_limited_output_rad": [
+            -0.0284375,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_command_cap_rad": 0.0548,
+          "chosen_delta_rad": [
+            -0.0284375,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_joint_goal_rad": [
+            -0.1379787378641757,
+            0.42968868353066947,
+            -0.1186880930757143,
+            -0.07187396132622528
+          ],
+          "sent_trajectory_endpoint_rad": [
+            -0.1378792427194285,
+            0.42960525657840054,
+            -0.11862983125667018,
+            -0.07183869375714715
+          ],
+          "after_arrival": {
+            "result": "PASS",
+            "at_utc": "2026-10-30T03:53:49.124Z",
+            "actual_positions": [
+              -0.1378716705026409,
+              0.4296052789735364,
+              -0.118629847177673,
+              -0.07183870346739188
+            ],
+            "errors_rad": [
+              0.00010706736153479057,
+              -8.340455713307104e-05,
+              5.824589804130642e-05,
+              3.525785883340404e-05
+            ],
+            "joint_state_header": {
+              "stamp": {
+                "sec": 73554,
+                "nanosec": 252000000
+              },
+              "frame_id": ""
+            },
+            "fresh_samples_after_send": 638,
+            "stable_samples": 26
+          },
+          "actual_publish_count": 1
+        }
+      ]
+    },
+    {
+      "run_id": "ire3_tuning_01",
+      "phase": "tuning",
+      "placement_id": "range_tuning_left_medium",
+      "mode": "rule",
+      "repeat": 1,
+      "ordinal": 15,
+      "kind": "task",
+      "status": "PASS",
+      "failure_reason": null,
+      "model_calls": 0,
+      "logged_action_records": 2,
+      "valid_teacher_records": 2,
+      "alignment_sends": 2,
+      "all_sends": 4,
+      "capture_success": true,
+      "classification": "abnormal",
+      "classification_correct": true,
+      "whole_success": true,
+      "home": "PASS",
+      "elapsed_sec": 89.99903468601406,
+      "manifest": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_tuning_01\\run_manifest.json",
+      "manifest_sha256": "9025043eab3cf508af9db28cd238acdb9a6fec6b715b2e56135a2c17bc577830",
+      "raw_video": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_tuning_01\\trial_screen.mp4",
+      "initial_error_xy_px": [
+        -90.5,
+        0.0
+      ],
+      "observed_errors_xy_px": [
+        [
+          -90.5,
+          0.0
+        ],
+        [
+          -53.0,
+          -3.5
+        ],
+        [
+          -27.0,
+          -5.0
+        ],
+        [
+          -27.0,
+          -5.0
+        ]
+      ],
+      "actions": [
+        {
+          "actor": "rule",
+          "raw_output_rad": [
+            0.06598958333333334,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_model_output_rad": null,
+          "hard_safety_ceiling_output_rad": [
+            0.055,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "safety_limited_output_rad": [
+            0.0548,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_command_cap_rad": 0.0548,
+          "chosen_delta_rad": [
+            0.0548,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_joint_goal_rad": [
+            0.05483550253687427,
+            0.4295390245452222,
+            -0.11865896267139565,
+            -0.07206279632394283
+          ],
+          "sent_trajectory_endpoint_rad": [
+            0.054773363557830454,
+            0.4294874225207303,
+            -0.11866227822823662,
+            -0.07196574205724603
+          ],
+          "after_arrival": {
+            "result": "PASS",
+            "at_utc": "2026-10-30T03:55:29.048Z",
+            "actual_positions": [
+              0.05473699169865164,
+              0.4294874569114856,
+              -0.11866227594030818,
+              -0.07196580683360154
+            ],
+            "errors_rad": [
+              -9.85108382226263e-05,
+              -5.1567633736593343e-05,
+              -3.3132689125220383e-06,
+              9.698949034128712e-05
+            ],
+            "joint_state_header": {
+              "stamp": {
+                "sec": 73633,
+                "nanosec": 352000000
+              },
+              "frame_id": ""
+            },
+            "fresh_samples_after_send": 637,
+            "stable_samples": 26
+          },
+          "actual_publish_count": 1
+        },
+        {
+          "actor": "rule",
+          "raw_output_rad": [
+            0.03864583333333334,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_model_output_rad": null,
+          "hard_safety_ceiling_output_rad": [
+            0.03864583333333334,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "safety_limited_output_rad": [
+            0.03864583333333334,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_command_cap_rad": 0.0548,
+          "chosen_delta_rad": [
+            0.03864583333333334,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_joint_goal_rad": [
+            0.09341919689116314,
+            0.4294874225732575,
+            -0.11866227836223468,
+            -0.07196574210157133
+          ],
+          "sent_trajectory_endpoint_rad": [
+            0.09337385907246046,
+            0.4294279720570131,
+            -0.11856402809015625,
+            -0.07188747402229793
+          ],
+          "after_arrival": {
+            "result": "PASS",
+            "at_utc": "2026-10-30T03:55:47.126Z",
+            "actual_positions": [
+              0.0933419600884578,
+              0.42942802128876933,
+              -0.11856410963578562,
+              -0.07188753898845006
+            ],
+            "errors_rad": [
+              -7.723680270534106e-05,
+              -5.9401284488169726e-05,
+              9.816872644906327e-05,
+              7.820311312127515e-05
+            ],
+            "joint_state_header": {
+              "stamp": {
+                "sec": 73647,
+                "nanosec": 532000000
+              },
+              "frame_id": ""
+            },
+            "fresh_samples_after_send": 640,
+            "stable_samples": 26
+          },
+          "actual_publish_count": 1
+        }
+      ]
+    },
+    {
+      "run_id": "ire3_tuning_02",
+      "phase": "tuning",
+      "placement_id": "range_tuning_right_medium",
+      "mode": "rule",
+      "repeat": 1,
+      "ordinal": 16,
+      "kind": "task",
+      "status": "PASS",
+      "failure_reason": null,
+      "model_calls": 0,
+      "logged_action_records": 2,
+      "valid_teacher_records": 2,
+      "alignment_sends": 2,
+      "all_sends": 4,
+      "capture_success": true,
+      "classification": "abnormal",
+      "classification_correct": true,
+      "whole_success": true,
+      "home": "PASS",
+      "elapsed_sec": 88.03249678621069,
+      "manifest": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_tuning_02\\run_manifest.json",
+      "manifest_sha256": "8ff9b6f1227dc7f2c4bf0502a2adb2ab9a95dfbc92bf59947a5d990289ae1a2c",
+      "raw_video": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_tuning_02\\trial_screen.mp4",
+      "initial_error_xy_px": [
+        91.0,
+        -0.5
+      ],
+      "observed_errors_xy_px": [
+        [
+          91.0,
+          -0.5
+        ],
+        [
+          53.0,
+          -3.5
+        ],
+        [
+          27.0,
+          -5.0
+        ],
+        [
+          27.0,
+          -5.0
+        ]
+      ],
+      "actions": [
+        {
+          "actor": "rule",
+          "raw_output_rad": [
+            -0.06635416666666667,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_model_output_rad": null,
+          "hard_safety_ceiling_output_rad": [
+            -0.055,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "safety_limited_output_rad": [
+            -0.0548,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_command_cap_rad": 0.0548,
+          "chosen_delta_rad": [
+            -0.0548,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_joint_goal_rad": [
+            -0.054748650916852055,
+            0.42955656284375304,
+            -0.1187987906495663,
+            -0.07218473043574412
+          ],
+          "sent_trajectory_endpoint_rad": [
+            -0.054832749492581934,
+            0.42953981307029915,
+            -0.11875749286083455,
+            -0.0721046209478045
+          ],
+          "after_arrival": {
+            "result": "PASS",
+            "at_utc": "2026-10-30T03:56:59.868Z",
+            "actual_positions": [
+              -0.054791589924126145,
+              0.42953982573414573,
+              -0.11875752418437487,
+              -0.07210468131117855
+            ],
+            "errors_rad": [
+              -4.2939007274089835e-05,
+              -1.6737109607312117e-05,
+              4.126646519143906e-05,
+              8.004912456557878e-05
+            ],
+            "joint_state_header": {
+              "stamp": {
+                "sec": 73705,
+                "nanosec": 22000000
+              },
+              "frame_id": ""
+            },
+            "fresh_samples_after_send": 638,
+            "stable_samples": 26
+          },
+          "actual_publish_count": 1
+        },
+        {
+          "actor": "rule",
+          "raw_output_rad": [
+            -0.03864583333333334,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_model_output_rad": null,
+          "hard_safety_ceiling_output_rad": [
+            -0.03864583333333334,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "safety_limited_output_rad": [
+            -0.03864583333333334,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_command_cap_rad": 0.0548,
+          "chosen_delta_rad": [
+            -0.03864583333333334,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_joint_goal_rad": [
+            -0.0934785828259146,
+            0.42953981312283357,
+            -0.11875749299486289,
+            -0.07210462099214243
+          ],
+          "sent_trajectory_endpoint_rad": [
+            -0.09340088521012349,
+            0.42956450750374275,
+            -0.11866306354112113,
+            -0.07205573109358708
+          ],
+          "after_arrival": {
+            "result": "PASS",
+            "at_utc": "2026-10-30T03:57:17.505Z",
+            "actual_positions": [
+              -0.09334705534680998,
+              0.42956447304006484,
+              -0.11866319568990658,
+              -0.0720557996159925
+            ],
+            "errors_rad": [
+              0.00013152747910462337,
+              2.4659917231273365e-05,
+              9.429730495631727e-05,
+              4.882137614993509e-05
+            ],
+            "joint_state_header": {
+              "stamp": {
+                "sec": 73718,
+                "nanosec": 952000000
+              },
+              "frame_id": ""
+            },
+            "fresh_samples_after_send": 638,
+            "stable_samples": 26
+          },
+          "actual_publish_count": 1
+        }
+      ]
+    },
+    {
+      "run_id": "ire3_v3_eval_left_fixed",
+      "kind": "task",
+      "phase": "evaluation",
+      "placement_id": "v3_eval_left",
+      "mode": "fixed",
+      "status": "QUALITY_FAIL",
+      "failure_reason": "QualityFailure: fixed observation did not meet capture quality; classification not performed",
+      "model_calls": 0,
+      "logged_action_records": 0,
+      "valid_teacher_records": 0,
+      "alignment_sends": 0,
+      "all_sends": 2,
+      "capture_success": false,
+      "classification": null,
+      "classification_correct": null,
+      "whole_success": false,
+      "home": "PASS",
+      "elapsed_sec": 40.69416718208231,
+      "manifest": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_v3_eval_left_fixed\\run_manifest.json",
+      "manifest_sha256": "ebd74b9711d943f1a9e8ab459459aeb3d6113bcffa16d993cd2e7b311380e885",
+      "raw_video": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_v3_eval_left_fixed\\trial_screen.mp4",
+      "initial_error_xy_px": [
+        -78.0,
+        0.0
+      ],
+      "observed_errors_xy_px": [
+        [
+          -78.0,
+          0.0
+        ]
+      ],
+      "actions": []
+    },
+    {
+      "run_id": "ire3_v3_eval_left_rule",
+      "kind": "task",
+      "phase": "evaluation",
+      "placement_id": "v3_eval_left",
+      "mode": "rule",
+      "status": "PASS",
+      "failure_reason": null,
+      "model_calls": 0,
+      "logged_action_records": 2,
+      "valid_teacher_records": 0,
+      "alignment_sends": 2,
+      "all_sends": 4,
+      "capture_success": true,
+      "classification": "abnormal",
+      "classification_correct": true,
+      "whole_success": true,
+      "home": "PASS",
+      "elapsed_sec": 95.13929628720507,
+      "manifest": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_v3_eval_left_rule\\run_manifest.json",
+      "manifest_sha256": "ead003ccf18491f8b717592b41dab6e6fe5f1f5ccc292bc6a203fdc6088bd363",
+      "raw_video": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_v3_eval_left_rule\\trial_screen.mp4",
+      "initial_error_xy_px": [
+        -78.0,
+        0.0
+      ],
+      "observed_errors_xy_px": [
+        [
+          -78.0,
+          0.0
+        ],
+        [
+          -41.0,
+          -3.0
+        ],
+        [
+          -20.5,
+          -3.5
+        ],
+        [
+          -20.5,
+          -3.5
+        ]
+      ],
+      "actions": [
+        {
+          "actor": "rule",
+          "raw_output_rad": [
+            0.056875,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_model_output_rad": null,
+          "hard_safety_ceiling_output_rad": [
+            0.055,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "safety_limited_output_rad": [
+            0.0548,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_command_cap_rad": 0.0548,
+          "chosen_delta_rad": [
+            0.0548,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_joint_goal_rad": [
+            0.05477155024954118,
+            0.42936678352807717,
+            -0.11873121739598162,
+            -0.07200080131925932
+          ],
+          "sent_trajectory_endpoint_rad": [
+            0.05473781259264797,
+            0.4293026767733048,
+            -0.11868345606634564,
+            -0.07198519897647492
+          ],
+          "after_arrival": {
+            "result": "PASS",
+            "at_utc": "2026-10-30T04:02:03.562Z",
+            "actual_positions": [
+              0.05470131068132159,
+              0.4293027196032447,
+              -0.1186834882522293,
+              -0.07198520966186557
+            ],
+            "errors_rad": [
+              -7.023956821958915e-05,
+              -6.406392483249146e-05,
+              4.772914375232584e-05,
+              1.5591657393745906e-05
+            ],
+            "joint_state_header": {
+              "stamp": {
+                "sec": 73948,
+                "nanosec": 702000000
+              },
+              "frame_id": ""
+            },
+            "fresh_samples_after_send": 638,
+            "stable_samples": 26
+          },
+          "actual_publish_count": 1
+        },
+        {
+          "actor": "rule",
+          "raw_output_rad": [
+            0.029895833333333337,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_model_output_rad": null,
+          "hard_safety_ceiling_output_rad": [
+            0.029895833333333337,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "safety_limited_output_rad": [
+            0.029895833333333337,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_command_cap_rad": 0.0548,
+          "chosen_delta_rad": [
+            0.029895833333333337,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_joint_goal_rad": [
+            0.08463364592598063,
+            0.4293026768258154,
+            -0.1186834562003133,
+            -0.07198519902079305
+          ],
+          "sent_trajectory_endpoint_rad": [
+            0.08454997672455629,
+            0.4292094738583393,
+            -0.11861516758520017,
+            -0.0719144279429124
+          ],
+          "after_arrival": {
+            "result": "PASS",
+            "at_utc": "2026-10-30T04:02:20.839Z",
+            "actual_positions": [
+              0.0845406108180271,
+              0.42920950324187845,
+              -0.11861518939176872,
+              -0.07191445046297555
+            ],
+            "errors_rad": [
+              -9.303510795352632e-05,
+              -9.31735839369563e-05,
+              6.82668085445759e-05,
+              7.0748557817496e-05
+            ],
+            "joint_state_header": {
+              "stamp": {
+                "sec": 73962,
+                "nanosec": 522000000
+              },
+              "frame_id": ""
+            },
+            "fresh_samples_after_send": 640,
+            "stable_samples": 26
+          },
+          "actual_publish_count": 1
+        }
+      ]
+    },
+    {
+      "run_id": "ire3_v3_eval_left_clone",
+      "kind": "task",
+      "phase": "evaluation",
+      "placement_id": "v3_eval_left",
+      "mode": "clone",
+      "status": "PASS",
+      "failure_reason": null,
+      "model_calls": 2,
+      "logged_action_records": 2,
+      "valid_teacher_records": 0,
+      "alignment_sends": 2,
+      "all_sends": 4,
+      "capture_success": true,
+      "classification": "abnormal",
+      "classification_correct": true,
+      "whole_success": true,
+      "home": "PASS",
+      "elapsed_sec": 95.65266817598604,
+      "manifest": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_v3_eval_left_clone\\run_manifest.json",
+      "manifest_sha256": "215c2d1854932aaaac0d41155e38bf2469e7f6163045be34a73d1334b8509e0e",
+      "raw_video": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_v3_eval_left_clone\\trial_screen.mp4",
+      "initial_error_xy_px": [
+        -78.0,
+        0.0
+      ],
+      "observed_errors_xy_px": [
+        [
+          -78.0,
+          0.0
+        ],
+        [
+          -46.5,
+          -2.5
+        ],
+        [
+          -25.0,
+          -3.5
+        ],
+        [
+          -25.0,
+          -3.5
+        ]
+      ],
+      "actions": [
+        {
+          "actor": "clone",
+          "raw_output_rad": [
+            0.046495106823158425,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_model_output_rad": [
+            0.046495106823158425,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "hard_safety_ceiling_output_rad": [
+            0.046495106823158425,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "safety_limited_output_rad": [
+            0.046495106823158425,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_command_cap_rad": 0.0548,
+          "chosen_delta_rad": [
+            0.046495106823158425,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_joint_goal_rad": [
+            0.046446422322488363,
+            0.4294679706674164,
+            -0.118649882840332,
+            -0.0720271552182782
+          ],
+          "sent_trajectory_endpoint_rad": [
+            0.04639170628620588,
+            0.4294180136380812,
+            -0.11873691965175269,
+            -0.07199018005668666
+          ],
+          "after_arrival": {
+            "result": "PASS",
+            "at_utc": "2026-10-30T04:03:40.843Z",
+            "actual_positions": [
+              0.04638327588187776,
+              0.42941802280943436,
+              -0.11873690376700506,
+              -0.07199018705522714
+            ],
+            "errors_rad": [
+              -6.31464406106036e-05,
+              -4.99478579820134e-05,
+              -8.702092667306482e-05,
+              3.69681630510571e-05
+            ],
+            "joint_state_header": {
+              "stamp": {
+                "sec": 74023,
+                "nanosec": 802000000
+              },
+              "frame_id": ""
+            },
+            "fresh_samples_after_send": 638,
+            "stable_samples": 26
+          },
+          "actual_publish_count": 1
+        },
+        {
+          "actor": "clone",
+          "raw_output_rad": [
+            0.031614271381133256,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_model_output_rad": [
+            0.031614271381133256,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "hard_safety_ceiling_output_rad": [
+            0.031614271381133256,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "safety_limited_output_rad": [
+            0.031614271381133256,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_command_cap_rad": 0.0548,
+          "chosen_delta_rad": [
+            0.031614271381133256,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_joint_goal_rad": [
+            0.0780059776673385,
+            0.42941801369060256,
+            -0.11873691978574688,
+            -0.07199018010101312
+          ],
+          "sent_trajectory_endpoint_rad": [
+            0.07804821215978014,
+            0.42932381528802643,
+            -0.11869307805438484,
+            -0.07192095743673883
+          ],
+          "after_arrival": {
+            "result": "PASS",
+            "at_utc": "2026-10-30T04:04:00.123Z",
+            "actual_positions": [
+              0.07803241337044932,
+              0.4293238624020933,
+              -0.11869310028722578,
+              -0.07192099226999826
+            ],
+            "errors_rad": [
+              2.643570311082477e-05,
+              -9.41512885092588e-05,
+              4.38194985210999e-05,
+              6.918783101485249e-05
+            ],
+            "joint_state_header": {
+              "stamp": {
+                "sec": 74038,
+                "nanosec": 542000000
+              },
+              "frame_id": ""
+            },
+            "fresh_samples_after_send": 639,
+            "stable_samples": 26
+          },
+          "actual_publish_count": 1
+        }
+      ]
+    },
+    {
+      "run_id": "ire3_v3_eval_right_fixed",
+      "kind": "task",
+      "phase": "evaluation",
+      "placement_id": "v3_eval_right",
+      "mode": "fixed",
+      "status": "QUALITY_FAIL",
+      "failure_reason": "QualityFailure: fixed observation did not meet capture quality; classification not performed",
+      "model_calls": 0,
+      "logged_action_records": 0,
+      "valid_teacher_records": 0,
+      "alignment_sends": 0,
+      "all_sends": 2,
+      "capture_success": false,
+      "classification": null,
+      "classification_correct": null,
+      "whole_success": false,
+      "home": "PASS",
+      "elapsed_sec": 46.621819337131456,
+      "manifest": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_v3_eval_right_fixed\\run_manifest.json",
+      "manifest_sha256": "cc5e3ff4e26497522212c420fce86d68777f1c740578ff9728faa2f104d1a9fa",
+      "raw_video": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_v3_eval_right_fixed\\trial_screen.mp4",
+      "initial_error_xy_px": [
+        78.0,
+        0.0
+      ],
+      "observed_errors_xy_px": [
+        [
+          78.0,
+          0.0
+        ]
+      ],
+      "actions": []
+    },
+    {
+      "run_id": "ire3_v3_eval_right_rule",
+      "kind": "task",
+      "phase": "evaluation",
+      "placement_id": "v3_eval_right",
+      "mode": "rule",
+      "status": "PASS",
+      "failure_reason": null,
+      "model_calls": 0,
+      "logged_action_records": 2,
+      "valid_teacher_records": 0,
+      "alignment_sends": 2,
+      "all_sends": 4,
+      "capture_success": true,
+      "classification": "abnormal",
+      "classification_correct": true,
+      "whole_success": true,
+      "home": "PASS",
+      "elapsed_sec": 92.1778143120464,
+      "manifest": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_v3_eval_right_rule\\run_manifest.json",
+      "manifest_sha256": "e1ab502e054a3a283bfa04cbee530e93f0e0cf632dae7ddb3fcfc4249c45b547",
+      "raw_video": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_v3_eval_right_rule\\trial_screen.mp4",
+      "initial_error_xy_px": [
+        78.0,
+        0.0
+      ],
+      "observed_errors_xy_px": [
+        [
+          78.0,
+          0.0
+        ],
+        [
+          41.0,
+          -3.5
+        ],
+        [
+          20.0,
+          -4.0
+        ],
+        [
+          20.0,
+          -4.0
+        ]
+      ],
+      "actions": [
+        {
+          "actor": "rule",
+          "raw_output_rad": [
+            -0.056875,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_model_output_rad": null,
+          "hard_safety_ceiling_output_rad": [
+            -0.055,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "safety_limited_output_rad": [
+            -0.0548,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_command_cap_rad": 0.0548,
+          "chosen_delta_rad": [
+            -0.0548,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_joint_goal_rad": [
+            -0.05484297377006151,
+            0.4295560233483275,
+            -0.11869712697615994,
+            -0.07208203155404362
+          ],
+          "sent_trajectory_endpoint_rad": [
+            -0.054911763170082124,
+            0.42965199830599105,
+            -0.11860730038624404,
+            -0.07208551221956905
+          ],
+          "after_arrival": {
+            "result": "PASS",
+            "at_utc": "2026-10-30T04:06:00.734Z",
+            "actual_positions": [
+              -0.05487848743065964,
+              0.42965194010348434,
+              -0.11860735521535062,
+              -0.07208550991096423
+            ],
+            "errors_rad": [
+              -3.551366059813266e-05,
+              9.591675515685516e-05,
+              8.97717608093207e-05,
+              -3.4783569206053855e-06
+            ],
+            "joint_state_header": {
+              "stamp": {
+                "sec": 74133,
+                "nanosec": 162000000
+              },
+              "frame_id": ""
+            },
+            "fresh_samples_after_send": 640,
+            "stable_samples": 26
+          },
+          "actual_publish_count": 1
+        },
+        {
+          "actor": "rule",
+          "raw_output_rad": [
+            -0.029895833333333337,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_model_output_rad": null,
+          "hard_safety_ceiling_output_rad": [
+            -0.029895833333333337,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "safety_limited_output_rad": [
+            -0.029895833333333337,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_command_cap_rad": 0.0548,
+          "chosen_delta_rad": [
+            -0.029895833333333337,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_joint_goal_rad": [
+            -0.0848075965034148,
+            0.42965199835852347,
+            -0.1186073005202762,
+            -0.07208551226390182
+          ],
+          "sent_trajectory_endpoint_rad": [
+            -0.08473677577519102,
+            0.42961901270712355,
+            -0.11864967884938932,
+            -0.07199212674718938
+          ],
+          "after_arrival": {
+            "result": "PASS",
+            "at_utc": "2026-10-30T04:06:18.655Z",
+            "actual_positions": [
+              -0.08472517493556307,
+              0.42961902563992327,
+              -0.11864966228097618,
+              -0.07199216335709809
+            ],
+            "errors_rad": [
+              8.242156785172317e-05,
+              -3.297271860019935e-05,
+              -4.236176069997988e-05,
+              9.334890680373631e-05
+            ],
+            "joint_state_header": {
+              "stamp": {
+                "sec": 74147,
+                "nanosec": 112000000
+              },
+              "frame_id": ""
+            },
+            "fresh_samples_after_send": 638,
+            "stable_samples": 26
+          },
+          "actual_publish_count": 1
+        }
+      ]
+    },
+    {
+      "run_id": "ire3_v3_eval_right_clone",
+      "kind": "task",
+      "phase": "evaluation",
+      "placement_id": "v3_eval_right",
+      "mode": "clone",
+      "status": "PASS",
+      "failure_reason": null,
+      "model_calls": 2,
+      "logged_action_records": 2,
+      "valid_teacher_records": 0,
+      "alignment_sends": 2,
+      "all_sends": 4,
+      "capture_success": true,
+      "classification": "abnormal",
+      "classification_correct": true,
+      "whole_success": true,
+      "home": "PASS",
+      "elapsed_sec": 94.20527153997682,
+      "manifest": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_v3_eval_right_clone\\run_manifest.json",
+      "manifest_sha256": "9b213426ff7d2a17903511de622ebad09b00d48c1fe10658ad484ce04464051a",
+      "raw_video": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_v3_eval_right_clone\\trial_screen.mp4",
+      "initial_error_xy_px": [
+        78.0,
+        0.0
+      ],
+      "observed_errors_xy_px": [
+        [
+          78.0,
+          0.0
+        ],
+        [
+          47.0,
+          -3.0
+        ],
+        [
+          26.0,
+          -3.5
+        ],
+        [
+          26.0,
+          -3.5
+        ]
+      ],
+      "actions": [
+        {
+          "actor": "clone",
+          "raw_output_rad": [
+            -0.045306770620838495,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_model_output_rad": [
+            -0.045306770620838495,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "hard_safety_ceiling_output_rad": [
+            -0.045306770620838495,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "safety_limited_output_rad": [
+            -0.045306770620838495,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_command_cap_rad": 0.0548,
+          "chosen_delta_rad": [
+            -0.045306770620838495,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_joint_goal_rad": [
+            -0.0453511627530388,
+            0.42937802619594434,
+            -0.11876976847500886,
+            -0.07209303286132371
+          ],
+          "sent_trajectory_endpoint_rad": [
+            -0.0453623180261522,
+            0.42946038731616276,
+            -0.11876430436862978,
+            -0.07212344091703152
+          ],
+          "after_arrival": {
+            "result": "PASS",
+            "at_utc": "2026-10-30T04:07:34.019Z",
+            "actual_positions": [
+              -0.04535836546375279,
+              0.42946038013522775,
+              -0.11876430519803016,
+              -0.0721234380671739
+            ],
+            "errors_rad": [
+              -7.202710713992422e-06,
+              8.235393928340828e-05,
+              5.4632769787010815e-06,
+              -3.0405205850195238e-05
+            ],
+            "joint_state_header": {
+              "stamp": {
+                "sec": 74205,
+                "nanosec": 962000000
+              },
+              "frame_id": ""
+            },
+            "fresh_samples_after_send": 640,
+            "stable_samples": 26
+          },
+          "actual_publish_count": 1
+        },
+        {
+          "actor": "clone",
+          "raw_output_rad": [
+            -0.030631803843547457,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_model_output_rad": [
+            -0.030631803843547457,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "hard_safety_ceiling_output_rad": [
+            -0.030631803843547457,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "safety_limited_output_rad": [
+            -0.030631803843547457,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_command_cap_rad": 0.0548,
+          "chosen_delta_rad": [
+            -0.030631803843547457,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "requested_joint_goal_rad": [
+            -0.07599412186969899,
+            0.42946038736867936,
+            -0.11876430450264432,
+            -0.072123440961364
+          ],
+          "sent_trajectory_endpoint_rad": [
+            -0.07596206322009572,
+            0.42952691483454997,
+            -0.11866467895709044,
+            -0.07202405233216592
+          ],
+          "after_arrival": {
+            "result": "PASS",
+            "at_utc": "2026-10-30T04:07:55.306Z",
+            "actual_positions": [
+              -0.07595073085336199,
+              0.4295268901991287,
+              -0.11866471620540701,
+              -0.07202408942628798
+            ],
+            "errors_rad": [
+              4.339101633700493e-05,
+              6.650283044934424e-05,
+              9.958829723730189e-05,
+              9.935153507602268e-05
+            ],
+            "joint_state_header": {
+              "stamp": {
+                "sec": 74222,
+                "nanosec": 352000000
+              },
+              "frame_id": ""
+            },
+            "fresh_samples_after_send": 640,
+            "stable_samples": 26
+          },
+          "actual_publish_count": 1
+        }
+      ]
+    }
+  ],
+  "trajectory_guards": [
+    {
+      "run_id": "ire3_left_20261030_01",
+      "file": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_left_20261030_01\\trajectory_guard_02_align_01.json",
+      "sha256": "95c29b1e03dec694bf8d8db33bd5c11301c7154e0b73cfa602c39672e609fbe0",
+      "requested_delta": [
+        0.055,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "goal_minus_plan_start": [
+        0.055,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_deviations": [
+        0.05491006566975266,
+        5.362928863611449e-05,
+        4.034530138599668e-06,
+        1.568893729708698e-05
+      ],
+      "violations": [],
+      "guard_result": "PASS",
+      "actual_sends": 1,
+      "exact": true
+    },
+    {
+      "run_id": "ire3_left_20261030_01",
+      "file": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_left_20261030_01\\trajectory_guard_03_align_02.json",
+      "sha256": "375d71928bd2faf957ca771d018c6e8314c931c575e4b0132a5ca35b7260dd42",
+      "requested_delta": [
+        0.055,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "goal_minus_plan_start": [
+        0.055,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_deviations": [
+        0.05494682230558246,
+        5.177757735363997e-05,
+        6.656901724637343e-05,
+        9.417524896562779e-05
+      ],
+      "violations": [],
+      "guard_result": "PASS",
+      "actual_sends": 1,
+      "exact": true
+    },
+    {
+      "run_id": "ire3_left_20261030_01",
+      "file": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_left_20261030_01\\trajectory_guard_04_align_03.json",
+      "sha256": "4e4189d2f3848325afb4da46953d2c48ec8d28735461c4ec3a8559ca7885c2df",
+      "requested_delta": [
+        0.02807291666666667,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "goal_minus_plan_start": [
+        0.028072916666666656,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_deviations": [
+        0.0280231143788124,
+        1.8887521093691184e-05,
+        7.800243273377305e-05,
+        8.954628035426349e-05
+      ],
+      "violations": [],
+      "guard_result": "PASS",
+      "actual_sends": 1,
+      "exact": true
+    },
+    {
+      "run_id": "ire3_left_changed_20261030_01",
+      "file": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_left_changed_20261030_01\\trajectory_guard_03_align_01.json",
+      "sha256": "da0582e8e54a340cb0683e30b6b3a7a2952554b1c60543879cc205e7c4ec0f96",
+      "requested_delta": [
+        0.0548,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "goal_minus_plan_start": [
+        0.0548,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_deviations": [
+        0.05488741897093133,
+        4.906334253029776e-05,
+        9.202465740959509e-06,
+        3.257254790514641e-06
+      ],
+      "violations": [],
+      "guard_result": "PASS",
+      "actual_sends": 1,
+      "exact": true
+    },
+    {
+      "run_id": "ire3_left_changed_20261030_01",
+      "file": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_left_changed_20261030_01\\trajectory_guard_04_align_02.json",
+      "sha256": "db93ad9612925da5eab8d5baaef5209c254aa1728a54f2089b1cd10e0c621573",
+      "requested_delta": [
+        0.0548,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "goal_minus_plan_start": [
+        0.0548,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_deviations": [
+        0.05478497377084568,
+        6.182910646312934e-05,
+        9.678150578401601e-05,
+        3.627786459403648e-06
+      ],
+      "violations": [],
+      "guard_result": "PASS",
+      "actual_sends": 1,
+      "exact": true
+    },
+    {
+      "run_id": "ire3_left_changed_20261030_01",
+      "file": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_left_changed_20261030_01\\trajectory_guard_05_align_03.json",
+      "sha256": "a6b9cc7a64b2f88142ee5e28926e6a961c0bd362bfea03f782d35f928fe71908",
+      "requested_delta": [
+        0.0284375,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "goal_minus_plan_start": [
+        0.028437500000000004,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_deviations": [
+        0.028366950189555068,
+        5.288277869114344e-05,
+        9.340573903172944e-05,
+        4.0476547693832354e-05
+      ],
+      "violations": [],
+      "guard_result": "PASS",
+      "actual_sends": 1,
+      "exact": true
+    },
+    {
+      "run_id": "ire3_right_20261030_01",
+      "file": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_right_20261030_01\\trajectory_guard_02_align_01.json",
+      "sha256": "388879ff7675323356c1795fdae8ef55d9e6ce8e9bff082644470a15470e4b2a",
+      "requested_delta": [
+        -0.055,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "goal_minus_plan_start": [
+        -0.055,
+        0.0,
+        1.3877787807814457e-17,
+        0.0
+      ],
+      "max_deviations": [
+        0.05497672802186571,
+        1.4251198805881327e-05,
+        7.436830126682226e-05,
+        4.101901692338261e-05
+      ],
+      "violations": [],
+      "guard_result": "PASS",
+      "actual_sends": 1,
+      "exact": true
+    },
+    {
+      "run_id": "ire3_right_20261030_01",
+      "file": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_right_20261030_01\\trajectory_guard_03_align_02.json",
+      "sha256": "6746bca9e22afa2e4c0e2451ad5ce7153911aa9a478042280fc21bb88c30d34a",
+      "requested_delta": [
+        -0.055,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "goal_minus_plan_start": [
+        -0.055,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_deviations": [
+        0.05492827038303948,
+        2.4905599560587355e-05,
+        2.2916197218003642e-05,
+        6.7646920820702e-05
+      ],
+      "violations": [],
+      "guard_result": "PASS",
+      "actual_sends": 1,
+      "exact": true
+    },
+    {
+      "run_id": "ire3_right_20261030_01",
+      "file": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_right_20261030_01\\trajectory_guard_04_align_03.json",
+      "sha256": "217b4652e8a954f06987ff85b96238ff896d73ebd54f97d16f9f6c99a2712b99",
+      "requested_delta": [
+        -0.02807291666666667,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "goal_minus_plan_start": [
+        -0.028072916666666684,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_deviations": [
+        0.02808841611707273,
+        5.388103988951398e-05,
+        9.585616695695354e-05,
+        8.236110322178136e-05
+      ],
+      "violations": [],
+      "guard_result": "PASS",
+      "actual_sends": 1,
+      "exact": true
+    },
+    {
+      "run_id": "ire3_training_01",
+      "file": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_training_01\\trajectory_guard_02_align_01.json",
+      "sha256": "64eac7abdcba18f53de2b55524bf7ddfc4433083fcff0c9868437eabc6efdc95",
+      "requested_delta": [
+        0.030625000000000003,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "goal_minus_plan_start": [
+        0.030625000000000003,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_deviations": [
+        0.03060954552763142,
+        9.020494511352561e-05,
+        2.3360215965662068e-05,
+        7.890779394656433e-05
+      ],
+      "violations": [],
+      "guard_result": "PASS",
+      "actual_sends": 1,
+      "exact": true
+    },
+    {
+      "run_id": "ire3_training_02",
+      "file": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_training_02\\trajectory_guard_02_align_01.json",
+      "sha256": "d1496a4371369d670c3920395b441c8cd7ef87a01233d61a99e5cb331b2d6595",
+      "requested_delta": [
+        -0.030625000000000003,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "goal_minus_plan_start": [
+        -0.030625000000000003,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_deviations": [
+        0.03058873261474073,
+        8.868243582543789e-05,
+        8.961876020767423e-05,
+        5.301213362254864e-05
+      ],
+      "violations": [],
+      "guard_result": "PASS",
+      "actual_sends": 1,
+      "exact": true
+    },
+    {
+      "run_id": "ire3_training_03",
+      "file": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_training_03\\trajectory_guard_02_align_01.json",
+      "sha256": "b873537d0db5be9b2ea764eef42032923d3e72c2ac839aeb4128328ab63d06b8",
+      "requested_delta": [
+        0.04666666666666667,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "goal_minus_plan_start": [
+        0.04666666666666667,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_deviations": [
+        0.046707604894010976,
+        8.59271824359964e-05,
+        6.803511818871677e-05,
+        4.725034101865644e-05
+      ],
+      "violations": [],
+      "guard_result": "PASS",
+      "actual_sends": 1,
+      "exact": true
+    },
+    {
+      "run_id": "ire3_training_04",
+      "file": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_training_04\\trajectory_guard_02_align_01.json",
+      "sha256": "71a44067d9b5fcd57b746ee8f0f4e82f2786d770c0ab6cc626099d0bc108926e",
+      "requested_delta": [
+        -0.046302083333333334,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "goal_minus_plan_start": [
+        -0.046302083333333334,
+        0.0,
+        1.3877787807814457e-17,
+        0.0
+      ],
+      "max_deviations": [
+        0.046392242558936904,
+        1.514532766305754e-05,
+        2.0530459331341566e-05,
+        2.7401645295327404e-05
+      ],
+      "violations": [],
+      "guard_result": "PASS",
+      "actual_sends": 1,
+      "exact": true
+    },
+    {
+      "run_id": "ire3_training_05",
+      "file": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_training_05\\trajectory_guard_02_align_01.json",
+      "sha256": "6b399b2c027510fed2ca72330fd655d0e8ef11453b65bfa7939a91deada1e46c",
+      "requested_delta": [
+        0.055,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "goal_minus_plan_start": [
+        0.055,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_deviations": [
+        0.05501197807230055,
+        3.285283413717588e-05,
+        8.984422544017212e-05,
+        1.765691461041996e-05
+      ],
+      "violations": [
+        {
+          "joint_name": "crane_plus_joint1",
+          "joint_index": 0,
+          "point_index": 7,
+          "planned_absolute_rad": 0.05495073855123483,
+          "reference_absolute_rad": -6.123952106572608e-05,
+          "signed_deviation_rad": 0.05501197807230055,
+          "limit_rad": 0.055,
+          "numerical_tolerance_rad": 1e-09,
+          "reason": "planned joint1 path exceeds per-operation cap"
+        }
+      ],
+      "guard_result": "FAIL",
+      "actual_sends": 0,
+      "exact": true
+    },
+    {
+      "run_id": "ire3_training_06",
+      "file": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_training_06\\trajectory_guard_02_align_01.json",
+      "sha256": "aa340392bed9d25c0927d041f9799144f77693c20e117c120b8eab1d550bae1f",
+      "requested_delta": [
+        -0.0548,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "goal_minus_plan_start": [
+        -0.0548,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_deviations": [
+        0.05488311419296079,
+        9.726268150844763e-05,
+        4.085716977715592e-05,
+        2.4542271997773923e-05
+      ],
+      "violations": [],
+      "guard_result": "PASS",
+      "actual_sends": 1,
+      "exact": true
+    },
+    {
+      "run_id": "ire3_training_06",
+      "file": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_training_06\\trajectory_guard_03_align_02.json",
+      "sha256": "838dba7c0260f313ee96280e0d89f0c4f9dfa3fc57676001214e1f9d21a7df05",
+      "requested_delta": [
+        -0.0548,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "goal_minus_plan_start": [
+        -0.054799999999999995,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_deviations": [
+        0.05480326198586263,
+        7.420344804415224e-05,
+        6.232963409275039e-05,
+        6.8243740964688e-05
+      ],
+      "violations": [],
+      "guard_result": "PASS",
+      "actual_sends": 1,
+      "exact": true
+    },
+    {
+      "run_id": "ire3_training_06",
+      "file": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_training_06\\trajectory_guard_04_align_03.json",
+      "sha256": "59871298c576e0decba154580acb18099661d5188d6120a2557ef9bfa3974b29",
+      "requested_delta": [
+        -0.02807291666666667,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "goal_minus_plan_start": [
+        -0.02807291666666667,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_deviations": [
+        0.028049979418298843,
+        6.616400168274472e-05,
+        1.6761808190463023e-06,
+        9.194052722305557e-05
+      ],
+      "violations": [],
+      "guard_result": "PASS",
+      "actual_sends": 1,
+      "exact": true
+    },
+    {
+      "run_id": "ire3_training_07",
+      "file": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_training_07\\trajectory_guard_02_align_01.json",
+      "sha256": "e299579bb409619740c703ef344725d8427686195f2a31615bf6374eb06b6a7e",
+      "requested_delta": [
+        0.030625000000000003,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "goal_minus_plan_start": [
+        0.030625000000000003,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_deviations": [
+        0.030532162452721973,
+        4.8997564800090654e-05,
+        7.159154862165784e-05,
+        3.1233488023280076e-05
+      ],
+      "violations": [],
+      "guard_result": "PASS",
+      "actual_sends": 1,
+      "exact": true
+    },
+    {
+      "run_id": "ire3_training_08",
+      "file": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_training_08\\trajectory_guard_02_align_01.json",
+      "sha256": "2108e7996d82f71ad1a69ebf49d79b0a88bb96f75bc35a8aa38510344073aab7",
+      "requested_delta": [
+        -0.030625000000000003,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "goal_minus_plan_start": [
+        -0.030625000000000003,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_deviations": [
+        0.03057813704507426,
+        2.6720238942623542e-05,
+        4.8784972773871504e-05,
+        9.503159532323058e-05
+      ],
+      "violations": [],
+      "guard_result": "PASS",
+      "actual_sends": 1,
+      "exact": true
+    },
+    {
+      "run_id": "ire3_training_09",
+      "file": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_training_09\\trajectory_guard_02_align_01.json",
+      "sha256": "9d9baf9d645956df18f39ff76e9ae538c9a541eb6071fe90efde2cdc3371723b",
+      "requested_delta": [
+        0.046302083333333334,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "goal_minus_plan_start": [
+        0.046302083333333334,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_deviations": [
+        0.04638600376949956,
+        8.284262432717293e-05,
+        6.0224814107640023e-05,
+        4.4440174987545045e-05
+      ],
+      "violations": [],
+      "guard_result": "PASS",
+      "actual_sends": 1,
+      "exact": true
+    },
+    {
+      "run_id": "ire3_training_10",
+      "file": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_training_10\\trajectory_guard_02_align_01.json",
+      "sha256": "80806599a3841250132841ca95e4f048de8cd02b73cb57dd80963b490c987929",
+      "requested_delta": [
+        -0.046302083333333334,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "goal_minus_plan_start": [
+        -0.046302083333333334,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_deviations": [
+        0.046274045193878316,
+        5.852711629122931e-05,
+        9.24992202315511e-05,
+        2.3895923933009433e-05
+      ],
+      "violations": [],
+      "guard_result": "PASS",
+      "actual_sends": 1,
+      "exact": true
+    },
+    {
+      "run_id": "ire3_training_11",
+      "file": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_training_11\\trajectory_guard_02_align_01.json",
+      "sha256": "1885094eafc48ece21084d9bfe0ae21d71d65a7719b880dc92d75080e308148e",
+      "requested_delta": [
+        0.0548,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "goal_minus_plan_start": [
+        0.0548,
+        0.0,
+        1.3877787807814457e-17,
+        0.0
+      ],
+      "max_deviations": [
+        0.054719729152368383,
+        9.69248848967097e-05,
+        8.560238555072042e-05,
+        2.264910764060435e-05
+      ],
+      "violations": [],
+      "guard_result": "PASS",
+      "actual_sends": 1,
+      "exact": true
+    },
+    {
+      "run_id": "ire3_training_11",
+      "file": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_training_11\\trajectory_guard_03_align_02.json",
+      "sha256": "20c10615168708eb9158b469ce668c3ccecc5cd7950f47e79824f0040c9ab6fc",
+      "requested_delta": [
+        0.0548,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "goal_minus_plan_start": [
+        0.0548,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_deviations": [
+        0.05486639445270412,
+        1.7733530793317964e-05,
+        2.4685789644721123e-05,
+        5.0240590516476e-05
+      ],
+      "violations": [],
+      "guard_result": "PASS",
+      "actual_sends": 1,
+      "exact": true
+    },
+    {
+      "run_id": "ire3_training_11",
+      "file": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_training_11\\trajectory_guard_04_align_03.json",
+      "sha256": "6e86c21e6846dcccbef62e62a553c1d03a96bd2214a28c6d52a1525c44e45b5a",
+      "requested_delta": [
+        0.0284375,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "goal_minus_plan_start": [
+        0.028437500000000004,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_deviations": [
+        0.028359170323004973,
+        4.568681265226804e-05,
+        9.681628025137723e-05,
+        9.303342290223338e-05
+      ],
+      "violations": [],
+      "guard_result": "PASS",
+      "actual_sends": 1,
+      "exact": true
+    },
+    {
+      "run_id": "ire3_training_12",
+      "file": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_training_12\\trajectory_guard_02_align_01.json",
+      "sha256": "57de90ff560bdc42738a69641eb6578e5c15cf8faf117e9f72a2da4bab2d344f",
+      "requested_delta": [
+        -0.0548,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "goal_minus_plan_start": [
+        -0.0548,
+        0.0,
+        1.3877787807814457e-17,
+        0.0
+      ],
+      "max_deviations": [
+        0.05471651839232072,
+        8.147366903721309e-05,
+        5.212926869281598e-05,
+        7.832663408480212e-05
+      ],
+      "violations": [],
+      "guard_result": "PASS",
+      "actual_sends": 1,
+      "exact": true
+    },
+    {
+      "run_id": "ire3_training_12",
+      "file": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_training_12\\trajectory_guard_03_align_02.json",
+      "sha256": "bc78af78cbddc44824267c2eb3b0c11ddd62d4a3b5eb6a88d355d868b6e3a1c4",
+      "requested_delta": [
+        -0.0548,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "goal_minus_plan_start": [
+        -0.0548,
+        0.0,
+        -1.3877787807814457e-17,
+        0.0
+      ],
+      "max_deviations": [
+        0.05473466770262457,
+        7.020103032701064e-05,
+        9.620074750854579e-05,
+        8.135435576550609e-05
+      ],
+      "violations": [],
+      "guard_result": "PASS",
+      "actual_sends": 1,
+      "exact": true
+    },
+    {
+      "run_id": "ire3_training_12",
+      "file": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_training_12\\trajectory_guard_04_align_03.json",
+      "sha256": "74bb7fbb8770c56ee314cc901afbd54ffc3725e7374b2e06be3a28e3e48f311d",
+      "requested_delta": [
+        -0.0284375,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "goal_minus_plan_start": [
+        -0.02843749999999999,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_deviations": [
+        0.0283380048552528,
+        8.342695226892793e-05,
+        5.826181904412808e-05,
+        3.526756907813733e-05
+      ],
+      "violations": [],
+      "guard_result": "PASS",
+      "actual_sends": 1,
+      "exact": true
+    },
+    {
+      "run_id": "ire3_tuning_01",
+      "file": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_tuning_01\\trajectory_guard_02_align_01.json",
+      "sha256": "a31c2ead3f391c0a1b448f51d49b1e50a8065971ac55e9a208a1b579e94888f2",
+      "requested_delta": [
+        0.0548,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "goal_minus_plan_start": [
+        0.0548,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_deviations": [
+        0.05473786102095619,
+        5.160202449189244e-05,
+        3.315556840965961e-06,
+        9.705426669680273e-05
+      ],
+      "violations": [],
+      "guard_result": "PASS",
+      "actual_sends": 1,
+      "exact": true
+    },
+    {
+      "run_id": "ire3_tuning_01",
+      "file": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_tuning_01\\trajectory_guard_03_align_02.json",
+      "sha256": "072266face2ade2ca84a7d1c0c533e701e5dfc269445be9240f7c5fe8d63e40c",
+      "requested_delta": [
+        0.03864583333333334,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "goal_minus_plan_start": [
+        0.03864583333333334,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_deviations": [
+        0.038600495514630656,
+        5.945051624439701e-05,
+        9.825027207843728e-05,
+        7.826807927339974e-05
+      ],
+      "violations": [],
+      "guard_result": "PASS",
+      "actual_sends": 1,
+      "exact": true
+    },
+    {
+      "run_id": "ire3_tuning_02",
+      "file": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_tuning_02\\trajectory_guard_02_align_01.json",
+      "sha256": "453e7face918f413fc91b3fa1cdaf2b0b459e770bb16bcee4a3370fa84791c77",
+      "requested_delta": [
+        -0.0548,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "goal_minus_plan_start": [
+        -0.0548,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_deviations": [
+        0.05488409857572988,
+        1.6749773453894612e-05,
+        4.129778873175616e-05,
+        8.010948793962802e-05
+      ],
+      "violations": [],
+      "guard_result": "PASS",
+      "actual_sends": 1,
+      "exact": true
+    },
+    {
+      "run_id": "ire3_tuning_02",
+      "file": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_tuning_02\\trajectory_guard_03_align_02.json",
+      "sha256": "90364307533bdec56586225649d93fe8be536156e923779c711c312eee131882",
+      "requested_delta": [
+        -0.03864583333333334,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "goal_minus_plan_start": [
+        -0.03864583333333334,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_deviations": [
+        0.038568135717542223,
+        2.4694380909184854e-05,
+        9.442945374175948e-05,
+        4.888989855535153e-05
+      ],
+      "violations": [],
+      "guard_result": "PASS",
+      "actual_sends": 1,
+      "exact": true
+    },
+    {
+      "run_id": "ire3_v3_eval_left_rule",
+      "file": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_v3_eval_left_rule\\trajectory_guard_02_align_01.json",
+      "sha256": "35fc94831802f23ced8489c389bd5bb0be05f17a85bcb1be87917fea5fd0e15c",
+      "requested_delta": [
+        0.0548,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "goal_minus_plan_start": [
+        0.0548,
+        0.0,
+        1.3877787807814457e-17,
+        0.0
+      ],
+      "max_deviations": [
+        0.05476626234310679,
+        6.410675477236394e-05,
+        4.7761329635992444e-05,
+        1.5602342784401535e-05
+      ],
+      "violations": [],
+      "guard_result": "PASS",
+      "actual_sends": 1,
+      "exact": true
+    },
+    {
+      "run_id": "ire3_v3_eval_left_rule",
+      "file": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_v3_eval_left_rule\\trajectory_guard_03_align_02.json",
+      "sha256": "bbf8c5c7faa43a67168f35031b5329aa4613aa834e0b83b8a46b1958f3a0532a",
+      "requested_delta": [
+        0.029895833333333337,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "goal_minus_plan_start": [
+        0.02989583333333333,
+        0.0,
+        -1.3877787807814457e-17,
+        0.0
+      ],
+      "max_deviations": [
+        0.029812164131908986,
+        9.320296747611367e-05,
+        6.82886151131129e-05,
+        7.077107788064363e-05
+      ],
+      "violations": [],
+      "guard_result": "PASS",
+      "actual_sends": 1,
+      "exact": true
+    },
+    {
+      "run_id": "ire3_v3_eval_left_clone",
+      "file": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_v3_eval_left_clone\\trajectory_guard_02_align_01.json",
+      "sha256": "2c0149e7453d39d53d64a74097dac5d78f7a399e82b71c39be30a62df39e0d0a",
+      "requested_delta": [
+        0.046495106823158425,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "goal_minus_plan_start": [
+        0.046495106823158425,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_deviations": [
+        0.046440390786875944,
+        4.9957029335190306e-05,
+        8.70368114206932e-05,
+        3.697516159154035e-05
+      ],
+      "violations": [],
+      "guard_result": "PASS",
+      "actual_sends": 1,
+      "exact": true
+    },
+    {
+      "run_id": "ire3_v3_eval_left_clone",
+      "file": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_v3_eval_left_clone\\trajectory_guard_03_align_02.json",
+      "sha256": "805636321639745148586f8e75d5c0013188f17314a1fcbd112a524607ff4cd2",
+      "requested_delta": [
+        0.031614271381133256,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "goal_minus_plan_start": [
+        0.031614271381133256,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_deviations": [
+        0.0316565058735749,
+        9.419840257612888e-05,
+        4.384173136204317e-05,
+        6.922266427428214e-05
+      ],
+      "violations": [],
+      "guard_result": "PASS",
+      "actual_sends": 1,
+      "exact": true
+    },
+    {
+      "run_id": "ire3_v3_eval_right_rule",
+      "file": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_v3_eval_right_rule\\trajectory_guard_02_align_01.json",
+      "sha256": "bb48da2bf7c4fb74e9d31692445126abddb29487c27795d7dc422be2491eee02",
+      "requested_delta": [
+        -0.0548,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "goal_minus_plan_start": [
+        -0.0548,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_deviations": [
+        0.054868789400020615,
+        9.597495766355824e-05,
+        8.982658991590897e-05,
+        3.480665525426585e-06
+      ],
+      "violations": [],
+      "guard_result": "PASS",
+      "actual_sends": 1,
+      "exact": true
+    },
+    {
+      "run_id": "ire3_v3_eval_right_rule",
+      "file": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_v3_eval_right_rule\\trajectory_guard_03_align_02.json",
+      "sha256": "17002a97f2e5880848f5d4b7619e7fa360212770b9c4a1db34cd69dfe197d100",
+      "requested_delta": [
+        -0.029895833333333337,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "goal_minus_plan_start": [
+        -0.029895833333333337,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_deviations": [
+        0.029825012605109565,
+        3.298565139991938e-05,
+        4.237832911312134e-05,
+        9.338551671243811e-05
+      ],
+      "violations": [],
+      "guard_result": "PASS",
+      "actual_sends": 1,
+      "exact": true
+    },
+    {
+      "run_id": "ire3_v3_eval_right_clone",
+      "file": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_v3_eval_right_clone\\trajectory_guard_02_align_01.json",
+      "sha256": "7a5884ee2d7194fa3db95e7fdf181738fd7c5c70826f7eb76f64809839f1821a",
+      "requested_delta": [
+        -0.045306770620838495,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "goal_minus_plan_start": [
+        -0.045306770620838495,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_deviations": [
+        0.045317925893951894,
+        8.236112021842157e-05,
+        5.464106379082789e-06,
+        3.0408055707809023e-05
+      ],
+      "violations": [],
+      "guard_result": "PASS",
+      "actual_sends": 1,
+      "exact": true
+    },
+    {
+      "run_id": "ire3_v3_eval_right_clone",
+      "file": "WORKSPACE\\active_inspection\\range_extension\\results\\campaign_v3_20261030\\runs\\ire3_v3_eval_right_clone\\trajectory_guard_03_align_02.json",
+      "sha256": "d9f379f3448d81dc552aeb3abdba60b01df42b3d8c49c06190b622ccbbfb5b8b",
+      "requested_delta": [
+        -0.030631803843547457,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "goal_minus_plan_start": [
+        -0.03063180384354746,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_deviations": [
+        0.030599745193944185,
+        6.652746587060276e-05,
+        9.962554555387193e-05,
+        9.938862919807445e-05
+      ],
+      "violations": [],
+      "guard_result": "PASS",
+      "actual_sends": 1,
+      "exact": true
+    }
+  ],
+  "final_comparison": {
+    "fixed": {
+      "runs": 2,
+      "capture_successes": 0,
+      "classifications": 0,
+      "classification_correct": 0,
+      "whole_successes": 0,
+      "model_calls": 0,
+      "alignment_sends": 0,
+      "all_sends": 4
+    },
+    "rule": {
+      "runs": 2,
+      "capture_successes": 2,
+      "classifications": 2,
+      "classification_correct": 2,
+      "whole_successes": 2,
+      "model_calls": 0,
+      "alignment_sends": 4,
+      "all_sends": 8
+    },
+    "clone": {
+      "runs": 2,
+      "capture_successes": 2,
+      "classifications": 2,
+      "classification_correct": 2,
+      "whole_successes": 2,
+      "model_calls": 4,
+      "alignment_sends": 4,
+      "all_sends": 8
+    }
+  },
+  "planned_final_placements": 2,
+  "planned_final_runs": 6,
+  "training_teacher_records": 17,
+  "training_episodes_attempted": 12,
+  "training_episodes_with_valid_records": 11,
+  "tuning_teacher_records": 4,
+  "old_rejection_cause": "Original missing trajectory remains unknown; new training05 actual plan overshoot is verified separately.",
+  "model_metadata": {
+    "schema_version": 1,
+    "scope": "horizontal_image_alignment_joint1_only",
+    "algorithm": "NumPy ridge regression behavior cloning",
+    "trainer_source_sha256": "d5dd679ef3b853221f11a2e2e23ccbee989f2d97132e41fffcc7f814292fb45a",
+    "policy_source_sha256": "610cf22713f0281a9a11ecabeff3bad4a52b3265ec0c9c3423b49dc483f3a55a",
+    "created_at_utc": "2026-10-30T03:59:15.670428+00:00",
+    "feature_order": [
+      "center_error_x_px",
+      "joint1_rad"
+    ],
+    "output_order": [
+      "joint1_delta_rad"
+    ],
+    "normalization": "z=(x-training_mean)/training_std; nearconstant std is1",
+    "intercept": "leading constant1; intercept coefficient not regularized",
+    "ridge_alpha": 0.01,
+    "training_mean": [
+      13.441176470588236,
+      -0.009716851793538954
+    ],
+    "candidate_selection": {
+      "predeclared_ridge_alphas": [
+        0.01,
+        0.1,
+        1.0
+      ],
+      "criterion": "minimum safety-limited tuning teacher-action MAE; exact tie chooses smaller alpha",
+      "candidate_scores": [
+        {
+          "ridge_alpha": 0.01,
+          "tuning_limited_action_mae_rad": 0.002269272410946226
+        },
+        {
+          "ridge_alpha": 0.1,
+          "tuning_limited_action_mae_rad": 0.0024816681252438615
+        },
+        {
+          "ridge_alpha": 1.0,
+          "tuning_limited_action_mae_rad": 0.004483703053237817
+        }
+      ],
+      "fitting_and_normalization": "training only",
+      "evaluation_data_used": false
+    },
+    "training_scale": [
+      69.18025950007899,
+      0.050571588417319936
+    ],
+    "weights_intercept_then_features": [
+      -0.008076960784313724,
+      -0.0407109043728891,
+      0.003981390504724942
+    ],
+    "training_rows": 17,
+    "training_run_ids": [
+      "ire3_training_01",
+      "ire3_training_02",
+      "ire3_training_03",
+      "ire3_training_04",
+      "ire3_training_06",
+      "ire3_training_07",
+      "ire3_training_08",
+      "ire3_training_09",
+      "ire3_training_10",
+      "ire3_training_11",
+      "ire3_training_12"
+    ],
+    "planned_training_run_ids": [
+      "ire3_training_01",
+      "ire3_training_02",
+      "ire3_training_03",
+      "ire3_training_04",
+      "ire3_training_05",
+      "ire3_training_06",
+      "ire3_training_07",
+      "ire3_training_08",
+      "ire3_training_09",
+      "ire3_training_10",
+      "ire3_training_11",
+      "ire3_training_12"
+    ],
+    "training_placements": [
+      "range_train_left_large",
+      "range_train_left_medium",
+      "range_train_left_small",
+      "range_train_right_large",
+      "range_train_right_medium",
+      "range_train_right_small"
+    ],
+    "tuning_rows": 4,
+    "tuning_run_ids": [
+      "ire3_tuning_01",
+      "ire3_tuning_02"
+    ],
+    "training_includes_tuning": false,
+    "final_evaluation_used": false,
+    "safety_max_step_rad": 0.055,
+    "requested_command_cap_rad": 0.0548,
+    "excessive_output_rejection_rad": 0.11,
+    "model_sha256": "f3a5d9f3699e7be137c0433b85e4b519593cd020ec96d218b4a350200f81d40e",
+    "numpy_version": "1.24.4",
+    "teacher_diversity": {
+      "teacher_action_records": 17,
+      "episodes_with_valid_teacher_records": 11,
+      "placements_with_valid_teacher_records": [
+        "range_train_left_large",
+        "range_train_left_medium",
+        "range_train_left_small",
+        "range_train_right_large",
+        "range_train_right_medium",
+        "range_train_right_small"
+      ],
+      "joint1_action_distribution_rad": {
+        "-0.0548": 4,
+        "-0.046302083": 2,
+        "-0.030625": 2,
+        "-0.0284375": 1,
+        "-0.028072917": 1,
+        "0.0284375": 1,
+        "0.030625": 2,
+        "0.046302083": 1,
+        "0.046666667": 1,
+        "0.0548": 2
+      },
+      "magnitude_groups_per_direction_rad": {
+        "positive": [
+          0.0284375,
+          0.046302083333333334,
+          0.0548
+        ],
+        "negative": [
+          0.02807291666666667,
+          0.046302083333333334,
+          0.0548
+        ]
+      },
+      "minimum_magnitude_group_separation_rad": 0.003,
+      "saturated_action_count": 0,
+      "minimum8_is_execution_criterion_not_learning_sufficiency": true,
+      "planned_training_episode_count": 12,
+      "consumed_training_episode_count": 12,
+      "episode_terminal_status_counts": {
+        "PASS": 11,
+        "FAULT_STOP": 1
+      },
+      "dataset_rows_including_unusable": 21
+    },
+    "action_agreement_metrics": {
+      "training": {
+        "records": 17,
+        "episodes": 11,
+        "model_raw_mae_rad": 0.007257581974107736,
+        "model_limited_mae_rad": 0.005071789438214968,
+        "constant_limited_mae_rad": 0.0410347029988466,
+        "model_limited_count": 3,
+        "requested_command_cap_rad": 0.0548,
+        "model_rejected_excessive_output_count": 0,
+        "note": "Offline action agreement only; not a robot success-rate comparison."
+      },
+      "tuning": {
+        "records": 4,
+        "episodes": 2,
+        "model_raw_mae_rad": 0.002269272410946226,
+        "model_limited_mae_rad": 0.002269272410946226,
+        "constant_limited_mae_rad": 0.04672291666666667,
+        "model_limited_count": 0,
+        "requested_command_cap_rad": 0.0548,
+        "model_rejected_excessive_output_count": 0,
+        "note": "Offline action agreement only; not a robot success-rate comparison."
+      }
+    },
+    "constant_action_baseline": {
+      "mean_training_action_rad": -0.008076960784313726,
+      "same_step_limit_rad": 0.055,
+      "same_requested_command_cap_rad": 0.0548,
+      "runtime_fallback": false,
+      "tuning_model_action_mae_better_than_constant": true,
+      "interpretation": "Offline action imitation only; this is not evidence of robot success-rate superiority."
+    },
+    "offline_synthetic": false,
+    "execution_trial_count": null,
+    "inputs": {
+      "dataset": {
+        "path": "/home/ubuntu/active_inspection/range_extension/results/campaign_v3_20261030/exports/collection_v1/teacher_actions.jsonl",
+        "sha256": "6e22a000df6793aaff0e6f21ad4d0d42d80782bc0cda7e3ac0077f9b581ae392"
+      },
+      "plan": {
+        "path": "/home/ubuntu/active_inspection/range_extension/results/campaign_v3_20261030/PLAN.json",
+        "sha256": "11e3f708af795ff6b0ec1320c301da2e1c0f83bf24e4cae9ff32fc16af8245b2"
+      },
+      "episode_summary": {
+        "path": "/home/ubuntu/active_inspection/range_extension/results/campaign_v3_20261030/exports/collection_v1/episode_summary.json",
+        "sha256": "55c8da69cd643704d7d05f911da8dd9a95e96427d3ed4ffd5fb011bd1c78029b"
+      }
+    }
+  }
+}

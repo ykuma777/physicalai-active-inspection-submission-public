@@ -1,0 +1,19 @@
+{
+  "topic": "/inspection_camera/image",
+  "subscription_started_at_utc": "2026-10-28T15:45:29.950Z",
+  "received_at_utc": "2026-10-28T15:45:30.151Z",
+  "header_stamp": {
+    "sec": 82,
+    "nanosec": 300000000
+  },
+  "source_encoding": "rgb8",
+  "saved_encoding": "BGR8 PNG",
+  "shape_hwc": [
+    480,
+    640,
+    3
+  ],
+  "pixel_std": 36.46046336773382,
+  "image_sha256": "1476dcc67970e9cf7765d28e8ae0558f5c45d2b48b7b1416674db25b00f88cfc",
+  "image_path": "/home/ubuntu/active_inspection/results/runs/active_pilot_001/observation.png"
+}

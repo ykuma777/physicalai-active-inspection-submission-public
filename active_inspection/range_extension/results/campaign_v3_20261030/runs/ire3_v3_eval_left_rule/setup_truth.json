@@ -1,0 +1,32 @@
+{
+  "run_id": "ire3_v3_eval_left_rule",
+  "placement_id": "v3_eval_left",
+  "phase": "evaluation",
+  "started_at_utc": "2026-10-30T04:01:23.833Z",
+  "result": "PASS",
+  "entity": "active_gauge",
+  "truth_label": "abnormal",
+  "needle_angle_rad": 0.875,
+  "true_world_bottom_xyz": [
+    0.22,
+    0.0215,
+    1.015
+  ],
+  "service_mutation_requests": 2,
+  "automatic_retries": 0,
+  "safety_config": "/home/ubuntu/active_inspection/range_extension/results/campaign_v3_20261030/runs/ire3_v3_eval_left_rule/private_setup/safety_motion.yaml",
+  "finished_at_utc": "2026-10-30T04:01:25.503Z",
+  "actual_target_pose": {
+    "xyz": [
+      0.22,
+      0.0215,
+      1.015
+    ],
+    "quaternion_xyzw": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  }
+}

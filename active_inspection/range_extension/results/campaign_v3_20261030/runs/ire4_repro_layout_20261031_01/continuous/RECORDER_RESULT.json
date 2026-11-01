@@ -1,0 +1,15 @@
+{
+  "at_utc": "2026-10-30T20:29:56.780Z",
+  "counts": {
+    "images": 362,
+    "joints": 6817,
+    "clock": 53336,
+    "poses": 5075,
+    "gui_camera": 6453
+  },
+  "errors": [],
+  "result": "PASS",
+  "camera_world_pose_directly_measured": false,
+  "camera_parent_measured_from_Gazebo": true,
+  "no_generated_or_interpolated_camera_frames": true
+}

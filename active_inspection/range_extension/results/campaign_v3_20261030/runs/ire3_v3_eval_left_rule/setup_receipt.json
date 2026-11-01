@@ -1,0 +1,15 @@
+{
+  "result": "PASS",
+  "run_id": "ire3_v3_eval_left_rule",
+  "phase": "evaluation",
+  "mode": "rule",
+  "private_safety_config": "/home/ubuntu/active_inspection/range_extension/results/campaign_v3_20261030/runs/ire3_v3_eval_left_rule/private_setup/safety_motion.yaml",
+  "private_safety_sha256": "dd856ee1e774089bbcd99258caff6928e3820584a408c8adc74c6af9f45dbeb1",
+  "truth_or_position_included": false,
+  "expected_initial_positions_rad": [
+    9.396830792265366e-05,
+    4.2771587192774555e-05,
+    -9.799437333240714e-05,
+    -2.0841052511008365e-05
+  ]
+}

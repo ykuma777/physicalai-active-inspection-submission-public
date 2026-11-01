@@ -1,0 +1,32 @@
+schema_version: 1
+environment:
+  ros_domain_id: 47
+  partition: physicalai_active_47
+  vnc_port: 6085
+  world: active_inspection
+target:
+  entity: active_gauge
+  # Preparation/scoring only. The visual controller never reads these coordinates.
+  tabletop_positions_xyz:
+    train_01: [0.220, 0.000, 1.015]
+    train_02: [0.220, -0.006, 1.015]
+    train_03: [0.220, 0.006, 1.015]
+    pilot_04: [0.220, 0.012, 1.015]
+    pilot_05: [0.220, -0.012, 1.015]
+    pilot_06: [0.220, 0.010, 1.015]
+    bc_train_01: [0.215, -0.012, 1.015]
+    bc_train_02: [0.215, 0.012, 1.015]
+    bc_train_03: [0.220, -0.016, 1.015]
+    bc_train_04: [0.220, 0.016, 1.015]
+    bc_train_05: [0.225, -0.012, 1.015]
+    bc_train_06: [0.225, 0.012, 1.015]
+    bc_val_01: [0.215, 0.000, 1.015]
+    bc_val_02: [0.225, 0.000, 1.015]
+    bc_val_03: [0.225, -0.014, 1.015]
+    bc_eval_01: [0.217, -0.009, 1.015]
+    bc_eval_02: [0.217, 0.009, 1.015]
+    bc_eval_03: [0.223, -0.015, 1.015]
+    bc_eval_04: [0.223, 0.015, 1.015]
+  yaw_rad: 0.0
+  normal_needle_angle_rad: 0.045
+  abnormal_needle_angle_rad: 0.875

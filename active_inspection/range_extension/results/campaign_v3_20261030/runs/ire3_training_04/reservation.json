@@ -1,0 +1,13 @@
+{
+  "trial": {
+    "run_id": "ire3_training_04",
+    "phase": "training",
+    "placement_id": "range_train_right_medium",
+    "mode": "rule",
+    "repeat": 1,
+    "ordinal": 6,
+    "kind": "task"
+  },
+  "plan_sha256": "f5a0b59f0fc2c5bdd338adabc775b16b1cb87545fdc6a55f37f4ad145ad23244",
+  "at_utc": "2026-10-30T03:33:04.697Z"
+}

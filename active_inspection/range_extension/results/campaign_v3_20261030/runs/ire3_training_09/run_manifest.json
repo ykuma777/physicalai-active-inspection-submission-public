@@ -1,0 +1,3400 @@
+{
+  "schema_version": 2,
+  "run_id": "ire3_training_09",
+  "started_at_utc": "2026-10-30T03:48:23.234Z",
+  "result": "PASS",
+  "stage": "COMPLETE_HOME",
+  "controller": "rule_based_image_feedback",
+  "range_extension": {
+    "axis": "horizontal",
+    "learned_output_joints": [
+      1
+    ],
+    "phase": "training",
+    "teacher_fallback": false
+  },
+  "config_sha256": "06023ff89d2eb65ac47d91a89ac8d9be8c6876bf3a3ab96be070a7e2dab4dc61",
+  "policy_model_sha256": null,
+  "motions": [
+    {
+      "from": "home",
+      "to": "scan_center",
+      "command_id": "f2f3fed13d8f4f6491b3173f520296c2",
+      "publish_count": 1,
+      "arrival": {
+        "result": "PASS",
+        "at_utc": "2026-10-30T03:48:38.029Z",
+        "actual_positions": [
+          -6.45538687527508e-06,
+          0.4292712285340351,
+          -0.11868795582079575,
+          -0.07209702150251499
+        ],
+        "errors_rad": [
+          -6.45538687527508e-06,
+          -0.00019229418744021176,
+          5.0206322441778695e-05,
+          -1.684467228771358e-06
+        ],
+        "joint_state_header": {
+          "stamp": {
+            "sec": 73310,
+            "nanosec": 552000000
+          },
+          "frame_id": ""
+        },
+        "fresh_samples_after_send": 639,
+        "stable_samples": 26
+      },
+      "started_at_utc": "2026-10-30T03:48:26.990Z",
+      "geometry_report": "/home/ubuntu/active_inspection/range_extension/results/campaign_v3_20261030/runs/ire3_training_09/geometry_01.json",
+      "geometry_command": [
+        "/usr/bin/python3",
+        "/home/ubuntu/active_inspection/geometry_check.py",
+        "--report",
+        "/home/ubuntu/active_inspection/range_extension/results/campaign_v3_20261030/runs/ire3_training_09/geometry_01.json"
+      ],
+      "controller_subscriber_check": {
+        "observed_count": 1,
+        "result": "PASS",
+        "at_utc": "2026-10-30T03:48:29.838Z",
+        "published_count": 0
+      },
+      "trajectory": {
+        "header": {
+          "stamp": {
+            "sec": 0,
+            "nanosec": 0
+          },
+          "frame_id": ""
+        },
+        "joint_names": [
+          "crane_plus_joint1",
+          "crane_plus_joint2",
+          "crane_plus_joint3",
+          "crane_plus_joint4"
+        ],
+        "points": [
+          {
+            "positions": [
+              2.66452667303427e-05,
+              1.2466921996091461e-06,
+              9.571556697287334e-05,
+              7.192745055509444e-05
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 0,
+              "nanosec": 150000000
+            }
+          },
+          {
+            "positions": [
+              2.66452667303427e-05,
+              1.2466921996091461e-06,
+              9.571556697287334e-05,
+              7.192745055509444e-05
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 0,
+              "nanosec": 303846154
+            }
+          },
+          {
+            "positions": [
+              2.6259720742194277e-05,
+              0.005001246692199598,
+              -0.001287838798551229,
+              -0.0007686734789754354
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 0,
+              "nanosec": 457692308
+            }
+          },
+          {
+            "positions": [
+              2.5103082777749004e-05,
+              0.02000124669219952,
+              -0.005438501895123524,
+              -0.0032904762675670177
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 0,
+              "nanosec": 611538462
+            }
+          },
+          {
+            "positions": [
+              2.4139217807377945e-05,
+              0.03250124669219945,
+              -0.008897387808933767,
+              -0.005391978591393334
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 0,
+              "nanosec": 765384615
+            }
+          },
+          {
+            "positions": [
+              2.3175352837006886e-05,
+              0.045001246692199376,
+              -0.01235627372274401,
+              -0.007493480915219651
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 0,
+              "nanosec": 919230769
+            }
+          },
+          {
+            "positions": [
+              2.2404260860710028e-05,
+              0.055001246692199454,
+              -0.015123382453792243,
+              -0.009174682774280728
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 1,
+              "nanosec": 73076923
+            }
+          },
+          {
+            "positions": [
+              2.1633168884413166e-05,
+              0.06500124669219953,
+              -0.017890491184840474,
+              -0.010855884633341806
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 1,
+              "nanosec": 226923077
+            }
+          },
+          {
+            "positions": [
+              2.0862076908116307e-05,
+              0.07500124669219961,
+              -0.020657599915888707,
+              -0.012537086492402882
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 1,
+              "nanosec": 380769231
+            }
+          },
+          {
+            "positions": [
+              2.0090984931819435e-05,
+              0.08500124669219986,
+              -0.023424708646936986,
+              -0.014218288351463985
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 1,
+              "nanosec": 534615385
+            }
+          },
+          {
+            "positions": [
+              1.9319892955522566e-05,
+              0.0950012466922001,
+              -0.026191817377985264,
+              -0.01589949021052509
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 1,
+              "nanosec": 688461538
+            }
+          },
+          {
+            "positions": [
+              1.8548800979225694e-05,
+              0.10500124669220035,
+              -0.028958926109033542,
+              -0.017580692069586193
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 1,
+              "nanosec": 842307692
+            }
+          },
+          {
+            "positions": [
+              1.7392163014780452e-05,
+              0.1200012466921999,
+              -0.033109589205605736,
+              -0.020102494858177715
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 1,
+              "nanosec": 996153846
+            }
+          },
+          {
+            "positions": [
+              1.6235525050335206e-05,
+              0.13500124669219946,
+              -0.03726025230217793,
+              -0.022624297646769237
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 2,
+              "nanosec": 150000000
+            }
+          },
+          {
+            "positions": [
+              1.5078887085889964e-05,
+              0.150001246692199,
+              -0.04141091539875012,
+              -0.025146100435360755
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 2,
+              "nanosec": 303846154
+            }
+          },
+          {
+            "positions": [
+              1.392224912144472e-05,
+              0.16500124669219854,
+              -0.04556157849532231,
+              -0.027667903223952274
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 2,
+              "nanosec": 457692308
+            }
+          },
+          {
+            "positions": [
+              1.2765611156999476e-05,
+              0.18000124669219808,
+              -0.049712241591894496,
+              -0.030189706012543793
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 2,
+              "nanosec": 611538462
+            }
+          },
+          {
+            "positions": [
+              1.1608973192554234e-05,
+              0.19500124669219762,
+              -0.05386290468846668,
+              -0.03271150880113531
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 2,
+              "nanosec": 765384615
+            }
+          },
+          {
+            "positions": [
+              1.0452335228108992e-05,
+              0.21000124669219716,
+              -0.05801356778503887,
+              -0.035233311589726826
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 2,
+              "nanosec": 919230769
+            }
+          },
+          {
+            "positions": [
+              9.295697263663752e-06,
+              0.22500124669219668,
+              -0.062164230881611056,
+              -0.03775511437831834
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 3,
+              "nanosec": 73076923
+            }
+          },
+          {
+            "positions": [
+              8.139059299218508e-06,
+              0.24000124669219622,
+              -0.06631489397818324,
+              -0.040276917166909856
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 3,
+              "nanosec": 226923077
+            }
+          },
+          {
+            "positions": [
+              6.982421334773265e-06,
+              0.25500124669219576,
+              -0.07046555707475544,
+              -0.04279871995550138
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 3,
+              "nanosec": 380769231
+            }
+          },
+          {
+            "positions": [
+              6.211329358476352e-06,
+              0.26500124669219655,
+              -0.07323266580580386,
+              -0.044479921814562576
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 3,
+              "nanosec": 534615385
+            }
+          },
+          {
+            "positions": [
+              5.440237382179438e-06,
+              0.2750012466921973,
+              -0.07599977453685229,
+              -0.046161123673623766
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 3,
+              "nanosec": 688461538
+            }
+          },
+          {
+            "positions": [
+              4.6691454058825255e-06,
+              0.28500124669219806,
+              -0.07876688326790071,
+              -0.047842325532684964
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 3,
+              "nanosec": 842307692
+            }
+          },
+          {
+            "positions": [
+              3.89805342958561e-06,
+              0.2950012466921989,
+              -0.08153399199894916,
+              -0.04952352739174617
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 3,
+              "nanosec": 996153846
+            }
+          },
+          {
+            "positions": [
+              3.126961453288694e-06,
+              0.3050012466921997,
+              -0.0843011007299976,
+              -0.051204729250807365
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 4,
+              "nanosec": 150000000
+            }
+          },
+          {
+            "positions": [
+              2.3558694769917786e-06,
+              0.31500124669220053,
+              -0.08706820946104604,
+              -0.05288593110986857
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 4,
+              "nanosec": 303846154
+            }
+          },
+          {
+            "positions": [
+              1.5847775006948666e-06,
+              0.3250012466922013,
+              -0.08983531819209446,
+              -0.05456713296892977
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 4,
+              "nanosec": 457692308
+            }
+          },
+          {
+            "positions": [
+              8.136855243979549e-07,
+              0.3350012466922021,
+              -0.0926024269231429,
+              -0.05624833482799096
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 4,
+              "nanosec": 611538462
+            }
+          },
+          {
+            "positions": [
+              4.259354810104311e-08,
+              0.3450012466922029,
+              -0.09536953565419132,
+              -0.057929536687052155
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 4,
+              "nanosec": 765384615
+            }
+          },
+          {
+            "positions": [
+              -7.284984281958726e-07,
+              0.35500124669220373,
+              -0.09813664438523975,
+              -0.05961073854611335
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 4,
+              "nanosec": 919230769
+            }
+          },
+          {
+            "positions": [
+              -1.4995904044927882e-06,
+              0.3650012466922045,
+              -0.10090375311628819,
+              -0.06129194040517456
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 5,
+              "nanosec": 73076923
+            }
+          },
+          {
+            "positions": [
+              -2.270682380789704e-06,
+              0.37500124669220536,
+              -0.10367086184733662,
+              -0.06297314226423575
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 5,
+              "nanosec": 226923077
+            }
+          },
+          {
+            "positions": [
+              -3.3365647767381812e-06,
+              0.38882427207326753,
+              -0.10749584326948043,
+              -0.06529707186108474
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 5,
+              "nanosec": 380769231
+            }
+          },
+          {
+            "positions": [
+              -4.402447172686658e-06,
+              0.40264729745432964,
+              -0.11132082469162424,
+              -0.06762100145793375
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 5,
+              "nanosec": 534615385
+            }
+          },
+          {
+            "positions": [
+              -5.101773127651377e-06,
+              0.4117165910854631,
+              -0.11383039685073919,
+              -0.06914573278923698
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 5,
+              "nanosec": 688461538
+            }
+          },
+          {
+            "positions": [
+              -5.801099082616096e-06,
+              0.4207858847165966,
+              -0.11633996900985413,
+              -0.07067046412054022
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 5,
+              "nanosec": 842307692
+            }
+          },
+          {
+            "positions": [
+              -6.4286590162486825e-06,
+              0.42892447197886363,
+              -0.11859200459703581,
+              -0.07203872492408561
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 5,
+              "nanosec": 996153846
+            }
+          },
+          {
+            "positions": [
+              -6.466638110578063e-06,
+              0.4294170084790069,
+              -0.11872829480202644,
+              -0.07212153025205524
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 6,
+              "nanosec": 150000000
+            }
+          }
+        ]
+      },
+      "planned_duration_sim_sec": 6.0,
+      "publish_intent_at_utc": "2026-10-30T03:48:29.855Z",
+      "published_at_utc": "2026-10-30T03:48:29.895Z",
+      "fk": {
+        "crane_plus_link_endtip": {
+          "moveit_xyz": [
+            0.08325376456952602,
+            -5.37435259126825e-07,
+            0.22667996685223551
+          ],
+          "world_xyz": [
+            0.08325376456952602,
+            -5.37435259126825e-07,
+            1.2416799668522354
+          ],
+          "quaternion_xyzw": [
+            9.84722142481764e-07,
+            0.30508539968377435,
+            -3.073813141594393e-06,
+            0.9523249964635884
+          ],
+          "local_x_axis_world": [
+            0.8138457977806867,
+            -5.253689481564201e-06,
+            -0.5810809043559394
+          ]
+        },
+        "inspection_camera_link": {
+          "moveit_xyz": [
+            0.10970375299739835,
+            -7.081801672776615e-07,
+            0.2077948374606675
+          ],
+          "world_xyz": [
+            0.10970375299739835,
+            -7.081801672776615e-07,
+            1.2227948374606674
+          ],
+          "quaternion_xyzw": [
+            1.4330096697418561e-06,
+            0.44397328848731954,
+            -2.8921424954103836e-06,
+            0.8960400209250351
+          ],
+          "local_x_axis_world": [
+            0.6057754382027818,
+            -3.910514813192567e-06,
+            -0.7956356694209578
+          ]
+        }
+      }
+    },
+    {
+      "from": "scan_center",
+      "to": "align_01",
+      "command_id": "1db30c1bbd084cf68b06b59670f9e9a4",
+      "publish_count": 1,
+      "arrival": {
+        "result": "PASS",
+        "at_utc": "2026-10-30T03:48:58.121Z",
+        "actual_positions": [
+          0.04637409551165919,
+          0.42933417572815025,
+          -0.1187885126002484,
+          -0.07207709562112001
+        ],
+        "errors_rad": [
+          7.847881643643917e-05,
+          -8.283280336890408e-05,
+          -6.021766422266428e-05,
+          4.443467526399347e-05
+        ],
+        "joint_state_header": {
+          "stamp": {
+            "sec": 73326,
+            "nanosec": 182000000
+          },
+          "frame_id": ""
+        },
+        "fresh_samples_after_send": 639,
+        "stable_samples": 26
+      },
+      "started_at_utc": "2026-10-30T03:48:47.439Z",
+      "geometry_report": "/home/ubuntu/active_inspection/range_extension/results/campaign_v3_20261030/runs/ire3_training_09/geometry_02.json",
+      "geometry_command": [
+        "/usr/bin/python3",
+        "/home/ubuntu/active_inspection/geometry_check.py",
+        "--report",
+        "/home/ubuntu/active_inspection/range_extension/results/campaign_v3_20261030/runs/ire3_training_09/geometry_02.json"
+      ],
+      "controller_subscriber_check": {
+        "observed_count": 1,
+        "result": "PASS",
+        "at_utc": "2026-10-30T03:48:50.067Z",
+        "published_count": 0
+      },
+      "trajectory": {
+        "header": {
+          "stamp": {
+            "sec": 0,
+            "nanosec": 0
+          },
+          "frame_id": ""
+        },
+        "joint_names": [
+          "crane_plus_joint1",
+          "crane_plus_joint2",
+          "crane_plus_joint3",
+          "crane_plus_joint4"
+        ],
+        "points": [
+          {
+            "positions": [
+              -6.466638110578397e-06,
+              0.42941700853151915,
+              -0.11872829493602574,
+              -0.072121530296384
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 0,
+              "nanosec": 150000000
+            }
+          },
+          {
+            "positions": [
+              -6.466638110578397e-06,
+              0.42941700853151915,
+              -0.11872829493602574,
+              -0.072121530296384
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 1,
+              "nanosec": 7142857
+            }
+          },
+          {
+            "positions": [
+              0.004993533361889418,
+              0.4294080788310066,
+              -0.1187347866371008,
+              -0.07211674003947717
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 1,
+              "nanosec": 864285714
+            }
+          },
+          {
+            "positions": [
+              0.019993533361889415,
+              0.42938128972946893,
+              -0.11875426174032598,
+              -0.07210236926875663
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 2,
+              "nanosec": 721428571
+            }
+          },
+          {
+            "positions": [
+              0.028912761985582052,
+              0.4293653605213864,
+              -0.11876584193353501,
+              -0.07209382418945295
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 3,
+              "nanosec": 578571429
+            }
+          },
+          {
+            "positions": [
+              0.03783199060927469,
+              0.42934943131330394,
+              -0.11877742212674403,
+              -0.07208527911014928
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 4,
+              "nanosec": 435714286
+            }
+          },
+          {
+            "positions": [
+              0.04590681108384663,
+              0.4293350101675978,
+              -0.11878790599089517,
+              -0.07207754301723932
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 5,
+              "nanosec": 292857143
+            }
+          },
+          {
+            "positions": [
+              0.04637953713138898,
+              0.429334165907192,
+              -0.11878851975013338,
+              -0.07207709012139646
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 6,
+              "nanosec": 150000000
+            }
+          }
+        ]
+      },
+      "planned_duration_sim_sec": 6.0,
+      "publish_intent_at_utc": "2026-10-30T03:48:50.087Z",
+      "published_at_utc": "2026-10-30T03:48:50.136Z",
+      "fk": {
+        "crane_plus_link_endtip": {
+          "moveit_xyz": [
+            0.08318203972266429,
+            0.0038602594874538113,
+            0.22666982707731437
+          ],
+          "world_xyz": [
+            0.08318203972266429,
+            0.0038602594874538113,
+            1.2416698270773143
+          ],
+          "quaternion_xyzw": [
+            -0.007074980926989922,
+            0.30507173776675955,
+            0.02207911872010912,
+            0.9520471059655586
+          ],
+          "local_x_axis_world": [
+            0.8128874946650256,
+            0.03772396870737277,
+            -0.5811977487931136
+          ]
+        },
+        "inspection_camera_link": {
+          "moveit_xyz": [
+            0.10960088329927763,
+            0.005086288470443426,
+            0.20778090024153817
+          ],
+          "world_xyz": [
+            0.10960088329927763,
+            0.005086288470443426,
+            1.222780900241538
+          ],
+          "quaternion_xyzw": [
+            -0.010294998785752756,
+            0.44391825254184847,
+            0.020773922079744433,
+            0.8957672924491147
+          ],
+          "local_x_axis_world": [
+            0.6050100584432327,
+            0.028076924128059476,
+            -0.7957226373014804
+          ]
+        }
+      }
+    },
+    {
+      "from": "align_01",
+      "to": "home",
+      "command_id": "40f187bbb9cb4d43a1f0d0d6c834cad5",
+      "publish_count": 1,
+      "arrival": {
+        "result": "PASS",
+        "at_utc": "2026-10-30T03:49:27.047Z",
+        "actual_positions": [
+          2.9707303089294536e-05,
+          0.00015789084761006722,
+          5.78398499047351e-05,
+          -0.00010007098394079006
+        ],
+        "errors_rad": [
+          2.9707303089294536e-05,
+          0.00015789084761006722,
+          5.78398499047351e-05,
+          -0.00010007098394079006
+        ],
+        "joint_state_header": {
+          "stamp": {
+            "sec": 73348,
+            "nanosec": 702000000
+          },
+          "frame_id": ""
+        },
+        "fresh_samples_after_send": 640,
+        "stable_samples": 26
+      },
+      "started_at_utc": "2026-10-30T03:49:16.264Z",
+      "geometry_report": "/home/ubuntu/active_inspection/range_extension/results/campaign_v3_20261030/runs/ire3_training_09/geometry_03.json",
+      "geometry_command": [
+        "/usr/bin/python3",
+        "/home/ubuntu/active_inspection/geometry_check.py",
+        "--report",
+        "/home/ubuntu/active_inspection/range_extension/results/campaign_v3_20261030/runs/ire3_training_09/geometry_03.json"
+      ],
+      "controller_subscriber_check": {
+        "observed_count": 1,
+        "result": "PASS",
+        "at_utc": "2026-10-30T03:49:18.969Z",
+        "published_count": 0
+      },
+      "trajectory": {
+        "header": {
+          "stamp": {
+            "sec": 0,
+            "nanosec": 0
+          },
+          "frame_id": ""
+        },
+        "joint_names": [
+          "crane_plus_joint1",
+          "crane_plus_joint2",
+          "crane_plus_joint3",
+          "crane_plus_joint4"
+        ],
+        "points": [
+          {
+            "positions": [
+              0.04637953713138832,
+              0.4293341659597071,
+              -0.11878851988412116,
+              -0.07207709016572496
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 0,
+              "nanosec": 150000000
+            }
+          },
+          {
+            "positions": [
+              0.04637953713138832,
+              0.4293341659597071,
+              -0.11878851988412116,
+              -0.07207709016572496
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 0,
+              "nanosec": 331818182
+            }
+          },
+          {
+            "positions": [
+              0.045839551201702,
+              0.4243341659597071,
+              -0.1174039330972326,
+              -0.07123854172306207
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 0,
+              "nanosec": 513636364
+            }
+          },
+          {
+            "positions": [
+              0.044219593412643046,
+              0.4093341659597071,
+              -0.11325017273656694,
+              -0.06872289639507347
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 0,
+              "nanosec": 695454545
+            }
+          },
+          {
+            "positions": [
+              0.04286962858842725,
+              0.3968341659597071,
+              -0.10978870576934555,
+              -0.06662652528841628
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 0,
+              "nanosec": 877272727
+            }
+          },
+          {
+            "positions": [
+              0.041519663764211456,
+              0.38433416595970715,
+              -0.10632723880212416,
+              -0.06453015418175909
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 1,
+              "nanosec": 59090909
+            }
+          },
+          {
+            "positions": [
+              0.039899705975152536,
+              0.3693341659597074,
+              -0.10217347844145858,
+              -0.062014508853770516
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 1,
+              "nanosec": 240909091
+            }
+          },
+          {
+            "positions": [
+              0.038279748186093615,
+              0.3543341659597077,
+              -0.09801971808079299,
+              -0.059498863525781945
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 1,
+              "nanosec": 422727273
+            }
+          },
+          {
+            "positions": [
+              0.03665979039703469,
+              0.339334165959708,
+              -0.0938659577201274,
+              -0.05698321819779337
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 1,
+              "nanosec": 604545455
+            }
+          },
+          {
+            "positions": [
+              0.03503983260797576,
+              0.32433416595970826,
+              -0.08971219735946183,
+              -0.054467572869804796
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 1,
+              "nanosec": 786363636
+            }
+          },
+          {
+            "positions": [
+              0.03341987481891684,
+              0.30933416595970853,
+              -0.08555843699879623,
+              -0.05195192754181622
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 1,
+              "nanosec": 968181818
+            }
+          },
+          {
+            "positions": [
+              0.03179991702985791,
+              0.2943341659597088,
+              -0.08140467663813063,
+              -0.04943628221382764
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 2,
+              "nanosec": 150000000
+            }
+          },
+          {
+            "positions": [
+              0.030179959240798988,
+              0.27933416595970906,
+              -0.07725091627746504,
+              -0.04692063688583907
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 2,
+              "nanosec": 331818182
+            }
+          },
+          {
+            "positions": [
+              0.028560001451740064,
+              0.2643341659597094,
+              -0.07309715591679945,
+              -0.04440499155785049
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 2,
+              "nanosec": 513636364
+            }
+          },
+          {
+            "positions": [
+              0.02694004366268114,
+              0.2493341659597097,
+              -0.06894339555613387,
+              -0.041889346229861915
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 2,
+              "nanosec": 695454545
+            }
+          },
+          {
+            "positions": [
+              0.025320085873622215,
+              0.23433416595971,
+              -0.06478963519546828,
+              -0.03937370090187334
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 2,
+              "nanosec": 877272727
+            }
+          },
+          {
+            "positions": [
+              0.023700128084563288,
+              0.21933416595971028,
+              -0.06063587483480269,
+              -0.03685805557388476
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 3,
+              "nanosec": 59090909
+            }
+          },
+          {
+            "positions": [
+              0.022080170295504364,
+              0.20433416595971055,
+              -0.056482114474137105,
+              -0.03434241024589619
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 3,
+              "nanosec": 240909091
+            }
+          },
+          {
+            "positions": [
+              0.020460212506445464,
+              0.18933416595971106,
+              -0.05232835411347157,
+              -0.031826764917907646
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 3,
+              "nanosec": 422727273
+            }
+          },
+          {
+            "positions": [
+              0.018840254717386564,
+              0.17433416595971157,
+              -0.04817459375280604,
+              -0.02931111958991911
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 3,
+              "nanosec": 604545455
+            }
+          },
+          {
+            "positions": [
+              0.017220296928327675,
+              0.1593341659597122,
+              -0.04402083339214055,
+              -0.02679547426193059
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 3,
+              "nanosec": 786363636
+            }
+          },
+          {
+            "positions": [
+              0.015600339139268789,
+              0.14433416595971282,
+              -0.039867073031475055,
+              -0.024279828933942073
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 3,
+              "nanosec": 968181818
+            }
+          },
+          {
+            "positions": [
+              0.0139803813502099,
+              0.12933416595971345,
+              -0.03571331267080956,
+              -0.021764183605953554
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 4,
+              "nanosec": 150000000
+            }
+          },
+          {
+            "positions": [
+              0.012360423561151012,
+              0.11433416595971407,
+              -0.03155955231014406,
+              -0.019248538277965035
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 4,
+              "nanosec": 331818182
+            }
+          },
+          {
+            "positions": [
+              0.01074046577209213,
+              0.09933416595971475,
+              -0.027405791949478585,
+              -0.016732892949976527
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 4,
+              "nanosec": 513636364
+            }
+          },
+          {
+            "positions": [
+              0.009120507983033247,
+              0.08433416595971545,
+              -0.02325203158881311,
+              -0.014217247621988019
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 4,
+              "nanosec": 695454545
+            }
+          },
+          {
+            "positions": [
+              0.007500550193974359,
+              0.06933416595971607,
+              -0.019098271228147615,
+              -0.0117016022939995
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 4,
+              "nanosec": 877272727
+            }
+          },
+          {
+            "positions": [
+              0.005880592404915472,
+              0.054334165959716706,
+              -0.01494451086748212,
+              -0.009185956966010983
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 5,
+              "nanosec": 59090909
+            }
+          },
+          {
+            "positions": [
+              0.004389502214581944,
+              0.04052741555790798,
+              -0.011121182032239597,
+              -0.00687043115647664
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 5,
+              "nanosec": 240909091
+            }
+          },
+          {
+            "positions": [
+              0.002898412024248417,
+              0.026720665156099263,
+              -0.007297853196997072,
+              -0.004554905346942297
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 5,
+              "nanosec": 422727273
+            }
+          },
+          {
+            "positions": [
+              0.001921506686185117,
+              0.017675009664383116,
+              -0.0047929541824818555,
+              -0.0030378612818536058
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 5,
+              "nanosec": 604545455
+            }
+          },
+          {
+            "positions": [
+              0.0009446013481218172,
+              0.00862935417266697,
+              -0.0022880551679666386,
+              -0.0015208172167649149
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 5,
+              "nanosec": 786363636
+            }
+          },
+          {
+            "positions": [
+              7.076253136786804e-05,
+              0.000538043189234793,
+              -4.743071271335166e-05,
+              -0.0001638259719133027
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 5,
+              "nanosec": 968181818
+            }
+          },
+          {
+            "positions": [
+              1.916037653572987e-05,
+              6.023300942034724e-05,
+              8.488321960903374e-05,
+              -8.369257547892829e-05
+            ],
+            "velocities": [],
+            "accelerations": [],
+            "effort": [],
+            "time_from_start": {
+              "sec": 6,
+              "nanosec": 150000000
+            }
+          }
+        ]
+      },
+      "planned_duration_sim_sec": 6.0,
+      "publish_intent_at_utc": "2026-10-30T03:49:18.998Z",
+      "published_at_utc": "2026-10-30T03:49:19.051Z",
+      "fk": {
+        "crane_plus_link_endtip": {
+          "moveit_xyz": [
+            2.245970855711635e-05,
+            6.67217369599756e-10,
+            0.24789999849744798
+          ],
+          "world_xyz": [
+            2.245970855711635e-05,
+            6.67217369599756e-10,
+            1.2628999984974478
+          ],
+          "quaternion_xyzw": [
+            -1.4862710883631036e-09,
+            0.00010006099064505099,
+            1.4853651469742193e-05,
+            0.9999999948835836
+          ],
+          "local_x_axis_world": [
+            0.9999999795343344,
+            2.970730249005394e-05,
+            -0.0002001219803103477
+          ]
+        },
+        "inspection_camera_link": {
+          "moveit_xyz": [
+            0.032522459043422984,
+            9.661545482963527e-07,
+            0.2478934945330879
+          ],
+          "world_xyz": [
+            0.032522459043422984,
+            9.661545482963527e-07,
+            1.2628934945330879
+          ],
+          "quaternion_xyzw": [
+            -2.2211715179181523e-06,
+            0.14953706912259102,
+            1.4686638869447474e-05,
+            0.9887561199495022
+          ],
+          "local_x_axis_world": [
+            0.9552773294850562,
+            2.837871316969274e-05,
+            -0.2957113845737903
+          ]
+        }
+      }
+    }
+  ],
+  "observations": [
+    {
+      "source_image_path": "/home/ubuntu/active_inspection/range_extension/results/campaign_v3_20261030/runs/ire3_training_09/camera_01.png",
+      "metadata": {
+        "topic": "/inspection_camera/image",
+        "subscription_started_at_utc": "2026-10-30T03:48:45.103Z",
+        "received_at_utc": "2026-10-30T03:48:46.918Z",
+        "header_stamp": {
+          "sec": 73317,
+          "nanosec": 300000000
+        },
+        "source_encoding": "rgb8",
+        "saved_encoding": "BGR8 PNG",
+        "shape_hwc": [
+          480,
+          640,
+          3
+        ],
+        "pixel_std": 36.765439731234096,
+        "image_sha256": "0e706ba0f5a009e32281781e8922a9aa38fc62e6738b241d670760a665bbe857",
+        "image_path": "/home/ubuntu/active_inspection/range_extension/results/campaign_v3_20261030/runs/ire3_training_09/camera_01.png"
+      },
+      "detection": {
+        "detected": true,
+        "dial_bbox_xywh": [
+          138,
+          245,
+          237,
+          118
+        ],
+        "center_xy": [
+          256.5,
+          304.0
+        ],
+        "center_error_xy_px": [
+          -63.5,
+          0.0
+        ],
+        "dial_width_px": 237,
+        "dark_rim_pixels": 6809,
+        "fully_in_frame": true
+      },
+      "quality": {
+        "result": "FAIL",
+        "reasons": [
+          "dial center outside tolerance"
+        ]
+      }
+    },
+    {
+      "source_image_path": "/home/ubuntu/active_inspection/range_extension/results/campaign_v3_20261030/runs/ire3_training_09/camera_02.png",
+      "metadata": {
+        "topic": "/inspection_camera/image",
+        "subscription_started_at_utc": "2026-10-30T03:49:04.741Z",
+        "received_at_utc": "2026-10-30T03:49:05.128Z",
+        "header_stamp": {
+          "sec": 73331,
+          "nanosec": 500000000
+        },
+        "source_encoding": "rgb8",
+        "saved_encoding": "BGR8 PNG",
+        "shape_hwc": [
+          480,
+          640,
+          3
+        ],
+        "pixel_std": 36.775976537236346,
+        "image_sha256": "0a8e754328bb02853d5fea0aeb1c8f304c928b624d64ba3cd679c153021bb426",
+        "image_path": "/home/ubuntu/active_inspection/range_extension/results/campaign_v3_20261030/runs/ire3_training_09/camera_02.png"
+      },
+      "detection": {
+        "detected": true,
+        "dial_bbox_xywh": [
+          171,
+          242,
+          234,
+          119
+        ],
+        "center_xy": [
+          288.0,
+          301.5
+        ],
+        "center_error_xy_px": [
+          -32.0,
+          -2.5
+        ],
+        "dial_width_px": 234,
+        "dark_rim_pixels": 6737,
+        "fully_in_frame": true
+      },
+      "quality": {
+        "result": "PASS",
+        "reasons": []
+      }
+    },
+    {
+      "source_image_path": "/home/ubuntu/active_inspection/range_extension/results/campaign_v3_20261030/runs/ire3_training_09/camera_03.png",
+      "metadata": {
+        "topic": "/inspection_camera/image",
+        "subscription_started_at_utc": "2026-10-30T03:49:12.174Z",
+        "received_at_utc": "2026-10-30T03:49:12.431Z",
+        "header_stamp": {
+          "sec": 73337,
+          "nanosec": 100000000
+        },
+        "source_encoding": "rgb8",
+        "saved_encoding": "BGR8 PNG",
+        "shape_hwc": [
+          480,
+          640,
+          3
+        ],
+        "pixel_std": 36.775976537236346,
+        "image_sha256": "0a8e754328bb02853d5fea0aeb1c8f304c928b624d64ba3cd679c153021bb426",
+        "image_path": "/home/ubuntu/active_inspection/range_extension/results/campaign_v3_20261030/runs/ire3_training_09/camera_03.png"
+      },
+      "detection": {
+        "detected": true,
+        "dial_bbox_xywh": [
+          171,
+          242,
+          234,
+          119
+        ],
+        "center_xy": [
+          288.0,
+          301.5
+        ],
+        "center_error_xy_px": [
+          -32.0,
+          -2.5
+        ],
+        "dial_width_px": 234,
+        "dark_rim_pixels": 6737,
+        "fully_in_frame": true
+      },
+      "quality": {
+        "result": "PASS",
+        "reasons": []
+      }
+    }
+  ],
+  "actions": [
+    {
+      "source_ros_image_sha256": "0e706ba0f5a009e32281781e8922a9aa38fc62e6738b241d670760a665bbe857",
+      "source_image_path": "/home/ubuntu/active_inspection/range_extension/results/campaign_v3_20261030/runs/ire3_training_09/camera_01.png",
+      "source_image_stamp": {
+        "sec": 73317,
+        "nanosec": 300000000
+      },
+      "detection": {
+        "detected": true,
+        "dial_bbox_xywh": [
+          138,
+          245,
+          237,
+          118
+        ],
+        "center_xy": [
+          256.5,
+          304.0
+        ],
+        "center_error_xy_px": [
+          -63.5,
+          0.0
+        ],
+        "dial_width_px": 237,
+        "dark_rim_pixels": 6809,
+        "fully_in_frame": true
+      },
+      "q_before_rad": [
+        -6.466638110578403e-06,
+        0.42941700853151915,
+        -0.11872829493602574,
+        -0.072121530296384
+      ],
+      "operation_joint_sample": {
+        "observed_at_utc": "2026-10-30T03:48:47.327Z",
+        "positions_rad": [
+          -6.466638110578403e-06,
+          0.42941700853151915,
+          -0.11872829493602574,
+          -0.072121530296384
+        ],
+        "joint_names": [
+          "crane_plus_joint1",
+          "crane_plus_joint2",
+          "crane_plus_joint3",
+          "crane_plus_joint4"
+        ],
+        "joint_state": {
+          "header": {
+            "stamp": {
+              "sec": 73317,
+              "nanosec": 612000000
+            },
+            "frame_id": ""
+          },
+          "name": [
+            "crane_plus_joint1",
+            "crane_plus_joint2",
+            "crane_plus_joint4",
+            "crane_plus_joint3",
+            "crane_plus_joint_hand"
+          ],
+          "position": [
+            -6.466638110578403e-06,
+            0.42941700853151915,
+            -0.072121530296384,
+            -0.11872829493602574,
+            -7.880784246439721e-12
+          ],
+          "velocity": [
+            -4.336808689942018e-19,
+            2.6732088764802597e-14,
+            -6.449701883681769e-15,
+            -6.210093203562472e-15,
+            0.0
+          ],
+          "effort": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "received_monotonic": 1112968.255732627,
+        "sample_sequence": 732,
+        "timestamp_semantics": "observed_at_utc is local read time; sensor time is joint_state.header.stamp"
+      },
+      "result": "PASS",
+      "actor": "rule",
+      "image_features": {
+        "detected": true,
+        "center_error_x_px": -63.5,
+        "center_error_y_px": 0.0,
+        "dial_width_px": 237.0
+      },
+      "model_feature_order": [
+        "center_error_x_px",
+        "joint1_rad"
+      ],
+      "model_input_features": [
+        -63.5,
+        -6.466638110578403e-06
+      ],
+      "current_joint_positions_rad": [
+        -6.466638110578403e-06,
+        0.42941700853151915,
+        -0.11872829493602574,
+        -0.072121530296384
+      ],
+      "raw_output_rad": [
+        0.046302083333333334,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "raw_model_output_rad": null,
+      "raw_teacher_output_rad": [
+        0.046302083333333334,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "safety_limited_output_rad": [
+        0.046302083333333334,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "limited_joints": [],
+      "model_call_count_increment": 0,
+      "teacher_decision_count_increment": 1,
+      "max_step_rad": 0.055,
+      "fallback_actor": null,
+      "teacher": {
+        "method": "fixed proportional horizontal image feedback",
+        "gain": 0.5,
+        "desired_error_x_px": 0.0,
+        "measured_pixels_per_rad": 685.7142857142857,
+        "calibration_sha256": "e8b396ff11fc32b4e083d72bc470963b9c8bb44db5489c3e04be71f1e81283dc"
+      },
+      "hard_safety_ceiling_output_rad": [
+        0.046302083333333334,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "requested_command_cap_rad": 0.0548,
+      "chosen_delta_rad": [
+        0.046302083333333334,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "requested_joint_goal_rad": [
+        0.04629561669522275,
+        0.42941700853151915,
+        -0.11872829493602574,
+        -0.072121530296384
+      ],
+      "validated_plan_joint_goal_rad": [
+        0.04629561669522275,
+        0.42941700853151915,
+        -0.11872829493602574,
+        -0.072121530296384
+      ],
+      "sent_trajectory_endpoint_rad": [
+        0.04637953713138898,
+        0.429334165907192,
+        -0.11878851975013338,
+        -0.07207709012139646
+      ],
+      "sent_command_id": "1db30c1bbd084cf68b06b59670f9e9a4",
+      "actual_sent_at_utc": "2026-10-30T03:48:50.136Z",
+      "actual_publish_count": 1,
+      "after_arrival": {
+        "result": "PASS",
+        "at_utc": "2026-10-30T03:48:58.121Z",
+        "actual_positions": [
+          0.04637409551165919,
+          0.42933417572815025,
+          -0.1187885126002484,
+          -0.07207709562112001
+        ],
+        "errors_rad": [
+          7.847881643643917e-05,
+          -8.283280336890408e-05,
+          -6.021766422266428e-05,
+          4.443467526399347e-05
+        ],
+        "joint_state_header": {
+          "stamp": {
+            "sec": 73326,
+            "nanosec": 182000000
+          },
+          "frame_id": ""
+        },
+        "fresh_samples_after_send": 639,
+        "stable_samples": 26
+      },
+      "next_observation": {
+        "image_sha256": "0a8e754328bb02853d5fea0aeb1c8f304c928b624d64ba3cd679c153021bb426",
+        "image_stamp": {
+          "sec": 73331,
+          "nanosec": 500000000
+        },
+        "received_at_utc": "2026-10-30T03:49:05.128Z",
+        "detection": {
+          "detected": true,
+          "dial_bbox_xywh": [
+            171,
+            242,
+            234,
+            119
+          ],
+          "center_xy": [
+            288.0,
+            301.5
+          ],
+          "center_error_xy_px": [
+            -32.0,
+            -2.5
+          ],
+          "dial_width_px": 234,
+          "dark_rim_pixels": 6737,
+          "fully_in_frame": true
+        },
+        "quality": {
+          "result": "PASS",
+          "reasons": []
+        }
+      },
+      "trajectory_guard_diagnostic_path": "/home/ubuntu/active_inspection/range_extension/results/campaign_v3_20261030/runs/ire3_training_09/trajectory_guard_02_align_01.json"
+    }
+  ],
+  "policy_inferences": [],
+  "model_call_count": 0,
+  "logged_controller_action_records": 1,
+  "valid_rule_action_records": 1,
+  "teacher_action_records": 1,
+  "classification": {
+    "label": "abnormal",
+    "raw_camera_image_sha256": "0a8e754328bb02853d5fea0aeb1c8f304c928b624d64ba3cd679c153021bb426",
+    "inference": {
+      "label": "abnormal",
+      "image_sha256": "a0197d8494d600f2c48c6339ac0185408807f30d0005805bf109020bb0f65a01",
+      "input_image": "/home/ubuntu/active_inspection/range_extension/results/campaign_v3_20261030/runs/ire3_training_09/registered_for_svm.png",
+      "model_sha256": "dc3192f77dbeb47af9007853dbff516758ac8d6569ce52a98560ae1009a2ea9b",
+      "model_version": "grayscale_hog_linear_svm_v1",
+      "runtime_config_sha256": "7f36fd0fbc9d47ae21cf9fb076f5be5187f5af0bb3cda4a34dfb0d30fdb613e7",
+      "preprocessing_sha256": "6d3b22f8d57502373cb0a09b1c199b787165b0dfc4351bac82df895920a2548d",
+      "preprocessing_contract": {
+        "schema_version": 1,
+        "settings": {
+          "image_width": 640,
+          "image_height": 480,
+          "roi_center_xy": [
+            320,
+            310
+          ],
+          "roi_size_px": 192,
+          "resize_px": 128,
+          "hog_win_size_px": 128,
+          "minimum_model_margin": 0.0
+        },
+        "decoder": "OpenCV IMREAD_COLOR BGR8",
+        "grayscale": "COLOR_BGR2GRAY",
+        "resize_interpolation": "INTER_LINEAR",
+        "hog": {
+          "block": [
+            16,
+            16
+          ],
+          "block_stride": [
+            8,
+            8
+          ],
+          "cell": [
+            8,
+            8
+          ],
+          "bins": 9,
+          "gamma_correction": false
+        },
+        "quality": {
+          "minimum_roi_std": 8.0,
+          "canny_thresholds": [
+            40,
+            120
+          ],
+          "minimum_canny_edges": 80
+        }
+      },
+      "quality": {
+        "result": "PASS",
+        "roi_std": 40.419465498180735,
+        "roi_canny_edges": 924,
+        "roi_bounds_xyxy": [
+          224,
+          214,
+          416,
+          406
+        ],
+        "resized_shape": [
+          128,
+          128
+        ]
+      },
+      "svm_raw_margin": -1.0290119647979736,
+      "svm_margin_semantics": "uncalibrated signed SVM decision value; not probability or anomaly score",
+      "opencv_version": "4.5.4",
+      "numpy_version": "1.24.4"
+    },
+    "capture_quality": "PASS"
+  },
+  "home_return": {
+    "result": "PASS",
+    "at_utc": "2026-10-30T03:49:27.099Z",
+    "actual_positions": [
+      2.86526265264299e-05,
+      0.0001481250692222653,
+      6.054416344509516e-05,
+      -9.843316829046132e-05
+    ],
+    "fk": {
+      "crane_plus_link_endtip": {
+        "moveit_xyz": [
+          2.0483195371778173e-05,
+          5.868973472160667e-10,
+          0.2478999987308551
+        ],
+        "world_xyz": [
+          2.0483195371778173e-05,
+          5.868973472160667e-10,
+          1.262899998730855
+        ],
+        "quaternion_xyzw": [
+          -1.3324479462632846e-09,
+          9.300703689018126e-05,
+          1.4326313200761368e-05,
+          0.9999999955722239
+        ],
+        "local_x_axis_world": [
+          0.9999999822888956,
+          2.865262602680125e-05,
+          -0.00018601407299491198
+        ]
+      },
+      "inspection_camera_link": {
+        "moveit_xyz": [
+          0.032520482619760885,
+          9.317972432182568e-07,
+          0.24789395327348276
+        ],
+        "world_xyz": [
+          0.032520482619760885,
+          9.317972432182568e-07,
+          1.2628939532734826
+        ],
+        "quaternion_xyzw": [
+          -2.142214975945772e-06,
+          0.14953009448004223,
+          1.4165245027833465e-05,
+          0.9887571747600855
+        ],
+        "local_x_axis_world": [
+          0.9552815012882709,
+          2.7371324091510467e-05,
+          -0.2956979075800804
+        ]
+      }
+    }
+  },
+  "failure_reason": null,
+  "source_model_sha256": "dc3192f77dbeb47af9007853dbff516758ac8d6569ce52a98560ae1009a2ea9b",
+  "all_trajectory_publish_count": 3,
+  "alignment_trajectory_publish_count": 1,
+  "initial_correction_required": true,
+  "motion_import_source_absolute": "/home/ubuntu/active_inspection/motion.py",
+  "actual_environment": {
+    "ROS_DOMAIN_ID": "47",
+    "IGN_PARTITION": "physicalai_active_47",
+    "GZ_PARTITION": "physicalai_active_47"
+  },
+  "unconfirmed_send_intent_command_ids": [],
+  "controller_readiness": {
+    "result": "PASS",
+    "observed_counts": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "published_count": 0
+  },
+  "fresh_start_samples": [
+    {
+      "positions_rad": [
+        2.6645266730342698e-05,
+        1.2466921996091616e-06,
+        9.571556697287333e-05,
+        7.192745055509446e-05
+      ],
+      "velocities_rad_sec": [
+        8.673617379884035e-19,
+        -1.3010426069826053e-17,
+        -2.0816681711721685e-17,
+        2.0816681711721685e-17
+      ],
+      "at_utc": "2026-10-30T03:48:25.843Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 52000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.6645266730342704e-05,
+        1.2466921996091637e-06,
+        9.571556697287336e-05,
+        7.192745055509446e-05
+      ],
+      "velocities_rad_sec": [
+        0.0,
+        -3.903127820947816e-18,
+        -6.938893903907228e-18,
+        0.0
+      ],
+      "at_utc": "2026-10-30T03:48:25.845Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 62000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.66452667303427e-05,
+        1.2466921996091366e-06,
+        9.571556697287329e-05,
+        7.19274505550945e-05
+      ],
+      "velocities_rad_sec": [
+        -8.673617379884035e-19,
+        -1.0842021724855044e-17,
+        -2.42861286636753e-17,
+        6.938893903907228e-18
+      ],
+      "at_utc": "2026-10-30T03:48:25.845Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 72000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.66452667303427e-05,
+        1.2466921996091751e-06,
+        9.571556697287338e-05,
+        7.192745055509444e-05
+      ],
+      "velocities_rad_sec": [
+        0.0,
+        4.7704895589362195e-18,
+        1.0408340855860843e-17,
+        -6.938893903907228e-18
+      ],
+      "at_utc": "2026-10-30T03:48:25.846Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 82000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.6645266730342698e-05,
+        1.246692199609152e-06,
+        9.571556697287334e-05,
+        7.192745055509446e-05
+      ],
+      "velocities_rad_sec": [
+        0.0,
+        -1.3877787807814457e-17,
+        -3.469446951953614e-17,
+        2.0816681711721685e-17
+      ],
+      "at_utc": "2026-10-30T03:48:25.846Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 92000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.6645266730342698e-05,
+        1.2466921996091798e-06,
+        9.571556697287341e-05,
+        7.192745055509439e-05
+      ],
+      "velocities_rad_sec": [
+        8.673617379884035e-19,
+        -4.336808689942018e-18,
+        -1.734723475976807e-17,
+        0.0
+      ],
+      "at_utc": "2026-10-30T03:48:25.849Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 102000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.6645266730342704e-05,
+        1.246692199609166e-06,
+        9.57155669728734e-05,
+        7.192745055509439e-05
+      ],
+      "velocities_rad_sec": [
+        0.0,
+        -4.7704895589362195e-18,
+        -1.3877787807814457e-17,
+        1.3877787807814457e-17
+      ],
+      "at_utc": "2026-10-30T03:48:25.860Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 112000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.6645266730342704e-05,
+        1.2466921996091817e-06,
+        9.571556697287341e-05,
+        7.192745055509439e-05
+      ],
+      "velocities_rad_sec": [
+        -8.673617379884035e-19,
+        -1.5612511283791264e-17,
+        -3.469446951953614e-17,
+        2.0816681711721685e-17
+      ],
+      "at_utc": "2026-10-30T03:48:25.874Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 122000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.6645266730342704e-05,
+        1.2466921996091715e-06,
+        9.571556697287337e-05,
+        7.192745055509442e-05
+      ],
+      "velocities_rad_sec": [
+        0.0,
+        -3.469446951953614e-18,
+        -1.3877787807814457e-17,
+        -6.938893903907228e-18
+      ],
+      "at_utc": "2026-10-30T03:48:25.887Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 132000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.6645266730342704e-05,
+        1.2466921996091554e-06,
+        9.571556697287336e-05,
+        7.192745055509444e-05
+      ],
+      "velocities_rad_sec": [
+        0.0,
+        -4.336808689942018e-19,
+        0.0,
+        6.938893903907228e-18
+      ],
+      "at_utc": "2026-10-30T03:48:25.898Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 142000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.6645266730342708e-05,
+        1.2466921996091652e-06,
+        9.571556697287341e-05,
+        7.192745055509443e-05
+      ],
+      "velocities_rad_sec": [
+        -8.673617379884035e-19,
+        -6.5052130349130266e-18,
+        -1.3877787807814457e-17,
+        6.938893903907228e-18
+      ],
+      "at_utc": "2026-10-30T03:48:25.906Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 152000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.6645266730342704e-05,
+        1.2466921996091614e-06,
+        9.57155669728734e-05,
+        7.192745055509442e-05
+      ],
+      "velocities_rad_sec": [
+        -8.673617379884035e-19,
+        5.204170427930421e-18,
+        6.938893903907228e-18,
+        -2.0816681711721685e-17
+      ],
+      "at_utc": "2026-10-30T03:48:25.917Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 162000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.6645266730342704e-05,
+        1.2466921996091427e-06,
+        9.571556697287333e-05,
+        7.192745055509446e-05
+      ],
+      "velocities_rad_sec": [
+        0.0,
+        3.0357660829594124e-18,
+        3.469446951953614e-18,
+        6.938893903907228e-18
+      ],
+      "at_utc": "2026-10-30T03:48:25.929Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 172000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.6645266730342704e-05,
+        1.246692199609154e-06,
+        9.571556697287337e-05,
+        7.192745055509446e-05
+      ],
+      "velocities_rad_sec": [
+        -8.673617379884035e-19,
+        -3.0357660829594124e-18,
+        0.0,
+        6.938893903907228e-18
+      ],
+      "at_utc": "2026-10-30T03:48:25.941Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 182000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.66452667303427e-05,
+        1.2466921996091495e-06,
+        9.571556697287334e-05,
+        7.192745055509447e-05
+      ],
+      "velocities_rad_sec": [
+        0.0,
+        -4.7704895589362195e-18,
+        -3.469446951953614e-18,
+        -6.938893903907228e-18
+      ],
+      "at_utc": "2026-10-30T03:48:25.952Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 192000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.66452667303427e-05,
+        1.2466921996091376e-06,
+        9.57155669728733e-05,
+        7.192745055509449e-05
+      ],
+      "velocities_rad_sec": [
+        0.0,
+        4.7704895589362195e-18,
+        1.0408340855860843e-17,
+        1.3877787807814457e-17
+      ],
+      "at_utc": "2026-10-30T03:48:25.965Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 202000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.66452667303427e-05,
+        1.246692199609138e-06,
+        9.571556697287333e-05,
+        7.192745055509439e-05
+      ],
+      "velocities_rad_sec": [
+        0.0,
+        -3.903127820947816e-18,
+        -3.469446951953614e-18,
+        0.0
+      ],
+      "at_utc": "2026-10-30T03:48:25.980Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 212000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.6645266730342698e-05,
+        1.2466921996091357e-06,
+        9.571556697287333e-05,
+        7.192745055509442e-05
+      ],
+      "velocities_rad_sec": [
+        0.0,
+        -8.673617379884035e-19,
+        3.469446951953614e-18,
+        6.938893903907228e-18
+      ],
+      "at_utc": "2026-10-30T03:48:25.995Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 222000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.66452667303427e-05,
+        1.2466921996091624e-06,
+        9.571556697287338e-05,
+        7.19274505550944e-05
+      ],
+      "velocities_rad_sec": [
+        0.0,
+        1.214306433183765e-17,
+        2.7755575615628914e-17,
+        -2.0816681711721685e-17
+      ],
+      "at_utc": "2026-10-30T03:48:26.003Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 232000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.66452667303427e-05,
+        1.2466921996091597e-06,
+        9.57155669728734e-05,
+        7.192745055509438e-05
+      ],
+      "velocities_rad_sec": [
+        0.0,
+        3.469446951953614e-18,
+        6.938893903907228e-18,
+        -6.938893903907228e-18
+      ],
+      "at_utc": "2026-10-30T03:48:26.012Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 242000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.66452667303427e-05,
+        1.2466921996091647e-06,
+        9.571556697287342e-05,
+        7.192745055509439e-05
+      ],
+      "velocities_rad_sec": [
+        0.0,
+        1.3010426069826053e-17,
+        2.42861286636753e-17,
+        -1.3877787807814457e-17
+      ],
+      "at_utc": "2026-10-30T03:48:26.025Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 252000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.66452667303427e-05,
+        1.246692199609143e-06,
+        9.571556697287337e-05,
+        7.192745055509447e-05
+      ],
+      "velocities_rad_sec": [
+        0.0,
+        -1.0408340855860843e-17,
+        -1.734723475976807e-17,
+        6.938893903907228e-18
+      ],
+      "at_utc": "2026-10-30T03:48:26.034Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 262000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.66452667303427e-05,
+        1.2466921996091302e-06,
+        9.571556697287334e-05,
+        7.19274505550945e-05
+      ],
+      "velocities_rad_sec": [
+        0.0,
+        -4.336808689942018e-18,
+        -3.469446951953614e-18,
+        -6.938893903907228e-18
+      ],
+      "at_utc": "2026-10-30T03:48:26.053Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 272000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.66452667303427e-05,
+        1.2466921996091508e-06,
+        9.571556697287341e-05,
+        7.192745055509449e-05
+      ],
+      "velocities_rad_sec": [
+        8.673617379884035e-19,
+        -1.3010426069826053e-18,
+        -3.469446951953614e-18,
+        -6.938893903907228e-18
+      ],
+      "at_utc": "2026-10-30T03:48:26.065Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 282000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.6645266730342698e-05,
+        1.246692199609164e-06,
+        9.571556697287342e-05,
+        7.19274505550945e-05
+      ],
+      "velocities_rad_sec": [
+        -8.673617379884035e-19,
+        -2.6020852139652106e-18,
+        -3.469446951953614e-18,
+        6.938893903907228e-18
+      ],
+      "at_utc": "2026-10-30T03:48:26.077Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 292000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.66452667303427e-05,
+        1.2466921996091694e-06,
+        9.571556697287342e-05,
+        7.19274505550945e-05
+      ],
+      "velocities_rad_sec": [
+        8.673617379884035e-19,
+        -2.6020852139652106e-18,
+        -1.0408340855860843e-17,
+        2.0816681711721685e-17
+      ],
+      "at_utc": "2026-10-30T03:48:26.086Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 302000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.66452667303427e-05,
+        1.2466921996091762e-06,
+        9.57155669728734e-05,
+        7.192745055509453e-05
+      ],
+      "velocities_rad_sec": [
+        0.0,
+        4.336808689942018e-19,
+        0.0,
+        6.938893903907228e-18
+      ],
+      "at_utc": "2026-10-30T03:48:26.096Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 312000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.66452667303427e-05,
+        1.2466921996091908e-06,
+        9.571556697287344e-05,
+        7.192745055509453e-05
+      ],
+      "velocities_rad_sec": [
+        8.673617379884035e-19,
+        9.974659986866641e-18,
+        3.122502256758253e-17,
+        -1.3877787807814457e-17
+      ],
+      "at_utc": "2026-10-30T03:48:26.110Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 322000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.66452667303427e-05,
+        1.2466921996092158e-06,
+        9.571556697287345e-05,
+        7.192745055509449e-05
+      ],
+      "velocities_rad_sec": [
+        8.673617379884035e-19,
+        1.691355389077387e-17,
+        4.163336342344337e-17,
+        -3.469446951953614e-17
+      ],
+      "at_utc": "2026-10-30T03:48:26.131Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 332000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.66452667303427e-05,
+        1.2466921996092115e-06,
+        9.571556697287346e-05,
+        7.192745055509446e-05
+      ],
+      "velocities_rad_sec": [
+        0.0,
+        6.5052130349130266e-18,
+        1.734723475976807e-17,
+        -1.3877787807814457e-17
+      ],
+      "at_utc": "2026-10-30T03:48:26.144Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 342000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.66452667303427e-05,
+        1.2466921996092192e-06,
+        9.571556697287349e-05,
+        7.19274505550944e-05
+      ],
+      "velocities_rad_sec": [
+        8.673617379884035e-19,
+        4.336808689942018e-19,
+        6.938893903907228e-18,
+        -1.3877787807814457e-17
+      ],
+      "at_utc": "2026-10-30T03:48:26.158Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 352000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.6645266730342698e-05,
+        1.2466921996092001e-06,
+        9.571556697287344e-05,
+        7.192745055509442e-05
+      ],
+      "velocities_rad_sec": [
+        -1.734723475976807e-18,
+        -3.469446951953614e-18,
+        -6.938893903907228e-18,
+        0.0
+      ],
+      "at_utc": "2026-10-30T03:48:26.166Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 362000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.6645266730342698e-05,
+        1.2466921996091908e-06,
+        9.571556697287345e-05,
+        7.192745055509436e-05
+      ],
+      "velocities_rad_sec": [
+        0.0,
+        3.0357660829594124e-18,
+        0.0,
+        0.0
+      ],
+      "at_utc": "2026-10-30T03:48:26.179Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 372000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.6645266730342694e-05,
+        1.2466921996091978e-06,
+        9.571556697287349e-05,
+        7.192745055509436e-05
+      ],
+      "velocities_rad_sec": [
+        0.0,
+        3.469446951953614e-18,
+        1.0408340855860843e-17,
+        -6.938893903907228e-18
+      ],
+      "at_utc": "2026-10-30T03:48:26.191Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 382000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.6645266730342694e-05,
+        1.2466921996092204e-06,
+        9.57155669728735e-05,
+        7.192745055509438e-05
+      ],
+      "velocities_rad_sec": [
+        0.0,
+        1.734723475976807e-18,
+        3.469446951953614e-18,
+        -6.938893903907228e-18
+      ],
+      "at_utc": "2026-10-30T03:48:26.203Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 392000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.66452667303427e-05,
+        1.2466921996092365e-06,
+        9.571556697287354e-05,
+        7.192745055509442e-05
+      ],
+      "velocities_rad_sec": [
+        -8.673617379884035e-19,
+        -8.673617379884035e-18,
+        -2.42861286636753e-17,
+        2.0816681711721685e-17
+      ],
+      "at_utc": "2026-10-30T03:48:26.216Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 402000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.66452667303427e-05,
+        1.2466921996092651e-06,
+        9.57155669728736e-05,
+        7.192745055509439e-05
+      ],
+      "velocities_rad_sec": [
+        -8.673617379884035e-19,
+        -8.239936510889834e-18,
+        -1.734723475976807e-17,
+        6.938893903907228e-18
+      ],
+      "at_utc": "2026-10-30T03:48:26.238Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 412000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.6645266730342698e-05,
+        1.2466921996092636e-06,
+        9.571556697287359e-05,
+        7.192745055509438e-05
+      ],
+      "velocities_rad_sec": [
+        0.0,
+        0.0,
+        3.469446951953614e-18,
+        -6.938893903907228e-18
+      ],
+      "at_utc": "2026-10-30T03:48:26.248Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 422000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.6645266730342698e-05,
+        1.2466921996092221e-06,
+        9.57155669728735e-05,
+        7.192745055509443e-05
+      ],
+      "velocities_rad_sec": [
+        8.673617379884035e-19,
+        -3.903127820947816e-18,
+        -3.469446951953614e-18,
+        1.3877787807814457e-17
+      ],
+      "at_utc": "2026-10-30T03:48:26.260Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 432000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.66452667303427e-05,
+        1.2466921996092016e-06,
+        9.571556697287345e-05,
+        7.192745055509449e-05
+      ],
+      "velocities_rad_sec": [
+        8.673617379884035e-19,
+        3.469446951953614e-18,
+        3.469446951953614e-18,
+        6.938893903907228e-18
+      ],
+      "at_utc": "2026-10-30T03:48:26.270Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 442000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.6645266730342694e-05,
+        1.2466921996091919e-06,
+        9.571556697287344e-05,
+        7.192745055509447e-05
+      ],
+      "velocities_rad_sec": [
+        0.0,
+        3.903127820947816e-18,
+        1.0408340855860843e-17,
+        0.0
+      ],
+      "at_utc": "2026-10-30T03:48:26.282Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 452000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.6645266730342698e-05,
+        1.2466921996092016e-06,
+        9.571556697287346e-05,
+        7.192745055509446e-05
+      ],
+      "velocities_rad_sec": [
+        0.0,
+        0.0,
+        -3.469446951953614e-18,
+        0.0
+      ],
+      "at_utc": "2026-10-30T03:48:26.297Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 462000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.66452667303427e-05,
+        1.246692199609223e-06,
+        9.571556697287354e-05,
+        7.192745055509436e-05
+      ],
+      "velocities_rad_sec": [
+        8.673617379884035e-19,
+        4.336808689942018e-19,
+        6.938893903907228e-18,
+        -6.938893903907228e-18
+      ],
+      "at_utc": "2026-10-30T03:48:26.311Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 472000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.66452667303427e-05,
+        1.2466921996092312e-06,
+        9.571556697287356e-05,
+        7.192745055509436e-05
+      ],
+      "velocities_rad_sec": [
+        -8.673617379884035e-19,
+        -5.637851296924623e-18,
+        -1.3877787807814457e-17,
+        1.3877787807814457e-17
+      ],
+      "at_utc": "2026-10-30T03:48:26.321Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 482000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.66452667303427e-05,
+        1.2466921996092308e-06,
+        9.571556697287356e-05,
+        7.192745055509444e-05
+      ],
+      "velocities_rad_sec": [
+        0.0,
+        1.734723475976807e-18,
+        3.469446951953614e-18,
+        0.0
+      ],
+      "at_utc": "2026-10-30T03:48:26.337Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 492000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.66452667303427e-05,
+        1.246692199609226e-06,
+        9.571556697287356e-05,
+        7.192745055509447e-05
+      ],
+      "velocities_rad_sec": [
+        -8.673617379884035e-19,
+        2.168404344971009e-18,
+        0.0,
+        2.0816681711721685e-17
+      ],
+      "at_utc": "2026-10-30T03:48:26.347Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 502000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.6645266730342694e-05,
+        1.2466921996092232e-06,
+        9.571556697287357e-05,
+        7.192745055509442e-05
+      ],
+      "velocities_rad_sec": [
+        0.0,
+        5.204170427930421e-18,
+        1.3877787807814457e-17,
+        -1.3877787807814457e-17
+      ],
+      "at_utc": "2026-10-30T03:48:26.360Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 512000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.6645266730342698e-05,
+        1.2466921996092194e-06,
+        9.571556697287359e-05,
+        7.192745055509439e-05
+      ],
+      "velocities_rad_sec": [
+        8.673617379884035e-19,
+        8.673617379884035e-19,
+        3.469446951953614e-18,
+        -6.938893903907228e-18
+      ],
+      "at_utc": "2026-10-30T03:48:26.372Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 522000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.6645266730342698e-05,
+        1.2466921996092427e-06,
+        9.571556697287363e-05,
+        7.192745055509434e-05
+      ],
+      "velocities_rad_sec": [
+        8.673617379884035e-19,
+        -4.336808689942018e-18,
+        -6.938893903907228e-18,
+        6.938893903907228e-18
+      ],
+      "at_utc": "2026-10-30T03:48:26.383Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 532000000
+        },
+        "frame_id": ""
+      }
+    },
+    {
+      "positions_rad": [
+        2.66452667303427e-05,
+        1.2466921996092734e-06,
+        9.57155669728737e-05,
+        7.192745055509432e-05
+      ],
+      "velocities_rad_sec": [
+        0.0,
+        4.7704895589362195e-18,
+        1.3877787807814457e-17,
+        -6.938893903907228e-18
+      ],
+      "at_utc": "2026-10-30T03:48:26.395Z",
+      "joint_state_header": {
+        "stamp": {
+          "sec": 73301,
+          "nanosec": 542000000
+        },
+        "frame_id": ""
+      }
+    }
+  ],
+  "initial_home": {
+    "result": "PASS",
+    "at_utc": "2026-10-30T03:48:26.435Z",
+    "actual_positions": [
+      2.66452667303427e-05,
+      1.2466921996092232e-06,
+      9.571556697287365e-05,
+      7.192745055509443e-05
+    ],
+    "fk": {
+      "crane_plus_link_endtip": {
+        "moveit_xyz": [
+          -8.729364322495973e-06,
+          -2.3259624081428795e-10,
+          0.2478999995827213
+        ],
+        "world_xyz": [
+          -8.729364322495973e-06,
+          -2.3259624081428795e-10,
+          1.2628999995827213
+        ],
+        "quaternion_xyzw": [
+          1.1084186165192273e-09,
+          -8.319816256081388e-05,
+          1.3322633318668042e-05,
+          0.9999999964502866
+        ],
+        "local_x_axis_world": [
+          0.9999999858011464,
+          2.664526635831624e-05,
+          0.00016639632456050258
+        ]
+      },
+      "inspection_camera_link": {
+        "moveit_xyz": [
+          0.032491270174214756,
+          8.657385604044635e-07,
+          0.2479054074632695
+        ],
+        "world_xyz": [
+          0.032491270174214756,
+          8.657385604044635e-07,
+          1.2629054074632693
+        ],
+        "quaternion_xyzw": [
+          -1.989813470502042e-06,
+          0.14935586800625913,
+          1.3173200147454083e-05,
+          0.9887835074042266
+        ],
+        "local_x_axis_world": [
+          0.9553856490371274,
+          2.5456505454960288e-05,
+          -0.2953612380896876
+        ]
+      }
+    }
+  },
+  "all_trajectory_publish_count_exact": true,
+  "trajectory_publish_count_semantics": "Confirmed publications only; an unconfirmed publish intent means possibly sent, not proven zero. Never resend.",
+  "motion_publisher_checks": [
+    {
+      "at_utc": "2026-10-30T03:48:26.979Z",
+      "result": "PASS",
+      "expected_node_name": "multigauge_motion",
+      "observed_publishers": [
+        {
+          "node_name": "multigauge_motion",
+          "node_namespace": "/"
+        }
+      ]
+    },
+    {
+      "at_utc": "2026-10-30T03:48:29.678Z",
+      "result": "PASS",
+      "expected_node_name": "multigauge_motion",
+      "observed_publishers": [
+        {
+          "node_name": "multigauge_motion",
+          "node_namespace": "/"
+        }
+      ]
+    },
+    {
+      "at_utc": "2026-10-30T03:48:29.878Z",
+      "result": "PASS",
+      "expected_node_name": "multigauge_motion",
+      "observed_publishers": [
+        {
+          "node_name": "multigauge_motion",
+          "node_namespace": "/"
+        }
+      ]
+    },
+    {
+      "at_utc": "2026-10-30T03:48:47.388Z",
+      "result": "PASS",
+      "expected_node_name": "multigauge_motion",
+      "observed_publishers": [
+        {
+          "node_name": "multigauge_motion",
+          "node_namespace": "/"
+        }
+      ]
+    },
+    {
+      "at_utc": "2026-10-30T03:48:49.821Z",
+      "result": "PASS",
+      "expected_node_name": "multigauge_motion",
+      "observed_publishers": [
+        {
+          "node_name": "multigauge_motion",
+          "node_namespace": "/"
+        }
+      ]
+    },
+    {
+      "at_utc": "2026-10-30T03:48:50.119Z",
+      "result": "PASS",
+      "expected_node_name": "multigauge_motion",
+      "observed_publishers": [
+        {
+          "node_name": "multigauge_motion",
+          "node_namespace": "/"
+        }
+      ]
+    },
+    {
+      "at_utc": "2026-10-30T03:49:16.244Z",
+      "result": "PASS",
+      "expected_node_name": "multigauge_motion",
+      "observed_publishers": [
+        {
+          "node_name": "multigauge_motion",
+          "node_namespace": "/"
+        }
+      ]
+    },
+    {
+      "at_utc": "2026-10-30T03:49:18.865Z",
+      "result": "PASS",
+      "expected_node_name": "multigauge_motion",
+      "observed_publishers": [
+        {
+          "node_name": "multigauge_motion",
+          "node_namespace": "/"
+        }
+      ]
+    },
+    {
+      "at_utc": "2026-10-30T03:49:19.027Z",
+      "result": "PASS",
+      "expected_node_name": "multigauge_motion",
+      "observed_publishers": [
+        {
+          "node_name": "multigauge_motion",
+          "node_namespace": "/"
+        }
+      ]
+    }
+  ],
+  "finished_at_utc": "2026-10-30T03:49:27.124Z",
+  "elapsed_sec": 75.4169900349807,
+  "path_arrival_image_home_pass": true
+}

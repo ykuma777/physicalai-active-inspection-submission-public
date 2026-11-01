@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "training_records": 17,
+  "completed_training_episodes": 11,
+  "classification_source_images": 36,
+  "classification_counts": {
+    "('train', 'normal')": 12,
+    "('validation', 'normal')": 6,
+    "('train', 'abnormal')": 12,
+    "('validation', 'abnormal')": 6
+  },
+  "same_classifier_for_video_examples": true,
+  "normal_model_calls": 0,
+  "abnormal_model_calls": 2,
+  "bc_model_sha256": "f3a5d9f3699e7be137c0433b85e4b519593cd020ec96d218b4a350200f81d40e",
+  "classifier_sha256": "dc3192f77dbeb47af9007853dbff516758ac8d6569ce52a98560ae1009a2ea9b",
+  "current_pdf_sha256": "00289bc46cf5f832f7070c2b065bc6a7599012412c138dda01bb9a62d8e1bfa2",
+  "python_sources_parsed": 49,
+  "new_robot_trials": 0,
+  "training_runs": 0,
+  "live_ROS_reproduction": "NOT_RUN"
+}

@@ -1,0 +1,40 @@
+schema_version: 1
+world: camera_demo
+ros_domain_id: 44
+camera_topic: /inspection_camera/image
+camera_link: inspection_camera_link
+camera_parent_link: crane_plus_link_endtip
+camera_joint_xyz: [0.015, 0.0, 0.0]
+camera_joint_rpy: [0.0, 0.30, 0.0]
+image_width: 640
+image_height: 480
+horizontal_fov_rad: 1.1
+image_update_hz: 10
+minimum_image_std: 4.0
+target_entity: inspection_gauge
+target_bottom_world: [0.22, 0.0, 1.015]
+target_body_dimensions: [0.07, 0.07, 0.12]
+observation_tolerance_rad: 0.03
+image_timeout_sec: 15.0
+hold_sec: 3.0
+motion_duration_sec: 8.0
+verification_timeout_sec: 12.0
+model_path: /home/ubuntu/camera_demo/artifacts/gauge_hog_svm.yml
+model_metadata_path: /home/ubuntu/camera_demo/artifacts/gauge_model_metadata.json
+roi_center_xy: [320, 310]
+roi_size_px: 192
+resize_px: 128
+hog_win_size_px: 128
+minimum_model_margin: 0.0
+moveit_group: arm
+robot_base_world: [0.0, 0.0, 1.015]
+table_surface_z: 1.015
+table_bounds_xy: [0.035, 0.545, -0.25, 0.25]
+minimum_basepoint_clearance_m: 0.065
+maximum_camera_target_angle_deg: 25.0
+maximum_camera_target_distance_m: 0.4
+joint_limits:
+  crane_plus_joint1: [-2.6179916667, 2.6179916667]
+  crane_plus_joint2: [-1.8247401917, 1.7837249889]
+  crane_plus_joint3: [-2.5565561289, 2.4542799211]
+  crane_plus_joint4: [-1.8400990761, 1.7683661044]

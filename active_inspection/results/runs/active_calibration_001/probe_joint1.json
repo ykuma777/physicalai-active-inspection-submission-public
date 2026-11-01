@@ -1,0 +1,19 @@
+{
+  "topic": "/inspection_camera/image",
+  "subscription_started_at_utc": "2026-10-28T15:46:30.126Z",
+  "received_at_utc": "2026-10-28T15:46:30.332Z",
+  "header_stamp": {
+    "sec": 131,
+    "nanosec": 200000000
+  },
+  "source_encoding": "rgb8",
+  "saved_encoding": "BGR8 PNG",
+  "shape_hwc": [
+    480,
+    640,
+    3
+  ],
+  "pixel_std": 36.54657841330419,
+  "image_sha256": "d63205cbe77922851b1063f844f8a41128d1079ae0da27f8307ec610443f8a62",
+  "image_path": "/home/ubuntu/active_inspection/results/runs/active_calibration_001/probe_joint1.png"
+}

@@ -1,0 +1,15 @@
+{
+  "status": "local declaration and license text checked; no remote action",
+  "own_and_camera_source": "Apache-2.0; root LICENSE retained",
+  "generated_robot_URDF": "derived from crane_plus_description; installed/source metadata declares Apache License2.0; upstream license copied",
+  "upstream_crane_license_sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+  "not_vendored": [
+    "CRANE STL meshes and full ROS/MoveIt/Ignition installations",
+    "Docker base image",
+    "Windows Japanese font files"
+  ],
+  "redistributed_gauge_assets": "Gauge primitive SDF source and recorded simulation images; no external stock texture",
+  "remaining": [
+    "Clean-machine installation/build of external ROS lecture packages has not been verified in this session."
+  ]
+}

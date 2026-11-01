@@ -1,0 +1,12 @@
+{
+  "trial": {
+    "run_id": "ire4_repro_layout_20261031_01",
+    "placement_id": "v3_eval_left",
+    "phase": "reproduction_recording_confirmation",
+    "mode": "clone"
+  },
+  "at_utc": "2026-10-30T20:28:21.017Z",
+  "base_total": 26,
+  "consumed_total": 27,
+  "not_final_evaluation": true
+}

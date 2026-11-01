@@ -1,0 +1,310 @@
+{
+  "created_at_utc": "2026-10-30T20:30:26.340Z",
+  "run_id": "ire4_repro_layout_20261031_01",
+  "purpose": "reproduction/recording confirmation, excluded from old evaluation",
+  "task_result": "PASS",
+  "model_call_count": 2,
+  "corrections": 2,
+  "all_sends": 4,
+  "home": {
+    "result": "PASS",
+    "at_utc": "2026-10-30T20:29:55.267Z",
+    "actual_positions": [
+      -3.912753689216653e-05,
+      0.0001750856286375597,
+      3.739098672742e-05,
+      4.074261216189787e-05
+    ],
+    "fk": {
+      "crane_plus_link_endtip": {
+        "moveit_xyz": [
+          2.7406556059606524e-05,
+          -1.0723510338567283e-09,
+          0.24789999784144712
+        ],
+        "world_xyz": [
+          2.7406556059606524e-05,
+          -1.0723510338567283e-09,
+          1.262899997841447
+        ],
+        "quaternion_xyzw": [
+          9.483735297542588e-10,
+          4.8476014845858214e-05,
+          -1.9563768421848605e-05,
+          0.9999999986336674
+        ],
+        "local_x_axis_world": [
+          0.9999999945346699,
+          -3.912753669828924e-05,
+          -9.695202959635524e-05
+        ]
+      },
+      "inspection_camera_link": {
+        "moveit_xyz": [
+          0.03252740637843638,
+          -1.2727172937282574e-06,
+          0.24789684690048525
+        ],
+        "world_xyz": [
+          0.03252740637843638,
+          -1.2727172937282574e-06,
+          1.262896846900485
+        ],
+        "quaternion_xyzw": [
+          2.9245107414243313e-06,
+          0.14948606395087027,
+          -1.9343946667793175e-05,
+          0.9887638324199238
+        ],
+        "local_x_axis_world": [
+          0.9553078326205761,
+          -3.737884248331246e-05,
+          -0.29561282708400777
+        ]
+      }
+    }
+  },
+  "recording": {
+    "images": {
+      "count": 362,
+      "time_axis": "sim_sec",
+      "first": 122515.1,
+      "last": 122583.0,
+      "span_sec": 67.89999999999418,
+      "effective_hz": 5.3166421207662875,
+      "max_gap_sec": 0.6999999999970896,
+      "median_gap_sec": 0.10000000000582077,
+      "nonadvancing_stamps": 0,
+      "nominal_camera_hz": 10,
+      "missing_nominal_stamp_slots_estimate": 318,
+      "gaps_over_0_15_sim_sec": 167,
+      "source_of_loss": "Cannot distinguish rendering/sensor omission, bridge/transport loss, and recorder callback loss without upstream counters; no filling/interpolation performed."
+    },
+    "poses": {
+      "count": 5075,
+      "time_axis": "sim_sec",
+      "first": 122514.689,
+      "last": 122583.229,
+      "span_sec": 68.54000000000815,
+      "effective_hz": 74.0297636416603,
+      "max_gap_sec": 0.020000000004074536,
+      "median_gap_sec": 0.013999999995576218,
+      "nonadvancing_stamps": 0
+    },
+    "joints": {
+      "count": 6817,
+      "time_axis": "sim_sec",
+      "first": 122514.972,
+      "last": 122583.232,
+      "span_sec": 68.26000000000931,
+      "effective_hz": 99.85350131847451,
+      "max_gap_sec": 0.030000000013387762,
+      "median_gap_sec": 0.00999999999476131,
+      "nonadvancing_stamps": 0
+    },
+    "clock": {
+      "count": 53336,
+      "time_axis": "sim_sec",
+      "first": 122514.968,
+      "last": 122583.226,
+      "span_sec": 68.25800000000163,
+      "effective_hz": 781.3736118843026,
+      "max_gap_sec": 0.07400000000779983,
+      "median_gap_sec": 0.0010000000038417056,
+      "nonadvancing_stamps": 0
+    },
+    "gui_camera": {
+      "count": 6453,
+      "time_axis": "received_monotonic",
+      "first": 1172950.571917317,
+      "last": 1173041.343588245,
+      "span_sec": 90.77167092799209,
+      "effective_hz": 71.07944509601771,
+      "max_gap_sec": 0.14636754617094994,
+      "median_gap_sec": 0.0005115615203976631,
+      "nonadvancing_stamps": 0
+    }
+  },
+  "new_training": 0,
+  "target_world_xyz_quaternion_first": [
+    0.22,
+    0.0215,
+    1.015,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "target_max_component_change": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "gui_camera_max_component_change": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "camera_world_translation_range_m": [
+    0.07722243110353166,
+    0.008551231398751618,
+    0.040129651896223084
+  ],
+  "camera_rotation_matrix_component_range_max": 0.5004434693914122,
+  "camera_pose_semantics": "Actual Gazebo model/link poses plus live-SDF fixed sensor offset; not joint FK; direct sensor world pose was NOT available.",
+  "raw_serialized_ROS_image_integrity": "PASS all framed CDR message hashes; no model/ROS service call in this verification",
+  "controller_capture_to_continuous_images": [
+    {
+      "controller_image": "/home/ubuntu/active_inspection/range_extension/results/campaign_v3_20261030/runs/ire4_repro_layout_20261031_01/camera_01.png",
+      "controller_sim_sec": 122534.4,
+      "continuous_image_index": 100,
+      "nearest_dt_sec": 0.0,
+      "exact_stamp": true,
+      "same_png_hash": true
+    },
+    {
+      "controller_image": "/home/ubuntu/active_inspection/range_extension/results/campaign_v3_20261030/runs/ire4_repro_layout_20261031_01/camera_02.png",
+      "controller_sim_sec": 122549.1,
+      "continuous_image_index": 178,
+      "nearest_dt_sec": 0.0,
+      "exact_stamp": true,
+      "same_png_hash": true
+    },
+    {
+      "controller_image": "/home/ubuntu/active_inspection/range_extension/results/campaign_v3_20261030/runs/ire4_repro_layout_20261031_01/camera_03.png",
+      "controller_sim_sec": 122565.0,
+      "continuous_image_index": 263,
+      "nearest_dt_sec": 0.0,
+      "exact_stamp": true,
+      "same_png_hash": true
+    },
+    {
+      "controller_image": "/home/ubuntu/active_inspection/range_extension/results/campaign_v3_20261030/runs/ire4_repro_layout_20261031_01/camera_04.png",
+      "controller_sim_sec": 122570.6,
+      "continuous_image_index": 298,
+      "nearest_dt_sec": 0.0,
+      "exact_stamp": true,
+      "same_png_hash": true
+    }
+  ],
+  "target_mutations_logged": 2,
+  "all_target_mutations_before_motion_window": true,
+  "measurement_scope": "Continuously sampled state; excludes sub-sample events and unlogged external actions. GUI pose has no sim stamp and is compared on received wall/monotonic time.",
+  "external_raw_video": {
+    "frames": 1871,
+    "fps": 20.0,
+    "duration_sec": 93.55
+  },
+  "model_outputs": [
+    {
+      "raw": [
+        0.04649823305357901,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "hard_limited": [
+        0.04649823305357901,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "requested_delta": [
+        0.04649823305357901,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sent_endpoint": [
+        0.04657373407844176,
+        0.4293757658644145,
+        -0.11871560237143217,
+        -0.07221980739567405
+      ],
+      "arrival": {
+        "result": "PASS",
+        "at_utc": "2026-10-30T20:29:04.130Z",
+        "actual_positions": [
+          0.046563647078139196,
+          0.42937576549129924,
+          -0.11871560407667783,
+          -0.07221979406212349
+        ],
+        "errors_rad": [
+          7.438917294744218e-05,
+          1.7340377164165588e-06,
+          6.243927689650319e-06,
+          -6.064923434434544e-05
+        ],
+        "joint_state_header": {
+          "stamp": {
+            "sec": 122543,
+            "nanosec": 182000000
+          },
+          "frame_id": ""
+        },
+        "fresh_samples_after_send": 637,
+        "stable_samples": 26
+      }
+    },
+    {
+      "raw": [
+        0.03133436416115199,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "hard_limited": [
+        0.03133436416115199,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "requested_delta": [
+        0.03133436416115199,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sent_endpoint": [
+        0.07799750250769019,
+        0.42942135228061606,
+        -0.11866382834309555,
+        -0.07231439391282272
+      ],
+      "arrival": {
+        "result": "PASS",
+        "at_utc": "2026-10-30T20:29:23.535Z",
+        "actual_positions": [
+          0.07798243648855255,
+          0.42942133042685887,
+          -0.11866385351886057,
+          -0.07231434836598072
+        ],
+        "errors_rad": [
+          7.433824895948515e-05,
+          4.5564509934648e-05,
+          5.174898656844229e-05,
+          -9.45409259766189e-05
+        ],
+        "joint_state_header": {
+          "stamp": {
+            "sec": 122557,
+            "nanosec": 902000000
+          },
+          "frame_id": ""
+        },
+        "fresh_samples_after_send": 638,
+        "stable_samples": 26
+      }
+    }
+  ]
+}

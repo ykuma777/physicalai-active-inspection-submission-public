@@ -1,0 +1,13 @@
+{
+  "result": "PASS",
+  "checks": {
+    "robot": true,
+    "parent_link": true,
+    "sensor": true,
+    "type": true,
+    "sensor_pose": true,
+    "sensor_configuration_tree": true
+  },
+  "recorder_source": "active_inspection/sync_confirmation/recorder.py",
+  "semantics": "Current runtime sensor configuration matches the retained recorder mount/config; link world state is independently sampled at runtime; direct sensor world pose not available."
+}

@@ -1,0 +1,9 @@
+{
+  "base_consumed": 26,
+  "additional_consumed": 1,
+  "total_consumed": 27,
+  "remaining": 1,
+  "run_id": "ire4_repro_layout_20261031_01",
+  "status": "PASS",
+  "directory": "/home/ubuntu/active_inspection/range_extension/results/campaign_v3_20261030/runs/ire4_repro_layout_20261031_01"
+}

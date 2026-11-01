@@ -1,0 +1,6 @@
+{
+  "plan_sha256": "11e3f708af795ff6b0ec1320c301da2e1c0f83bf24e4cae9ff32fc16af8245b2",
+  "image_control_sha256": "06023ff89d2eb65ac47d91a89ac8d9be8c6876bf3a3ab96be070a7e2dab4dc61",
+  "requested_command_cap_rad": 0.0548,
+  "safety_cap_rad": 0.055
+}

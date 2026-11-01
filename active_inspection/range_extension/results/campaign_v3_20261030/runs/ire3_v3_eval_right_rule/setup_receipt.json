@@ -1,0 +1,15 @@
+{
+  "result": "PASS",
+  "run_id": "ire3_v3_eval_right_rule",
+  "phase": "evaluation",
+  "mode": "rule",
+  "private_safety_config": "/home/ubuntu/active_inspection/range_extension/results/campaign_v3_20261030/runs/ire3_v3_eval_right_rule/private_setup/safety_motion.yaml",
+  "private_safety_sha256": "89292a1ae4237aec599963be918ecd9c7dc4166a32da659bfa85437acd7441e8",
+  "truth_or_position_included": false,
+  "expected_initial_positions_rad": [
+    8.593998965741712e-05,
+    0.00014160020162342374,
+    -0.0001227848563542218,
+    2.312576205798983e-05
+  ]
+}

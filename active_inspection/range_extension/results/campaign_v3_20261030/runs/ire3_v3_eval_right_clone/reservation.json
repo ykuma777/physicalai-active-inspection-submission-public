@@ -1,0 +1,11 @@
+{
+  "trial": {
+    "run_id": "ire3_v3_eval_right_clone",
+    "kind": "task",
+    "phase": "evaluation",
+    "placement_id": "v3_eval_right",
+    "mode": "clone"
+  },
+  "plan_sha256": "11e3f708af795ff6b0ec1320c301da2e1c0f83bf24e4cae9ff32fc16af8245b2",
+  "at_utc": "2026-10-30T04:06:49.383Z"
+}

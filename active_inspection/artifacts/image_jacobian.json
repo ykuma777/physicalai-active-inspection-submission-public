@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "method": "measured +0.035 rad joint probes from scan_center",
+  "source_run_id": "active_calibration_001",
+  "baseline_run_id": "active_pilot_001",
+  "baseline_manifest_sha256": "eef6361249f150beaf32dd41736009222cd055b27cac61da9d8d5df4177163c8",
+  "derivative_pixels_per_rad": [
+    [
+      685.7142857142857,
+      0.0,
+      0.0
+    ],
+    [
+      14.285714285714285,
+      -328.57142857142856,
+      257.1428571428571
+    ]
+  ]
+}

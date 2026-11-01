@@ -1,0 +1,168 @@
+{
+  "created_at_utc": "2026-10-30T04:00:22.377Z",
+  "model_path": "/home/ubuntu/active_inspection/range_extension/artifacts/horizontal_bc_v3_20261030.npz",
+  "model_sha256": "f3a5d9f3699e7be137c0433b85e4b519593cd020ec96d218b4a350200f81d40e",
+  "final_evaluation_runs": 6,
+  "final_evaluation_placements": 2,
+  "updates_during_evaluation": false,
+  "random_exploration": false,
+  "teacher_fallback": false,
+  "files": [
+    {
+      "path": "/home/ubuntu/active_inspection/range_extension/policy.py",
+      "sha256": "610cf22713f0281a9a11ecabeff3bad4a52b3265ec0c9c3423b49dc483f3a55a"
+    },
+    {
+      "path": "/home/ubuntu/active_inspection/range_extension/controller.py",
+      "sha256": "ce1c2a26440c4a5a8195d1ce048257f46638b0cacfab64432b8f5be2cda482f9"
+    },
+    {
+      "path": "/home/ubuntu/active_inspection/range_extension/runtime.py",
+      "sha256": "59dee80b49c604428ccc25ce47356a2222c28bdd04b934e3aef9e52ff6030d09"
+    },
+    {
+      "path": "/home/ubuntu/active_inspection/range_extension/motion_binding.py",
+      "sha256": "7e59cf8b0c5cff755326328dda75b47109e93cf5ae161dfb4d6e57b7b575dcb4"
+    },
+    {
+      "path": "/home/ubuntu/active_inspection/range_extension/live_v3.py",
+      "sha256": "9785ebfd4206ee3776aaa81f69e4be4f6c164c4e60c7c5d9015ea904f52e8e0c"
+    },
+    {
+      "path": "/home/ubuntu/active_inspection/range_extension/campaign_v3.py",
+      "sha256": "9fc2dbeb057471c6da34191292dad039f08c93aba3e9a0578a3b6761837a5b5f"
+    },
+    {
+      "path": "/home/ubuntu/active_inspection/range_extension/trajectory_guard.py",
+      "sha256": "40988fe79f68004d2000a8aef1297f509c4f0eb0eefc57363c92cf71148e872c"
+    },
+    {
+      "path": "/home/ubuntu/active_inspection/range_extension/prepare_episode.py",
+      "sha256": "4230cba45d7b80ef909a3f1aae9478bcf5edc25f650d218fc33cbfa46a6eee0e"
+    },
+    {
+      "path": "/home/ubuntu/active_inspection/range_extension/common.py",
+      "sha256": "fa36206b476b56bae5bab74f82abcf9ecc6a42ad24c1f7c19a97a34a660c24e3"
+    },
+    {
+      "path": "/home/ubuntu/active_inspection/range_extension/runner.py",
+      "sha256": "9f7a315a663d5e842dffc2fc37d976ac190551228bcfc4b049f006c4964d4268"
+    },
+    {
+      "path": "/home/ubuntu/active_inspection/range_extension/train_policy.py",
+      "sha256": "d5dd679ef3b853221f11a2e2e23ccbee989f2d97132e41fffcc7f814292fb45a"
+    },
+    {
+      "path": "/home/ubuntu/active_inspection/range_extension/config/image_control.json",
+      "sha256": "06023ff89d2eb65ac47d91a89ac8d9be8c6876bf3a3ab96be070a7e2dab4dc61"
+    },
+    {
+      "path": "/home/ubuntu/active_inspection/range_extension/results/campaign_v3_20261030/PLAN.json",
+      "sha256": "11e3f708af795ff6b0ec1320c301da2e1c0f83bf24e4cae9ff32fc16af8245b2"
+    },
+    {
+      "path": "/home/ubuntu/active_inspection/range_extension/results/campaign_v3_20261030/plan_lock.json",
+      "sha256": "39b9a154af1ced93777b044d7db58b8795178fde84b0ae35d108e670817d790e"
+    },
+    {
+      "path": "/home/ubuntu/active_inspection/configs/active.yaml",
+      "sha256": "554f81c811d2b1b1e5e7c4141f28a173e70f9392b536b79e027a9db521290aee"
+    },
+    {
+      "path": "/home/ubuntu/active_inspection/configs/control.yaml",
+      "sha256": "f398b1cc838ba5f1658d6e4cf22d08f9b1ccdc77ec109fd498e3a0d6b65104ae"
+    },
+    {
+      "path": "/home/ubuntu/active_inspection/artifacts/image_jacobian.json",
+      "sha256": "e8b396ff11fc32b4e083d72bc470963b9c8bb44db5489c3e04be71f1e81283dc"
+    },
+    {
+      "path": "/home/ubuntu/active_inspection/motion.py",
+      "sha256": "29d6305860a6a87d6d11f4c46d9ebf523372c72f896da9a59fae0b45ae597c4c"
+    },
+    {
+      "path": "/home/ubuntu/active_inspection/geometry_check.py",
+      "sha256": "b2c39c04359bc2f9024435658f0c269b6b0b5bc4823eeeb4b6e3ef8af206928a"
+    },
+    {
+      "path": "/home/ubuntu/active_inspection/detection.py",
+      "sha256": "84abd981af2112cc7ba88d308294d535dbd1fe8d0c779884746598ece5c26cfa"
+    },
+    {
+      "path": "/home/ubuntu/active_inspection/controller_lock.py",
+      "sha256": "a280a85a610cd1a626c6df5eebcde0e3778ae0ddfd7617140b278062968f65fd"
+    },
+    {
+      "path": "/home/ubuntu/multigauge/configs/motion.yaml",
+      "sha256": "cb7938f60f62a1dfe10fcf2a76745e4c55684870536dfb843ca6037b96aff985"
+    },
+    {
+      "path": "/home/ubuntu/multigauge/prepare.py",
+      "sha256": "49aee31a6e79dd645b393656bf02f55111498be679ee1582b7fb1ef4b27d5e9c"
+    },
+    {
+      "path": "/home/ubuntu/multigauge/vision.py",
+      "sha256": "90e067a8b0f2934633a2a027bf9c353f0357ed0eab126b1ed51f21747290cbfa"
+    },
+    {
+      "path": "/home/ubuntu/camera_demo/scripts/target_model.py",
+      "sha256": "f2d435dffa516814da0c020d4a16983bd35bfbb82ab17a7cd50b2bae71fad03a"
+    },
+    {
+      "path": "/home/ubuntu/camera_demo/configs/runtime.yaml",
+      "sha256": "7f36fd0fbc9d47ae21cf9fb076f5be5187f5af0bb3cda4a34dfb0d30fdb613e7"
+    },
+    {
+      "path": "/home/ubuntu/camera_demo/artifacts/gauge_hog_svm.yml",
+      "sha256": "dc3192f77dbeb47af9007853dbff516758ac8d6569ce52a98560ae1009a2ea9b"
+    },
+    {
+      "path": "/home/ubuntu/camera_demo/artifacts/gauge_model_metadata.json",
+      "sha256": "3f89bd313dce3d77e790d70b37844676eef9eadd0013b311309cc71f72d24eed"
+    },
+    {
+      "path": "/home/ubuntu/camera_demo/generated/camera_robot.urdf",
+      "sha256": "592066a9987d23f50a154a516cad073d5a29f10109dd5c35c442e7ce1c59fc63"
+    },
+    {
+      "path": "/home/ubuntu/active_inspection/range_extension/diagnostics/direct_route.py",
+      "sha256": "bb7b9c9cd8fee5c2331d6c6665bfb81e857002e6421a3d201c1e16318e462577"
+    },
+    {
+      "path": "/home/ubuntu/active_inspection/range_extension/diagnostics/staged_readiness.py",
+      "sha256": "6ba96baa08e6ac2e792b5f51642f2fcdcfb95b2a6422eff84fd046a08c292c68"
+    },
+    {
+      "path": "/home/ubuntu/active_inspection/range_extension/diagnostics/diagnostic_contract.py",
+      "sha256": "7a6e4823c893041c9ae9611e70641a7a983a7120f2803fa1717b5796973a241e"
+    },
+    {
+      "path": "/home/ubuntu/active_inspection/range_extension/diagnostics/source_environment_once.py",
+      "sha256": "c9276f7236d7f1ed3f7a5b6b1fbe1cefcd598f214f7b9d601a548a10c4b14ca5"
+    },
+    {
+      "path": "/home/ubuntu/active_inspection/range_extension/diagnostics/source_ros_environment.sh",
+      "sha256": "7a09cf424d90f58872342b6eb75048777a0cbd8950adb195aa89a5133f952ec8"
+    },
+    {
+      "path": "/home/ubuntu/active_inspection/range_extension/artifacts/horizontal_bc_v3_20261030.npz",
+      "sha256": "f3a5d9f3699e7be137c0433b85e4b519593cd020ec96d218b4a350200f81d40e"
+    },
+    {
+      "path": "/home/ubuntu/active_inspection/range_extension/artifacts/horizontal_bc_v3_20261030.json",
+      "sha256": "b53f88ca6da6a0fa92c7eb99aa3683cb8aa39b06dbb2086ee55cb602b179dcd2"
+    },
+    {
+      "path": "/home/ubuntu/active_inspection/range_extension/export_v3.py",
+      "sha256": "048376178d7580fc0c9ad2261d3fbe2ab92e5daadd97efa8eace49df37a6407c"
+    },
+    {
+      "path": "/home/ubuntu/active_inspection/range_extension/freeze_v3.py",
+      "sha256": "05d5fab17fe12f5ecb57b21c48e18bf9b8b24583609ebbe0c2c3c9bdfd4d6555"
+    },
+    {
+      "path": "/home/ubuntu/active_inspection/range_extension/results/campaign_v3_20261030/COLLECTION_CONTRACT.json",
+      "sha256": "6cd2c807fa9c1061a2abfe70d797fb79b9e2a5db16c72705485ae8225029feb9"
+    }
+  ]
+}

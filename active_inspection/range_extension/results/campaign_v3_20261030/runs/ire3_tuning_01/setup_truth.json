@@ -1,0 +1,32 @@
+{
+  "run_id": "ire3_tuning_01",
+  "placement_id": "range_tuning_left_medium",
+  "phase": "tuning",
+  "started_at_utc": "2026-10-30T03:54:53.233Z",
+  "result": "PASS",
+  "entity": "active_gauge",
+  "truth_label": "abnormal",
+  "needle_angle_rad": 0.875,
+  "true_world_bottom_xyz": [
+    0.22,
+    0.025,
+    1.015
+  ],
+  "service_mutation_requests": 2,
+  "automatic_retries": 0,
+  "safety_config": "/home/ubuntu/active_inspection/range_extension/results/campaign_v3_20261030/runs/ire3_tuning_01/private_setup/safety_motion.yaml",
+  "finished_at_utc": "2026-10-30T03:54:54.847Z",
+  "actual_target_pose": {
+    "xyz": [
+      0.22,
+      0.025,
+      1.015
+    ],
+    "quaternion_xyzw": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  }
+}

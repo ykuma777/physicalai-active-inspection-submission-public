@@ -1,0 +1,36 @@
+{
+  "at_utc": "2026-10-30T20:28:27.009Z",
+  "monotonic": 1172951.640542812,
+  "counts": {
+    "images": 3,
+    "joints": 63,
+    "clock": 524,
+    "poses": 66,
+    "gui_camera": 83
+  },
+  "last_receive_monotonic": {
+    "images": 1172951.554513354,
+    "joints": 1172951.629932842,
+    "clock": 1172951.635057914,
+    "poses": 1172951.636569127,
+    "gui_camera": 1172951.623055769
+  },
+  "image_providers": [
+    {
+      "node": "ros_gz_bridge",
+      "namespace": "/",
+      "type": "sensor_msgs/msg/Image",
+      "qos": "QoSProfile(history=HistoryPolicy.UNKNOWN, depth=0, reliability=ReliabilityPolicy.RELIABLE, durability=DurabilityPolicy.VOLATILE, lifespan=Infinite, deadline=Infinite, liveliness=LivelinessPolicy.AUTOMATIC, liveliness_lease_duration=Infinite, avoid_ros_namespace_conventions=False)"
+    }
+  ],
+  "bridge_processes": [
+    {
+      "pid": 16889,
+      "command": "/opt/ros/humble/lib/ros_gz_bridge/parameter_bridge /inspection_camera/image@sensor_msgs/msg/Image[ignition.msgs.Image --ros-args -p use_sim_time:=True "
+    }
+  ],
+  "provider_ok": true,
+  "ready": true,
+  "errors": [],
+  "pid": 32382
+}

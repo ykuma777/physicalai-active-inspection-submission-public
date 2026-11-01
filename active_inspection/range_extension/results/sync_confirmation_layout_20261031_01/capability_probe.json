@@ -1,0 +1,71 @@
+{
+  "started_at_utc": "2026-10-30T20:27:01.112Z",
+  "ROS_requests": 0,
+  "mutations": 0,
+  "motion_commands": 0,
+  "result": "POSE_AND_SENSOR_CAPABILITY_PASS_IMAGE_PROVIDER_PENDING",
+  "sensor": {
+    "robot": "crane_plus",
+    "parent_link": "crane_plus_link4",
+    "sensor": "inspection_camera",
+    "type": "camera",
+    "sensor_pose": "0.0325 0 0 0 0.3 0",
+    "sensor_pose_attributes": {},
+    "link_pose": "1.4e-05 0 0.2479 0 0.000159 1.8e-05",
+    "sensor_xml": "<sensor name=\"inspection_camera\" type=\"camera\">\n          <pose>0.0325 0 0 0 0.3 0</pose>\n          <topic>/inspection_camera/image</topic>\n          <update_rate>10</update_rate>\n          <enable_metrics>false</enable_metrics>\n          <camera name=\"__default__\">\n            <pose>0 0 0 0 -0 0</pose>\n            <horizontal_fov>1.1000000000000001</horizontal_fov>\n            <image>\n              <width>640</width>\n              <height>480</height>\n              <format>RGB_INT8</format>\n              <anti_aliasing>4</anti_aliasing>\n            </image>\n            <camera_info_topic>__default__</camera_info_topic>\n            <trigger_topic />\n            <triggered>false</triggered>\n            <clip>\n              <near>0.025000000000000001</near>\n              <far>2</far>\n            </clip>\n            <save enabled=\"false\">\n              <path>__default__</path>\n            </save>\n            <visibility_mask>4294967295</visibility_mask>\n            <noise>\n              <type>none</type>\n              <mean>0</mean>\n              <stddev>0</stddev>\n            </noise>\n            <distortion>\n              <k1>0</k1>\n              <k2>0</k2>\n              <k3>0</k3>\n              <p1>0</p1>\n              <p2>0</p2>\n              <center>0.5 0.5</center>\n            </distortion>\n            <lens>\n              <type>stereographic</type>\n              <scale_to_hfov>true</scale_to_hfov>\n              <cutoff_angle>1.5708</cutoff_angle>\n              <env_texture_size>256</env_texture_size>\n            </lens>\n            <optical_frame_id />\n          </camera>\n        </sensor>\n        "
+  },
+  "target_static": "true",
+  "pose_messages": 3,
+  "pose_names": [
+    "camera_demo_ground",
+    "camera_demo_table",
+    "crane_plus",
+    "active_gauge",
+    "ground",
+    "top",
+    "legs",
+    "base_link",
+    "crane_plus_link1",
+    "crane_plus_link2",
+    "crane_plus_link3",
+    "crane_plus_link4",
+    "crane_plus_link_hand",
+    "body",
+    "ground_visual",
+    "visual",
+    "front_left",
+    "front_right",
+    "back_left",
+    "back_right",
+    "sunVisual",
+    "base_link_fixed_joint_lump__crane_plus_base_visual",
+    "crane_plus_link1_visual",
+    "crane_plus_link2_visual",
+    "crane_plus_link3_visual",
+    "crane_plus_link4_visual",
+    "crane_plus_link4_fixed_joint_lump__inspection_camera_link_visual_1",
+    "crane_plus_link_hand_visual",
+    "housing",
+    "dial_rim",
+    "dial_face",
+    "needle",
+    "pivot",
+    "sun"
+  ],
+  "pose_sim_stamps": [
+    {
+      "sec": "122448",
+      "nsec": 482000000
+    },
+    {
+      "sec": "122448",
+      "nsec": 498000000
+    },
+    {
+      "sec": "122448",
+      "nsec": 513000000
+    }
+  ],
+  "camera_state_semantics": "Gazebo parent link pose is measured from pose/info; camera world pose may be composed from actual model/link poses plus fixed runtime-SDF sensor offset. This is not joint-angle FK and not a directly published sensor world pose.",
+  "finished_at_utc": "2026-10-30T20:27:02.661Z"
+}

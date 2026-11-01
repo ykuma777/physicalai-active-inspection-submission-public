@@ -1,0 +1,165 @@
+{
+  "result": "PASS",
+  "activity": "saved-data re-inference, source-image hashes, split and syntax checks only",
+  "training_usable_action_records": 17,
+  "training_completed_episodes": 11,
+  "training_attempts": 12,
+  "tuning_records": 4,
+  "evaluation_runs": 6,
+  "evaluation_placements": 2,
+  "saved_data_reinference_count": 6,
+  "predictions": [
+    {
+      "run_id": "ire3_v3_eval_left_clone",
+      "operation": 1,
+      "raw_saved_data_reinference_rad": [
+        0.046495106823158425,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "recorded_raw_rad": [
+        0.046495106823158425,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "recorded_requested_delta_rad": [
+        0.046495106823158425,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_raw_error_rad": 0.0,
+      "max_requested_error_rad": 0.0
+    },
+    {
+      "run_id": "ire3_v3_eval_left_clone",
+      "operation": 2,
+      "raw_saved_data_reinference_rad": [
+        0.031614271381133256,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "recorded_raw_rad": [
+        0.031614271381133256,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "recorded_requested_delta_rad": [
+        0.031614271381133256,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_raw_error_rad": 0.0,
+      "max_requested_error_rad": 0.0
+    },
+    {
+      "run_id": "ire3_v3_eval_right_clone",
+      "operation": 1,
+      "raw_saved_data_reinference_rad": [
+        -0.045306770620838495,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "recorded_raw_rad": [
+        -0.045306770620838495,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "recorded_requested_delta_rad": [
+        -0.045306770620838495,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_raw_error_rad": 0.0,
+      "max_requested_error_rad": 0.0
+    },
+    {
+      "run_id": "ire3_v3_eval_right_clone",
+      "operation": 2,
+      "raw_saved_data_reinference_rad": [
+        -0.030631803843547457,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "recorded_raw_rad": [
+        -0.030631803843547457,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "recorded_requested_delta_rad": [
+        -0.030631803843547457,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_raw_error_rad": 0.0,
+      "max_requested_error_rad": 0.0
+    },
+    {
+      "run_id": "ire4_repro_layout_20261031_01",
+      "operation": 1,
+      "raw_saved_data_reinference_rad": [
+        0.04649823305357901,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "recorded_raw_rad": [
+        0.04649823305357901,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "recorded_requested_delta_rad": [
+        0.04649823305357901,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_raw_error_rad": 0.0,
+      "max_requested_error_rad": 0.0
+    },
+    {
+      "run_id": "ire4_repro_layout_20261031_01",
+      "operation": 2,
+      "raw_saved_data_reinference_rad": [
+        0.03133436416115199,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "recorded_raw_rad": [
+        0.03133436416115199,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "recorded_requested_delta_rad": [
+        0.03133436416115199,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_raw_error_rad": 0.0,
+      "max_requested_error_rad": 0.0
+    }
+  ],
+  "checked_source_images": 70,
+  "parsed_python_files": 49,
+  "model_sha256": "f3a5d9f3699e7be137c0433b85e4b519593cd020ec96d218b4a350200f81d40e",
+  "data_sha256": "6e22a000df6793aaff0e6f21ad4d0d42d80782bc0cda7e3ac0077f9b581ae392",
+  "new_robot_trials": 0,
+  "new_runtime_model_calls": 0,
+  "model_refits": 0,
+  "live_ROS_reproduction": "NOT_RUN"
+}

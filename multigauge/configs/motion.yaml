@@ -1,0 +1,51 @@
+schema_version: 1
+camera_mount_xyz: [0.0325, 0.0, 0.0]
+camera_housing_dimensions: [0.02, 0.02, 0.02]
+world: multigauge_demo
+ros_domain_id: 46
+partition: physicalai_multigauge_46
+robot_base_world: [0.0, 0.0, 1.015]
+camera_topic: /inspection_camera/image
+joint_names: [crane_plus_joint1, crane_plus_joint2, crane_plus_joint3, crane_plus_joint4]
+moveit_group: arm
+joint_tolerance_rad: 0.02
+motion_min_duration_sec: 6.0
+motion_wall_timeout_sec: 60.0
+image_timeout_sec: 15.0
+hold_sec: 2.0
+maximum_camera_target_angle_deg: 25.0
+minimum_point_clearance_m: 0.025
+maximum_point_target_distance_m: 0.16
+minimum_image_std: 4.0
+collision_sample_step_rad: 0.015
+table:
+  entity: camera_demo_table
+  world_center: [0.29, 0.0, 1.0]
+  dimensions: [0.51, 0.5, 0.03]
+targets:
+  A:
+    entity: gauge_A
+    world_bottom_xyz: [0.17905326046575746, -0.12782773531820712, 1.015]
+    yaw_rad: -0.62
+    collision_dimensions: [0.0775, 0.07, 0.12]
+    collision_center_local: [-0.00375, 0.0, 0.06]
+  B:
+    entity: gauge_B
+    world_bottom_xyz: [0.22, 0.0, 1.015]
+    yaw_rad: 0.0
+    collision_dimensions: [0.0775, 0.07, 0.12]
+    collision_center_local: [-0.00375, 0.0, 0.06]
+  C:
+    entity: gauge_C
+    world_bottom_xyz: [0.17905326046575746, 0.12782773531820712, 1.015]
+    yaw_rad: 0.62
+    collision_dimensions: [0.0775, 0.07, 0.12]
+    collision_center_local: [-0.00375, 0.0, 0.06]
+poses:
+  home: [0.0, 0.0, 0.0, 0.0]
+  observe_A: [-0.62, 0.4294635227214753, -0.11873816214323753, -0.07209533703528621]
+  observe_B: [0.0, 0.4294635227214753, -0.11873816214323753, -0.07209533703528621]
+  observe_C: [0.62, 0.4294635227214753, -0.11873816214323753, -0.07209533703528621]
+  point_A: [-0.62, 0.8, -0.45, 0.1]
+  point_B: [0.0, 0.8, -0.45, 0.1]
+  point_C: [0.62, 0.8, -0.45, 0.1]

@@ -1,0 +1,15 @@
+{
+  "result": "PASS",
+  "run_id": "ire3_training_06",
+  "phase": "training",
+  "mode": "rule",
+  "private_safety_config": "/home/ubuntu/active_inspection/range_extension/results/campaign_v3_20261030/runs/ire3_training_06/private_setup/safety_motion.yaml",
+  "private_safety_sha256": "deccb1eb68e18bcc7e4b0a91d88b5c994bfe663e9bee1aacdabcae456742837d",
+  "truth_or_position_included": false,
+  "expected_initial_positions_rad": [
+    -7.533193265167989e-06,
+    0.0002052267068062535,
+    -8.677157191930422e-05,
+    -0.00011038149534952155
+  ]
+}

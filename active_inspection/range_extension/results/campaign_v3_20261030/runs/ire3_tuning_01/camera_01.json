@@ -1,0 +1,19 @@
+{
+  "topic": "/inspection_camera/image",
+  "subscription_started_at_utc": "2026-10-30T03:55:17.711Z",
+  "received_at_utc": "2026-10-30T03:55:17.866Z",
+  "header_stamp": {
+    "sec": 73624,
+    "nanosec": 600000000
+  },
+  "source_encoding": "rgb8",
+  "saved_encoding": "BGR8 PNG",
+  "shape_hwc": [
+    480,
+    640,
+    3
+  ],
+  "pixel_std": 36.77651113342054,
+  "image_sha256": "11f6737ddde0a1d9a2c653568ae83e77df3c9ee58f2984140971e4559e80a5d4",
+  "image_path": "/home/ubuntu/active_inspection/range_extension/results/campaign_v3_20261030/runs/ire3_tuning_01/camera_01.png"
+}

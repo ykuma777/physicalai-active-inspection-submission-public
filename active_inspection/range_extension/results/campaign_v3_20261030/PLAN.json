@@ -1,0 +1,708 @@
+{
+  "schema_version": 3,
+  "plan_id": "imitation_horizontal_range_v3_20261030_12_2_6",
+  "created_at_utc": "2026-10-30T02:59:57Z",
+  "scope": "single gauge, horizontal error and joint1 only; no pose-Q or multigauge experiments",
+  "execution_authorized_this_turn": true,
+  "retained_control_sha256": "f398b1cc838ba5f1658d6e4cf22d08f9b1ccdc77ec109fd498e3a0d6b65104ae",
+  "retained_active_config_sha256": "554f81c811d2b1b1e5e7c4141f28a173e70f9392b536b79e027a9db521290aee",
+  "teacher": {
+    "gain": 0.5,
+    "calibration_path": "active_inspection/artifacts/image_jacobian.json",
+    "calibration_sha256": "e8b396ff11fc32b4e083d72bc470963b9c8bb44db5489c3e04be71f1e81283dc",
+    "requested_command_cap_rad": 0.0548,
+    "hard_safety_cap_rad": 0.055,
+    "headroom_revision": "Actual pre-send planner overshoot; unchanged saved first4 unsaturated training examples verified equivalent. Original failed training05 retained; no replacement."
+  },
+  "capture_quality": {
+    "dark_threshold": 40,
+    "min_dial_width_px": 70,
+    "max_dial_width_px": 300,
+    "desired_center_xy": [
+      320,
+      304
+    ],
+    "max_center_error_px": 35,
+    "quality_width_px": [
+      145,
+      255
+    ],
+    "stable_frames": 2,
+    "max_center_change_px": 6,
+    "max_width_change_px": 6
+  },
+  "initial_home": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "initial_observation": [
+    0.0,
+    0.4294635227214753,
+    -0.11873816214323753,
+    -0.07209533703528621
+  ],
+  "placements": {
+    "range_train_left_small": {
+      "split": "training",
+      "side": "left",
+      "magnitude": "small",
+      "world_bottom_xyz": [
+        0.22,
+        0.0115,
+        1.015
+      ],
+      "yaw_rad": 0.0,
+      "needle_label": "abnormal",
+      "needle_angle_rad": 0.875,
+      "offline_estimate": {
+        "status": "OFFLINE_ESTIMATE_NOT_ROBOT_OBSERVATION",
+        "error_x_px": -41.87321,
+        "error_y_px": 0.0,
+        "dial_width_px": 236.0,
+        "complete_rim_horizontal_bounds_px": [
+          160.12679,
+          396.12679
+        ],
+        "first_image_expected_quality": "FAIL_CENTER_X_ONLY",
+        "smallest_margin_beyond_35px": 6.87321,
+        "teacher_first_raw_delta_j1_rad": 0.030532552083333334,
+        "teacher_first_limited_delta_j1_rad": 0.030532552083333334,
+        "teacher_sequence_estimate": [
+          {
+            "step": 1,
+            "estimated_delta_j1_rad": 0.030532552083333334,
+            "estimated_remaining_horizontal_error_px": -20.93660714285714,
+            "estimated_cumulative_delta_j1_rad": 0.030532552083333334
+          }
+        ],
+        "estimated_alignment_moves_to_quality": 1,
+        "estimated_final_horizontal_error_px": -20.93660714285714,
+        "estimated_j1_displacement_rad": 0.030532552083333334,
+        "assumptions": "same scan_center, fixed x/z/yaw, image-only measured local Jacobian and frozen gain0.5; y/error/width may differ in live images; each new observation must be rechecked"
+      },
+      "historical_exact_coordinate_matches": [],
+      "physical_validation_status": "NOT_EXECUTED"
+    },
+    "range_train_right_small": {
+      "split": "training",
+      "side": "right",
+      "magnitude": "small",
+      "world_bottom_xyz": [
+        0.22,
+        -0.0115,
+        1.015
+      ],
+      "yaw_rad": 0.0,
+      "needle_label": "abnormal",
+      "needle_angle_rad": 0.875,
+      "offline_estimate": {
+        "status": "OFFLINE_ESTIMATE_NOT_ROBOT_OBSERVATION",
+        "error_x_px": 41.89607,
+        "error_y_px": 0.0,
+        "dial_width_px": 236.0,
+        "complete_rim_horizontal_bounds_px": [
+          243.89607,
+          479.89607
+        ],
+        "first_image_expected_quality": "FAIL_CENTER_X_ONLY",
+        "smallest_margin_beyond_35px": 6.89607,
+        "teacher_first_raw_delta_j1_rad": -0.030549218750000006,
+        "teacher_first_limited_delta_j1_rad": -0.030549218750000006,
+        "teacher_sequence_estimate": [
+          {
+            "step": 1,
+            "estimated_delta_j1_rad": -0.030549218750000006,
+            "estimated_remaining_horizontal_error_px": 20.948035714285716,
+            "estimated_cumulative_delta_j1_rad": -0.030549218750000006
+          }
+        ],
+        "estimated_alignment_moves_to_quality": 1,
+        "estimated_final_horizontal_error_px": 20.948035714285716,
+        "estimated_j1_displacement_rad": -0.030549218750000006,
+        "assumptions": "same scan_center, fixed x/z/yaw, image-only measured local Jacobian and frozen gain0.5; y/error/width may differ in live images; each new observation must be rechecked"
+      },
+      "historical_exact_coordinate_matches": [],
+      "physical_validation_status": "NOT_EXECUTED"
+    },
+    "range_train_left_medium": {
+      "split": "training",
+      "side": "left",
+      "magnitude": "medium",
+      "world_bottom_xyz": [
+        0.22,
+        0.0175,
+        1.015
+      ],
+      "yaw_rad": 0.0,
+      "needle_label": "abnormal",
+      "needle_angle_rad": 0.875,
+      "offline_estimate": {
+        "status": "OFFLINE_ESTIMATE_NOT_ROBOT_OBSERVATION",
+        "error_x_px": -63.72607,
+        "error_y_px": 0.0,
+        "dial_width_px": 236.0,
+        "complete_rim_horizontal_bounds_px": [
+          138.27393,
+          374.27393
+        ],
+        "first_image_expected_quality": "FAIL_CENTER_X_ONLY",
+        "smallest_margin_beyond_35px": 28.72607,
+        "teacher_first_raw_delta_j1_rad": 0.046466927083333345,
+        "teacher_first_limited_delta_j1_rad": 0.046466927083333345,
+        "teacher_sequence_estimate": [
+          {
+            "step": 1,
+            "estimated_delta_j1_rad": 0.046466927083333345,
+            "estimated_remaining_horizontal_error_px": -31.86303571428572,
+            "estimated_cumulative_delta_j1_rad": 0.046466927083333345
+          }
+        ],
+        "estimated_alignment_moves_to_quality": 1,
+        "estimated_final_horizontal_error_px": -31.86303571428572,
+        "estimated_j1_displacement_rad": 0.046466927083333345,
+        "assumptions": "same scan_center, fixed x/z/yaw, image-only measured local Jacobian and frozen gain0.5; y/error/width may differ in live images; each new observation must be rechecked"
+      },
+      "historical_exact_coordinate_matches": [],
+      "physical_validation_status": "NOT_EXECUTED"
+    },
+    "range_train_right_medium": {
+      "split": "training",
+      "side": "right",
+      "magnitude": "medium",
+      "world_bottom_xyz": [
+        0.22,
+        -0.0175,
+        1.015
+      ],
+      "yaw_rad": 0.0,
+      "needle_label": "abnormal",
+      "needle_angle_rad": 0.875,
+      "offline_estimate": {
+        "status": "OFFLINE_ESTIMATE_NOT_ROBOT_OBSERVATION",
+        "error_x_px": 63.74893,
+        "error_y_px": 0.0,
+        "dial_width_px": 236.0,
+        "complete_rim_horizontal_bounds_px": [
+          265.74893,
+          501.74893
+        ],
+        "first_image_expected_quality": "FAIL_CENTER_X_ONLY",
+        "smallest_margin_beyond_35px": 28.74893,
+        "teacher_first_raw_delta_j1_rad": -0.04648359375000002,
+        "teacher_first_limited_delta_j1_rad": -0.04648359375000002,
+        "teacher_sequence_estimate": [
+          {
+            "step": 1,
+            "estimated_delta_j1_rad": -0.04648359375000002,
+            "estimated_remaining_horizontal_error_px": 31.87446428571429,
+            "estimated_cumulative_delta_j1_rad": -0.04648359375000002
+          }
+        ],
+        "estimated_alignment_moves_to_quality": 1,
+        "estimated_final_horizontal_error_px": 31.87446428571429,
+        "estimated_j1_displacement_rad": -0.04648359375000002,
+        "assumptions": "same scan_center, fixed x/z/yaw, image-only measured local Jacobian and frozen gain0.5; y/error/width may differ in live images; each new observation must be rechecked"
+      },
+      "historical_exact_coordinate_matches": [],
+      "physical_validation_status": "NOT_EXECUTED"
+    },
+    "range_train_left_large": {
+      "split": "training",
+      "side": "left",
+      "magnitude": "large",
+      "world_bottom_xyz": [
+        0.22,
+        0.0315,
+        1.015
+      ],
+      "yaw_rad": 0.0,
+      "needle_label": "abnormal",
+      "needle_angle_rad": 0.875,
+      "offline_estimate": {
+        "status": "OFFLINE_ESTIMATE_NOT_ROBOT_OBSERVATION",
+        "error_x_px": -114.71607,
+        "error_y_px": 0.0,
+        "dial_width_px": 236.0,
+        "complete_rim_horizontal_bounds_px": [
+          87.28393,
+          323.28393
+        ],
+        "first_image_expected_quality": "FAIL_CENTER_X_ONLY",
+        "smallest_margin_beyond_35px": 79.71607,
+        "teacher_first_raw_delta_j1_rad": 0.08364713541666668,
+        "teacher_first_limited_delta_j1_rad": 0.055,
+        "teacher_sequence_estimate": [
+          {
+            "step": 1,
+            "estimated_delta_j1_rad": 0.055,
+            "estimated_remaining_horizontal_error_px": -77.00178571428572,
+            "estimated_cumulative_delta_j1_rad": 0.055
+          },
+          {
+            "step": 2,
+            "estimated_delta_j1_rad": 0.055,
+            "estimated_remaining_horizontal_error_px": -39.2875,
+            "estimated_cumulative_delta_j1_rad": 0.11
+          },
+          {
+            "step": 3,
+            "estimated_delta_j1_rad": 0.02864713541666667,
+            "estimated_remaining_horizontal_error_px": -19.64375,
+            "estimated_cumulative_delta_j1_rad": 0.13864713541666668
+          }
+        ],
+        "estimated_alignment_moves_to_quality": 3,
+        "estimated_final_horizontal_error_px": -19.64375,
+        "estimated_j1_displacement_rad": 0.13864713541666668,
+        "assumptions": "same scan_center, fixed x/z/yaw, image-only measured local Jacobian and frozen gain0.5; y/error/width may differ in live images; each new observation must be rechecked"
+      },
+      "historical_exact_coordinate_matches": [],
+      "physical_validation_status": "NOT_EXECUTED"
+    },
+    "range_train_right_large": {
+      "split": "training",
+      "side": "right",
+      "magnitude": "large",
+      "world_bottom_xyz": [
+        0.22,
+        -0.0315,
+        1.015
+      ],
+      "yaw_rad": 0.0,
+      "needle_label": "abnormal",
+      "needle_angle_rad": 0.875,
+      "offline_estimate": {
+        "status": "OFFLINE_ESTIMATE_NOT_ROBOT_OBSERVATION",
+        "error_x_px": 114.73893,
+        "error_y_px": 0.0,
+        "dial_width_px": 236.0,
+        "complete_rim_horizontal_bounds_px": [
+          316.73893,
+          552.73893
+        ],
+        "first_image_expected_quality": "FAIL_CENTER_X_ONLY",
+        "smallest_margin_beyond_35px": 79.73893,
+        "teacher_first_raw_delta_j1_rad": -0.08366380208333334,
+        "teacher_first_limited_delta_j1_rad": -0.055,
+        "teacher_sequence_estimate": [
+          {
+            "step": 1,
+            "estimated_delta_j1_rad": -0.055,
+            "estimated_remaining_horizontal_error_px": 77.02464285714285,
+            "estimated_cumulative_delta_j1_rad": -0.055
+          },
+          {
+            "step": 2,
+            "estimated_delta_j1_rad": -0.055,
+            "estimated_remaining_horizontal_error_px": 39.310357142857136,
+            "estimated_cumulative_delta_j1_rad": -0.11
+          },
+          {
+            "step": 3,
+            "estimated_delta_j1_rad": -0.02866380208333333,
+            "estimated_remaining_horizontal_error_px": 19.655178571428568,
+            "estimated_cumulative_delta_j1_rad": -0.13866380208333334
+          }
+        ],
+        "estimated_alignment_moves_to_quality": 3,
+        "estimated_final_horizontal_error_px": 19.655178571428568,
+        "estimated_j1_displacement_rad": -0.13866380208333334,
+        "assumptions": "same scan_center, fixed x/z/yaw, image-only measured local Jacobian and frozen gain0.5; y/error/width may differ in live images; each new observation must be rechecked"
+      },
+      "historical_exact_coordinate_matches": [],
+      "physical_validation_status": "NOT_EXECUTED"
+    },
+    "range_tuning_left_medium": {
+      "split": "tuning",
+      "side": "left",
+      "magnitude": "medium",
+      "world_bottom_xyz": [
+        0.22,
+        0.025,
+        1.015
+      ],
+      "yaw_rad": 0.0,
+      "needle_label": "abnormal",
+      "needle_angle_rad": 0.875,
+      "offline_estimate": {
+        "status": "OFFLINE_ESTIMATE_NOT_ROBOT_OBSERVATION",
+        "error_x_px": -91.04214,
+        "error_y_px": 0.0,
+        "dial_width_px": 236.0,
+        "complete_rim_horizontal_bounds_px": [
+          110.95786,
+          346.95786
+        ],
+        "first_image_expected_quality": "FAIL_CENTER_X_ONLY",
+        "smallest_margin_beyond_35px": 56.04214,
+        "teacher_first_raw_delta_j1_rad": 0.06638489583333335,
+        "teacher_first_limited_delta_j1_rad": 0.055,
+        "teacher_sequence_estimate": [
+          {
+            "step": 1,
+            "estimated_delta_j1_rad": 0.055,
+            "estimated_remaining_horizontal_error_px": -53.32785714285716,
+            "estimated_cumulative_delta_j1_rad": 0.055
+          },
+          {
+            "step": 2,
+            "estimated_delta_j1_rad": 0.03888489583333335,
+            "estimated_remaining_horizontal_error_px": -26.66392857142858,
+            "estimated_cumulative_delta_j1_rad": 0.09388489583333334
+          }
+        ],
+        "estimated_alignment_moves_to_quality": 2,
+        "estimated_final_horizontal_error_px": -26.66392857142858,
+        "estimated_j1_displacement_rad": 0.09388489583333334,
+        "assumptions": "same scan_center, fixed x/z/yaw, image-only measured local Jacobian and frozen gain0.5; y/error/width may differ in live images; each new observation must be rechecked"
+      },
+      "historical_exact_coordinate_matches": [],
+      "physical_validation_status": "NOT_EXECUTED"
+    },
+    "range_tuning_right_medium": {
+      "split": "tuning",
+      "side": "right",
+      "magnitude": "medium",
+      "world_bottom_xyz": [
+        0.22,
+        -0.025,
+        1.015
+      ],
+      "yaw_rad": 0.0,
+      "needle_label": "abnormal",
+      "needle_angle_rad": 0.875,
+      "offline_estimate": {
+        "status": "OFFLINE_ESTIMATE_NOT_ROBOT_OBSERVATION",
+        "error_x_px": 91.065,
+        "error_y_px": 0.0,
+        "dial_width_px": 236.0,
+        "complete_rim_horizontal_bounds_px": [
+          293.065,
+          529.065
+        ],
+        "first_image_expected_quality": "FAIL_CENTER_X_ONLY",
+        "smallest_margin_beyond_35px": 56.065,
+        "teacher_first_raw_delta_j1_rad": -0.06640156250000001,
+        "teacher_first_limited_delta_j1_rad": -0.055,
+        "teacher_sequence_estimate": [
+          {
+            "step": 1,
+            "estimated_delta_j1_rad": -0.055,
+            "estimated_remaining_horizontal_error_px": 53.3507142857143,
+            "estimated_cumulative_delta_j1_rad": -0.055
+          },
+          {
+            "step": 2,
+            "estimated_delta_j1_rad": -0.03890156250000001,
+            "estimated_remaining_horizontal_error_px": 26.675357142857152,
+            "estimated_cumulative_delta_j1_rad": -0.09390156250000001
+          }
+        ],
+        "estimated_alignment_moves_to_quality": 2,
+        "estimated_final_horizontal_error_px": 26.675357142857152,
+        "estimated_j1_displacement_rad": -0.09390156250000001,
+        "assumptions": "same scan_center, fixed x/z/yaw, image-only measured local Jacobian and frozen gain0.5; y/error/width may differ in live images; each new observation must be rechecked"
+      },
+      "historical_exact_coordinate_matches": [],
+      "physical_validation_status": "NOT_EXECUTED"
+    },
+    "v3_eval_left": {
+      "split": "evaluation",
+      "world_bottom_xyz": [
+        0.22,
+        0.0215,
+        1.015
+      ],
+      "yaw_rad": 0.0,
+      "needle_label": "abnormal",
+      "needle_angle_rad": 0.875
+    },
+    "v3_eval_right": {
+      "split": "evaluation",
+      "world_bottom_xyz": [
+        0.22,
+        -0.0215,
+        1.015
+      ],
+      "yaw_rad": 0.0,
+      "needle_label": "abnormal",
+      "needle_angle_rad": 0.875
+    }
+  },
+  "trials": [
+    {
+      "run_id": "ire3_home_20261030_01",
+      "kind": "home",
+      "phase": "path_probe",
+      "placement_id": "range_train_left_large",
+      "mode": "fixed"
+    },
+    {
+      "run_id": "ire3_left_20261030_01",
+      "kind": "left",
+      "phase": "path_probe",
+      "placement_id": "range_train_left_large",
+      "mode": "rule"
+    },
+    {
+      "run_id": "ire3_left_changed_20261030_01",
+      "kind": "left_changed",
+      "phase": "path_probe",
+      "placement_id": "range_train_left_large",
+      "mode": "rule"
+    },
+    {
+      "run_id": "ire3_right_20261030_01",
+      "kind": "right",
+      "phase": "path_probe",
+      "placement_id": "range_train_right_large",
+      "mode": "rule"
+    },
+    {
+      "run_id": "ire3_training_01",
+      "phase": "training",
+      "placement_id": "range_train_left_small",
+      "mode": "rule",
+      "repeat": 1,
+      "ordinal": 3,
+      "kind": "task"
+    },
+    {
+      "run_id": "ire3_training_02",
+      "phase": "training",
+      "placement_id": "range_train_right_small",
+      "mode": "rule",
+      "repeat": 1,
+      "ordinal": 4,
+      "kind": "task"
+    },
+    {
+      "run_id": "ire3_training_03",
+      "phase": "training",
+      "placement_id": "range_train_left_medium",
+      "mode": "rule",
+      "repeat": 1,
+      "ordinal": 5,
+      "kind": "task"
+    },
+    {
+      "run_id": "ire3_training_04",
+      "phase": "training",
+      "placement_id": "range_train_right_medium",
+      "mode": "rule",
+      "repeat": 1,
+      "ordinal": 6,
+      "kind": "task"
+    },
+    {
+      "run_id": "ire3_training_05",
+      "phase": "training",
+      "placement_id": "range_train_left_large",
+      "mode": "rule",
+      "repeat": 1,
+      "ordinal": 7,
+      "kind": "task"
+    },
+    {
+      "run_id": "ire3_training_06",
+      "phase": "training",
+      "placement_id": "range_train_right_large",
+      "mode": "rule",
+      "repeat": 1,
+      "ordinal": 8,
+      "kind": "task"
+    },
+    {
+      "run_id": "ire3_training_07",
+      "phase": "training",
+      "placement_id": "range_train_left_small",
+      "mode": "rule",
+      "repeat": 2,
+      "ordinal": 9,
+      "kind": "task"
+    },
+    {
+      "run_id": "ire3_training_08",
+      "phase": "training",
+      "placement_id": "range_train_right_small",
+      "mode": "rule",
+      "repeat": 2,
+      "ordinal": 10,
+      "kind": "task"
+    },
+    {
+      "run_id": "ire3_training_09",
+      "phase": "training",
+      "placement_id": "range_train_left_medium",
+      "mode": "rule",
+      "repeat": 2,
+      "ordinal": 11,
+      "kind": "task"
+    },
+    {
+      "run_id": "ire3_training_10",
+      "phase": "training",
+      "placement_id": "range_train_right_medium",
+      "mode": "rule",
+      "repeat": 2,
+      "ordinal": 12,
+      "kind": "task"
+    },
+    {
+      "run_id": "ire3_training_11",
+      "phase": "training",
+      "placement_id": "range_train_left_large",
+      "mode": "rule",
+      "repeat": 2,
+      "ordinal": 13,
+      "kind": "task"
+    },
+    {
+      "run_id": "ire3_training_12",
+      "phase": "training",
+      "placement_id": "range_train_right_large",
+      "mode": "rule",
+      "repeat": 2,
+      "ordinal": 14,
+      "kind": "task"
+    },
+    {
+      "run_id": "ire3_tuning_01",
+      "phase": "tuning",
+      "placement_id": "range_tuning_left_medium",
+      "mode": "rule",
+      "repeat": 1,
+      "ordinal": 15,
+      "kind": "task"
+    },
+    {
+      "run_id": "ire3_tuning_02",
+      "phase": "tuning",
+      "placement_id": "range_tuning_right_medium",
+      "mode": "rule",
+      "repeat": 1,
+      "ordinal": 16,
+      "kind": "task"
+    },
+    {
+      "run_id": "ire3_v3_eval_left_fixed",
+      "kind": "task",
+      "phase": "evaluation",
+      "placement_id": "v3_eval_left",
+      "mode": "fixed"
+    },
+    {
+      "run_id": "ire3_v3_eval_left_rule",
+      "kind": "task",
+      "phase": "evaluation",
+      "placement_id": "v3_eval_left",
+      "mode": "rule"
+    },
+    {
+      "run_id": "ire3_v3_eval_left_clone",
+      "kind": "task",
+      "phase": "evaluation",
+      "placement_id": "v3_eval_left",
+      "mode": "clone"
+    },
+    {
+      "run_id": "ire3_v3_eval_right_fixed",
+      "kind": "task",
+      "phase": "evaluation",
+      "placement_id": "v3_eval_right",
+      "mode": "fixed"
+    },
+    {
+      "run_id": "ire3_v3_eval_right_rule",
+      "kind": "task",
+      "phase": "evaluation",
+      "placement_id": "v3_eval_right",
+      "mode": "rule"
+    },
+    {
+      "run_id": "ire3_v3_eval_right_clone",
+      "kind": "task",
+      "phase": "evaluation",
+      "placement_id": "v3_eval_right",
+      "mode": "clone"
+    }
+  ],
+  "recording": "every motion trial; new raw recording per ID, original files never replaced",
+  "target_change_policy": "create only when absent; remove once only a known verified target owned by this campaign; unknown target or timeout stops",
+  "initial_image_contract": "detected full rim, abs(error_x)>35, abs(error_y)<=35, width145..255 for every planned run; violation returns home if safe then PROTOCOL_STOP, no placement adjustment",
+  "data_policy": "Only training-phase rule transitions fit the model. Tuning2 chooses predefined alpha by actionMAE. Path probes and evaluation excluded. All12training+2tuningepisode slots terminal or report insufficiency; no added trials.",
+  "model_selection": {
+    "ridge_alphas": [
+      0.01,
+      0.1,
+      1.0
+    ],
+    "selection": "minimum tuning safety-limited action MAE",
+    "tie": "smaller alpha",
+    "evaluation_updates": false,
+    "teacher_fallback": false
+  },
+  "gate_dependencies": "Both path probes must have path/arrival/fresh image/home confirmation. Runtime joint1 corrections retain live MoveIt geometry, collision, path, limits, one send and arrival checks.",
+  "physical_feasibility": "NOT_EXECUTED; large-offset extrapolation and first-image detectability remain conditional on the2probes and each first actual image",
+  "training_run_ids": [
+    "ire3_training_01",
+    "ire3_training_02",
+    "ire3_training_03",
+    "ire3_training_04",
+    "ire3_training_05",
+    "ire3_training_06",
+    "ire3_training_07",
+    "ire3_training_08",
+    "ire3_training_09",
+    "ire3_training_10",
+    "ire3_training_11",
+    "ire3_training_12"
+  ],
+  "tuning_run_ids": [
+    "ire3_tuning_01",
+    "ire3_tuning_02"
+  ],
+  "evaluation_run_ids": [
+    "ire3_v3_eval_left_fixed",
+    "ire3_v3_eval_left_rule",
+    "ire3_v3_eval_left_clone",
+    "ire3_v3_eval_right_fixed",
+    "ire3_v3_eval_right_rule",
+    "ire3_v3_eval_right_clone"
+  ],
+  "evaluation_run_count": 6,
+  "evaluation_placement_count": 2,
+  "approved_limits": {
+    "existing_consumed": 1,
+    "global": 28,
+    "main": 20,
+    "optional_preparation_max": 4
+  },
+  "legacy_source_limits": {
+    "main_trials": 26,
+    "path_probe_trials": 2,
+    "total_trials": 28,
+    "max_alignment_moves": 4,
+    "max_total_moves": 8,
+    "max_wall_sec": 300,
+    "joint1_step_limit_rad": 0.055
+  },
+  "limits": {
+    "main_trials": 20,
+    "path_probe_trials": 4,
+    "total_trials": 28,
+    "max_alignment_moves": 4,
+    "max_total_moves": 8,
+    "max_wall_sec": 300,
+    "joint1_step_limit_rad": 0.055
+  },
+  "version_note": "Metadata corrected before any training/tuning/evaluation collection: main20/preparation<=4/global28, earlier prep reservations refer to preserved prior plan hash. Placements/trial IDs/control unchanged.",
+  "source_plan_id": "imitation_horizontal_range_v2_20261030",
+  "source_plan_created_at_utc": "2026-10-29T16:57:23.490Z",
+  "live_state_source": "progress_ledger.json; do not infer current state from this frozen plan",
+  "source_placement_design_sha256": "5b76af94820c0cd1c52d7a8867d9a42a0cc9757662ec110f3e6d69c05c4961ed",
+  "authorization_record": "AUTHORIZATION.json",
+  "metadata_clarification": "Copied preparation-only authorization/count labels corrected before fitting/evaluation. Coordinates, order, control and collected values unchanged. Earlier plan versions retained."
+}

@@ -1,0 +1,15 @@
+{
+  "result": "PASS",
+  "run_id": "ire3_tuning_02",
+  "phase": "tuning",
+  "mode": "rule",
+  "private_safety_config": "/home/ubuntu/active_inspection/range_extension/results/campaign_v3_20261030/runs/ire3_tuning_02/private_setup/safety_motion.yaml",
+  "private_safety_sha256": "2eded64eea5af3f4ae00a1669f0c069c6b5130fea93c4f3e0bb657b299906a51",
+  "truth_or_position_included": false,
+  "expected_initial_positions_rad": [
+    -6.235228810996526e-05,
+    0.00016187411454370466,
+    -0.00011478672545820675,
+    -0.00011230236208057323
+  ]
+}

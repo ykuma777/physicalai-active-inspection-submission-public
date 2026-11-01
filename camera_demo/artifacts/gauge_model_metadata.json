@@ -1,0 +1,19 @@
+{
+  "algorithm": "OpenCV HOG descriptor + supervised linear C-SVC",
+  "classes": {
+    "0": "normal",
+    "1": "abnormal"
+  },
+  "dataset_manifest_sha256": "2fae06037f8972934901fab55c5e69d18d3f2fb154a4d854e93b4e57c81a66a2",
+  "feature_length": 8100,
+  "held_out_angle_accuracy": 1.0,
+  "model_sha256": "dc3192f77dbeb47af9007853dbff516758ac8d6569ce52a98560ae1009a2ea9b",
+  "model_version": "grayscale_hog_linear_svm_v1",
+  "numpy_version": "1.24.4",
+  "opencv_version": "4.5.4",
+  "runtime_config_sha256": "7f36fd0fbc9d47ae21cf9fb076f5be5187f5af0bb3cda4a34dfb0d30fdb613e7",
+  "original_run_runtime_config_sha256": "e00ada85b69ec8fc419c2bd15f2878cb979b5f715c786dba7d42abcb1ba6c62a",
+  "seed": 20261001,
+  "train_rows_after_augmentation": 96,
+  "validation_rows": 12
+}

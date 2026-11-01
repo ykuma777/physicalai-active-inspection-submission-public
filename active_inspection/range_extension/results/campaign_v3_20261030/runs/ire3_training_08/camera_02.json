@@ -1,0 +1,19 @@
+{
+  "topic": "/inspection_camera/image",
+  "subscription_started_at_utc": "2026-10-30T03:47:46.442Z",
+  "received_at_utc": "2026-10-30T03:47:46.588Z",
+  "header_stamp": {
+    "sec": 73270,
+    "nanosec": 900000000
+  },
+  "source_encoding": "rgb8",
+  "saved_encoding": "BGR8 PNG",
+  "shape_hwc": [
+    480,
+    640,
+    3
+  ],
+  "pixel_std": 36.77808301814126,
+  "image_sha256": "efa45feb7a3daff16419f4f64972a59c3e0f0441d24ed998db3dd56aabf9c8b9",
+  "image_path": "/home/ubuntu/active_inspection/range_extension/results/campaign_v3_20261030/runs/ire3_training_08/camera_02.png"
+}

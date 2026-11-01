@@ -1,0 +1,19 @@
+{
+  "topic": "/inspection_camera/image",
+  "subscription_started_at_utc": "2026-10-30T04:07:40.972Z",
+  "received_at_utc": "2026-10-30T04:07:43.949Z",
+  "header_stamp": {
+    "sec": 74213,
+    "nanosec": 500000000
+  },
+  "source_encoding": "rgb8",
+  "saved_encoding": "BGR8 PNG",
+  "shape_hwc": [
+    480,
+    640,
+    3
+  ],
+  "pixel_std": 36.74526570344475,
+  "image_sha256": "6de866b4505a731427c9ba438531c1b8c4e58b14af9cba4a6d772becf06effda",
+  "image_path": "/home/ubuntu/active_inspection/range_extension/results/campaign_v3_20261030/runs/ire3_v3_eval_right_clone/camera_02.png"
+}
